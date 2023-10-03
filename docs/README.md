@@ -1,6 +1,3 @@
-### To recruiters: you can see the project in production here: https://www.isinaliza.com/
-
-
 
 # Minimum Boilerplate Theme
 

@@ -5,15 +5,31 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
+  
   "header-layout.desktop": {
     "children": [
       "CSSWorkaround",
-      "wpp-btn",
+      "sticky-layout.stack-container#header"
+    ]
+  },
+
+  "sticky-layout.stack-container#header": {
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "sticky-layout#links-menu"
+    ]
+  },
+
+  "sticky-layout#links-menu":{
+    "children":[
       "responsive-layout.desktop#topbar",
       "header-row#1-desktop",
-      "header-row#2-desktop",
-      "flex-layout.row#mega-menu"
-    ]
+      "header-row#2-desktop"
+      
+  ]
   },
   /*"responsive-layout.desktop#topbar": {
     "children": ["flex-layout.row#topbar-desktop"]
@@ -87,74 +103,6 @@
     }
   },*/
 
-  "flex-layout.col#topbar-1": {
-    "children": ["info-card#headerTelefone"],
-    "props":{
-      "width": "70%",
-      "horizontalAlign": "left"
-    }
-  },
-
-  "info-card#headerTelefone": {
-    "props": {
-      "isFullModeStyle": false,
-      "imageUrl": "assets/icons/telefone.png",
-      "headline": "**ENTRE** EM CONTATO **(47) 3441-0022**",
-      "textPosition": "right",
-      "callToActionMode": "none",
-      "textMode": "rich-text",
-      "blockClass": "TelefoneCard",
-      "textAlignment": "left"
-    }
-  },
-
-  "flex-layout.col#topbar-2": {
-    "children": ["flex-layout.row#topbar-row-links"],
-    "props":{
-      "width": "30%",
-      "horizontalAlign": "right",
-      "blockClass":"orcamento-e-social"
-    }
-  },
-
-  "flex-layout.row#topbar-row-links":{
-    "children": ["flex-layout.col#topbar-col-links1", "flex-layout.col#topbar-col-links2"],
-    "props":{
-      "preventVerticalStretch": true,
-      "horizontalAlign": "right",
-      "blockClass": "header-links"
-    }
-  },
-
-  "flex-layout.col#topbar-col-links1":{
-    "children": ["rich-text#orcamento-text"],
-    "props":{
-      "preventVerticalStretch": true,
-      "verticalAlign": "middle"
-    }
-  },
-
-  "flex-layout.col#topbar-col-links2":{
-    "children": ["rich-text#orcamento-text2"],
-    "props":{
-      "preventVerticalStretch": true,
-      "verticalAlign": "middle"
-    }
-  },
-
-  "rich-text#orcamento-text": {
-    "props": {
-      "text": "[**PEÇA** UM ORÇAMENTO](/orcamento)",
-      "blockClass":"orcamento-text"
-    }
-  },
-
-  "rich-text#orcamento-text2": {
-    "props": {
-      "text": "**REDES SOCIAIS**  [![Facebook]( /arquivos/facebook-white.png 'Facebook')](https://www.facebook.com/isinaliza/) [![Instagram]( /arquivos/instagram-white.png 'Instagram')](https://www.instagram.com/isinaliza/) [![Youtube]( /arquivos/youtube-white.png 'Youtube')](https://www.youtube.com/channel/UCs2-MYW4YR-OuMjzJQP4lHA)",
-      "blockClass":"socialmedia-text"
-    }
-  },
 
   "header-row#1-desktop": {
     "children": [
@@ -196,31 +144,14 @@
           }
       }, */
   "header-row#2-desktop": {
-    "children": ["mega-menu-trigger-btn", "vtex.menu@2.x:menu#category-menu-01"],
+    "children": ["vtex.menu@2.x:menu#category-menu-01"],
     "props": {
       /*"sticky": true,*/
       "blockClass": "main-menu"
     }
   },
 
-  "mega-menu-trigger-btn":{
-    "props":{
-      "id":"everything-menu"
-    }
-  },
 
-  "flex-layout.row#mega-menu":{
-    "children":["mega-menu"],
-    "props":{
-      "blockClass":"mega-menu-container"
-    }
-  },
-  "mega-menu":{
-    "props":{
-      "title":"Departamentos",
-      "blockClass":"mega-menu"
-    }
-  },
 
   /* MOBILE */
   "header-layout.mobile": {
@@ -230,7 +161,6 @@
   "header-row#1-mobile": {
     "children": [
       "CSSWorkaround",
-      "wpp-btn",
       "drawer#menu-mobile",
       "header-spacer",
       "logo#mobile",
@@ -278,9 +208,7 @@
   },
   "drawer#menu-mobile": {
     "children": [
-      "login#mob",
-      "mega-menu-go-back-btn",
-      "mega-menu"
+      "login#mob"
     ],
     "props": {
       "blockClass": "menu-mobile"

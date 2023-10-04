@@ -9,7 +9,7 @@
      
      // "__fold__",
       "flex-layout.row#secondContent",
-      "flex-layout.row#reviews-home",
+      
       /*COMMENT SECTION*/
       "flex-layout.row#banners-home2"
     ]
@@ -80,7 +80,6 @@
   "info-card#sellerCondition1": {
     "props": {
       "isFullModeStyle": false,
-      "imageUrl": "assets/icons/truck.png",
       "headline": "Frete grátis acima de R$ 250,00 para o Sul e o Sudeste",
       "textPosition": "right",
       "callToActionMode": "none",
@@ -92,7 +91,6 @@
   "info-card#sellerCondition2": {
     "props": {
       "isFullModeStyle": false,
-      "imageUrl": "assets/icons/shield.png",
       "headline": "5 anos de garantia.",
       "textPosition": "right",
       "callToActionMode": "none",
@@ -104,7 +102,6 @@
   "info-card#sellerCondition3": {
     "props": {
       "isFullModeStyle": false,
-      "imageUrl": "assets/icons/note.png",
       "headline": "Boleto faturado para compras acima de R$300,00",
       "textPosition": "right",
       "callToActionMode": "none",
@@ -116,7 +113,6 @@
   "info-card#sellerCondition4": {
     "props": {
       "isFullModeStyle": false,
-      "imageUrl": "assets/icons/discountStar.png",
       "headline": "Ganhe até 30% OFF para atacado com mais de 10 unidades iguais",
       "textPosition": "right",
       "callToActionMode": "none",
@@ -217,16 +213,7 @@
     }
   },
 
-  "flex-layout.row#reviews-home": {
-    "props":{
-      "marginTop": 4,
-      "marginBottom": 6
-    },
-    "children": ["flex-layout.col#reviews-home"]
-  },
-  "flex-layout.col#reviews-home": {
-    "children": ["storereviews"]
-  },
+  
 
   "flex-layout.row#secondContent": {
     "children": ["flex-layout.col#secondContent"]

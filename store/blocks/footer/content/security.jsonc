@@ -21,8 +21,7 @@
     "children": [
       "rich-text#securityImage-0",
       "rich-text#securityImage-1",
-      "rich-text#securityImage-2",
-      "seloAvaliacoes"
+      "rich-text#securityImage-2"
     ],
     "props": {
       "preventHorizontalStretch": true,
@@ -71,18 +70,7 @@
     }
   },
 
-  "image#googlereviews":{
-    "props": {
-      "src": "assets/banners/selo-google.png",
-      "link": {
-        "properties": {
-          "attributeNofollow": false,
-          "newtab": true,
-          "url": "https://customerreviews.google.com/v/merchant?q=isinaliza.com&c=BR&v=17"
-        }
-      }
-    }
-  },
+
 
   "rich-text#googlereviews": {
     "props": {

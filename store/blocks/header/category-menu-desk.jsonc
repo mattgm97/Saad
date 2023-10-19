@@ -1,13 +1,12 @@
 {
     "vtex.menu@2.x:menu#category-menu-01": {
         "children": [
-            "menu-item#CAVALETE-DE-SINALIZAÇÃO",
-            "menu-item#COMBATE-À-INCÊNDIO",
-            "menu-item#ADESIVOS-DE-SEGURANÇA",
-            "menu-item#TRÂNSITO",
-            "menu-item#CONDOMÍNIO",
-            "menu-item#BRAILLE-TÁTIL",
-            "menu-item#PERSONALIZADAS"
+            "menu-item#NewArrivals",
+            "menu-item#Bolsas",
+            "menu-item#Carteiras",
+            "menu-item#Acessorios",
+            "menu-item#ClubeSaad",
+            "menu-item#AtendimentoPersonalizado"
         ],
         "props": {
             "blockClass": "mainMenu",
@@ -20,8 +19,8 @@
 
 
 
-    // ----------------- PERSONALIZADAS ITEM -------------------
-    "menu-item#PERSONALIZADAS": {
+    // ----------------- New Arrivals ITEM -------------------
+    "menu-item#NewArrivals": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -36,77 +35,77 @@
             ],
             "itemProps": {
                 "type": "internal",
-                "href": "/placas-personalizadas",
+                "href": "/new-arrivals",
                 "noFollow": true,
-                "tagTitle": "PERSONALIZADAS",
-                "text": "PERSONALIZADAS"
+                "tagTitle": "New Arrivals",
+                "text": "New Arrivals"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#PERSONALIZADAS-submenu-block"
+            "vtex.menu@2.x:submenu#NewArrivals-submenu-block"
         ]
     },
-    "vtex.menu@2.x:submenu#PERSONALIZADAS-submenu-block": {
+    "vtex.menu@2.x:submenu#NewArrivals-submenu-block": {
         "props": {
             "width": "100%",
             "blockClass": "main-menu-row-desk"
         },
         "children": [
-            "flex-layout.row#PERSONALIZADAS"
+            "flex-layout.row#NewArrivals"
         ]
     },
-    "flex-layout.row#PERSONALIZADAS": {
+    "flex-layout.row#NewArrivals": {
         "props": {
             "blockClass": [
                 "menu-content-area",
-                "menu-content-area-personalizadas"
+                "menu-content-area-NewArrivals"
             ],
             "paddingTop": 6,
             "colGap": 2,
             "horizontalAlign":"center"
         },
         "children": [
-            "flex-layout.col#PERSONALIZADAS",
-            "flex-layout.col#PERSONALIZADAS2",
-            "flex-layout.col#IMG-PERSONALIZADAS"
+            "flex-layout.col#NewArrivals",
+            "flex-layout.col#NewArrivals2",
+            "flex-layout.col#IMG-NewArrivals"
         ]
     },
-    "flex-layout.col#PERSONALIZADAS": {
+    "flex-layout.col#NewArrivals": {
         "props": {
             "preventVerticalStretch": true,
             "blockClass":"menu-items-part",
             "width":"25%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-PERSONALIZADAS"
+           // "vtex.menu@2.x:menu#submenu-cat-NewArrivals"
         ]
     },
-    "flex-layout.col#PERSONALIZADAS2": {
+    "flex-layout.col#NewArrivals2": {
         "props": {
             "preventVerticalStretch": true,
             "blockClass":"menu-items-part",
             "width":"25%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-PERSONALIZADAS2"
+           // "vtex.menu@2.x:menu#submenu-cat-NewArrivals2"
         ]
     },
-    "flex-layout.col#IMG-PERSONALIZADAS": {
+    "flex-layout.col#IMG-NewArrivals": {
         "children": [
-            "image#IMG-PERSONALIZADAS"
+            "image#IMG-NewArrivals"
         ],
         "props":{
             "width":"grow"
         }
     },
-    "image#IMG-PERSONALIZADAS": {
+    "image#IMG-NewArrivals": {
         "props": {
             "src": "assets/banners/generico-banner.png",
             "maxHeight": 260
         }
     },
-    // ----------------- ADESIVOS DE SEGURANÇA ITEM -------------------
-    "menu-item#ADESIVOS-DE-SEGURANÇA": {
+    // ----------------- Bolsas ITEM -------------------
+    "menu-item#Bolsas": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -128,79 +127,79 @@
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#ADESIVOS-DE-SEGURANÇA-submenu-block"
+            "vtex.menu@2.x:submenu#Bolsas-submenu-block"
         ]
     },
-    "vtex.menu@2.x:submenu#ADESIVOS-DE-SEGURANÇA-submenu-block": {
+    "vtex.menu@2.x:submenu#Bolsas-submenu-block": {
         "props": {
             "width": "100%",
             "blockClass": "main-menu-row-desk"
         },
         "children": [
-            "flex-layout.row#ADESIVOS-DE-SEGURANÇA"
+            "flex-layout.row#Bolsas"
         ]
     },
-    "flex-layout.row#ADESIVOS-DE-SEGURANÇA": {
+    "flex-layout.row#Bolsas": {
         "props": {
             "blockClass": [
                 "menu-content-area",
-                "menu-content-area-ADESIVOS-DE-SEGURANÇA"
+                "menu-content-area-Bolsas"
             ],
             "paddingTop": 6,
             "colGap": 2,
             "horizontalAlign":"center"
         },
         "children": [
-            "flex-layout.col#ADESIVOS-DE-SEGURANÇA",
-            "flex-layout.col#ADESIVOS-DE-SEGURANÇA2",
-            "flex-layout.col#ADESIVOS-DE-SEGURANÇA3",
-            "flex-layout.col#IMG-ADESIVOS-DE-SEGURANÇA"
+            "flex-layout.col#Bolsas",
+            "flex-layout.col#Bolsas2",
+            "flex-layout.col#Bolsas3",
+            "flex-layout.col#IMG-Bolsas"
         ]
     },
-    "flex-layout.col#ADESIVOS-DE-SEGURANÇA": {
+    "flex-layout.col#Bolsas": {
         "props": {
             "preventVerticalStretch": true,
             "width":"20%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-ADESIVOS-DE-SEGURANÇA"
+            //"vtex.menu@2.x:menu#submenu-cat-Bolsas"
         ]
     },
-    "flex-layout.col#ADESIVOS-DE-SEGURANÇA2": {
+    "flex-layout.col#Bolsas2": {
         "props": {
             "preventVerticalStretch": true,
             "width":"20%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-ADESIVOS-DE-SEGURANÇA2"
+           // "vtex.menu@2.x:menu#submenu-cat-Bolsas2"
         ]
     },
-    "flex-layout.col#ADESIVOS-DE-SEGURANÇA3": {
+    "flex-layout.col#Bolsas3": {
         "props": {
             "preventVerticalStretch": true,
             "width":"20%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-ADESIVOS-DE-SEGURANÇA3"
+          //  "vtex.menu@2.x:menu#submenu-cat-Bolsas3"
         ]
     },
     
-    "flex-layout.col#IMG-ADESIVOS-DE-SEGURANÇA": {
+    "flex-layout.col#IMG-Bolsas": {
         "children": [
-            "image#IMG-ADESIVOS-DE-SEGURANÇA"
+            "image#IMG-Bolsas"
         ],
         "props":{
             "width":"grow"
         }
     },
-    "image#IMG-ADESIVOS-DE-SEGURANÇA": {
+    "image#IMG-Bolsas": {
         "props": {
             "src": "assets/banners/generico-banner.png",
             "maxHeight": 260
         }
     },
-    // ----------------- CAVALETE DE SINALIZAÇÃO ITEM -------------------
-    "menu-item#CAVALETE-DE-SINALIZAÇÃO": {
+    // ----------------- Carteiras ITEM -------------------
+    "menu-item#Carteiras": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -215,65 +214,65 @@
             ],
             "itemProps": {
                 "type": "internal",
-                "href": "/cavalete-de-sinalizacao",
+                "href": "/carteiras",
                 "noFollow": true,
-                "tagTitle": "CAVALETE DE SINALIZAÇÃO",
-                "text": "CAVALETE DE SINALIZAÇÃO"
+                "tagTitle": "Carteiras",
+                "text": "Carteiras"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#CAVALETE-DE-SINALIZAÇÃO-submenu-block"
+            "vtex.menu@2.x:submenu#Carteiras-submenu-block"
         ]
     },
-    "vtex.menu@2.x:submenu#CAVALETE-DE-SINALIZAÇÃO-submenu-block": {
+    "vtex.menu@2.x:submenu#Carteiras-submenu-block": {
         "props": {
             "width": "100%",
             "blockClass": "main-menu-row-desk"
         },
         "children": [
-            "flex-layout.row#CAVALETE-DE-SINALIZAÇÃO"
+            "flex-layout.row#Carteiras"
         ]
     },
-    "flex-layout.row#CAVALETE-DE-SINALIZAÇÃO": {
+    "flex-layout.row#Carteiras": {
         "props": {
             "blockClass": [
                 "menu-content-area",
-                "menu-content-area-CAVALETE-DE-SINALIZACAO"
+                "menu-content-area-Carteiras"
             ],
             "paddingTop": 6,
             "colGap": 2,
             "horizontalAlign":"center"
         },
         "children": [
-            "flex-layout.col#CAVALETE-DE-SINALIZAÇÃO",
-            "flex-layout.col#IMG-CAVALETE-DE-SINALIZAÇÃO"
+            "flex-layout.col#Carteiras",
+            "flex-layout.col#IMG-Carteiras"
         ]
     },
-    "flex-layout.col#CAVALETE-DE-SINALIZAÇÃO": {
+    "flex-layout.col#Carteiras": {
         "props": {
             "preventVerticalStretch": true,
             "width":"33%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-CAVALETE-DE-SINALIZACAO"
+           // "vtex.menu@2.x:menu#submenu-cat-Carteiras"
         ]
     },
-    "flex-layout.col#IMG-CAVALETE-DE-SINALIZAÇÃO": {
+    "flex-layout.col#IMG-Carteiras": {
         "children": [
-            "image#IMG-CAVALETE-DE-SINALIZAÇÃO"
+            "image#IMG-Carteiras"
         ],
         "props":{
             "width":"grow"
         }
     },
-    "image#IMG-CAVALETE-DE-SINALIZAÇÃO": {
+    "image#IMG-Carteiras": {
         "props": {
             "src": "assets/banners/generico-banner.png",
             "maxHeight": 260
         }
     },
-    // ----------------- CONDOMÍNIO ITEM -------------------
-    "menu-item#CONDOMÍNIO": {
+    // ----------------- Acessórios ITEM -------------------
+    "menu-item#Acessorios": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -290,73 +289,73 @@
                 "type": "internal",
                 "href": "/condominios",
                 "noFollow": true,
-                "tagTitle": "CONDOMÍNIO",
-                "text": "CONDOMÍNIO"
+                "tagTitle": "Acessórios",
+                "text": "Acessórios"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#CONDOMINIO-submenu-block"
+            "vtex.menu@2.x:submenu#Acessorios-submenu-block"
         ]
     },
-    "vtex.menu@2.x:submenu#CONDOMINIO-submenu-block": {
+    "vtex.menu@2.x:submenu#Acessorios-submenu-block": {
         "props": {
             "width": "100%",
             "blockClass": "main-menu-row-desk"
         },
         "children": [
-            "flex-layout.row#CONDOMINIO"
+            "flex-layout.row#Acessorios"
         ]
     },
-    "flex-layout.row#CONDOMINIO": {
+    "flex-layout.row#Acessorios": {
         "props": {
             "blockClass": [
                 "menu-content-area",
-                "menu-content-area-CONDOMINIO"
+                "menu-content-area-Acessorios"
             ],
             "paddingTop": 6,
             "colGap": 2,
             "horizontalAlign":"center"
         },
         "children": [
-            "flex-layout.col#CONDOMINIO",
-            "flex-layout.col#CONDOMINIO2",
-            "flex-layout.col#IMG-CONDOMINIO"
+            "flex-layout.col#Acessorios",
+            "flex-layout.col#Acessorios2",
+            "flex-layout.col#IMG-Acessorios"
         ]
     },
-    "flex-layout.col#CONDOMINIO": {
+    "flex-layout.col#Acessorios": {
         "props": {
             "preventVerticalStretch": true,
             "width":"25%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-CONDOMINIO"
+          //  "vtex.menu@2.x:menu#submenu-cat-Acessorios"
         ]
     },
-    "flex-layout.col#CONDOMINIO2": {
+    "flex-layout.col#Acessorios2": {
         "props": {
             "preventVerticalStretch": true,
             "width":"25%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-CONDOMINIO2"
+          //  "vtex.menu@2.x:menu#submenu-cat-Acessorios2"
         ]
     },
-    "flex-layout.col#IMG-CONDOMINIO": {
+    "flex-layout.col#IMG-Acessorios": {
         "children": [
-            "image#IMG-CONDOMINIO"
+            "image#IMG-Acessorios"
         ],
         "props":{
             "width":"grow"
         }
     },
-    "image#IMG-CONDOMINIO": {
+    "image#IMG-Acessorios": {
         "props": {
             "src": "assets/banners/generico-banner.png",
             "maxHeight": 260
         }
     },
-    // ----------------- TRÂNSITO ITEM -------------------
-    "menu-item#TRÂNSITO": {
+    // ----------------- Clube Saad ITEM -------------------
+    "menu-item#ClubeSaad": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -371,67 +370,67 @@
             ],
             "itemProps": {
                 "type": "internal",
-                "href": "/sinalizacao-de-transito",
+                "href": "/Clube-Saad",
                 "noFollow": true,
-                "tagTitle": "TRÂNSITO",
-                "text": "TRÂNSITO"
+                "tagTitle": "Clube Saad",
+                "text": "Clube Saad"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#TRANSITO-submenu-block"
+           // "vtex.menu@2.x:submenu#ClubeSaad-submenu-block"
         ]
     },
-    "vtex.menu@2.x:submenu#TRANSITO-submenu-block": {
+    "vtex.menu@2.x:submenu#ClubeSaad-submenu-block": {
         "props": {
             "width": "100%",
             "blockClass": "main-menu-row-desk"
         },
         "children": [
-            "flex-layout.row#TRANSITO"
+            "flex-layout.row#ClubeSaad"
         ]
     },
-    "flex-layout.row#TRANSITO": {
+    "flex-layout.row#ClubeSaad": {
         "props": {
             "blockClass": [
                 "menu-content-area",
-                "menu-content-area-TRANSITO"
+                "menu-content-area-ClubeSaad"
             ],
             "paddingTop": 6,
             "colGap": 2,
             "horizontalAlign":"center"
         },
         "children": [
-            "flex-layout.col#TRANSITO",
-            "flex-layout.col#IMG-TRANSITO"
+            "flex-layout.col#ClubeSaad",
+            "flex-layout.col#IMG-ClubeSaad"
         ]
     },
-    "flex-layout.col#TRANSITO": {
+    "flex-layout.col#ClubeSaad": {
         "props": {
             "preventVerticalStretch": true,
             "width":"33%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-TRANSITO"
+           // "vtex.menu@2.x:menu#submenu-cat-ClubeSaad"
         ]
     },
  
  
-    "flex-layout.col#IMG-TRANSITO": {
+    "flex-layout.col#IMG-ClubeSaad": {
         "children": [
-            "image#IMG-TRANSITO"
+            "image#IMG-ClubeSaad"
         ],
         "props":{
             "width":"grow"
         }
     },
-    "image#IMG-TRANSITO": {
+    "image#IMG-ClubeSaad": {
         "props": {
             "src": "assets/banners/generico-banner.png",
             "maxHeight": 260
         }
     },
-    // ----------------- BRAILLE TÁTIL ITEM -------------------
-    "menu-item#BRAILLE-TÁTIL": {
+    // ----------------- Atendimento Personalizado ITEM -------------------
+    "menu-item#AtendimentoPersonalizado": {
         "props": {
             "id": "menu-item-category-all",
             "type": "custom",
@@ -446,148 +445,64 @@
             ],
             "itemProps": {
                 "type": "internal",
-                "href": "/braille-tatil",
+                "href": "/AtendimentoPersonalizado",
                 "noFollow": true,
-                "tagTitle": "BRAILLE TÁTIL",
-                "text": "BRAILLE TÁTIL"
+                "tagTitle": "Atendimento Personalizado",
+                "text": "Atendimento Personalizado"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu#BRAILLE-submenu-block"
+            "vtex.menu@2.x:submenu#AtendimentoPersonalizado-submenu-block"
         ]
     },
-    "vtex.menu@2.x:submenu#BRAILLE-submenu-block": {
+    "vtex.menu@2.x:submenu#AtendimentoPersonalizado-submenu-block": {
         "props": {
             "width": "100%",
             "blockClass": "main-menu-row-desk"
         },
         "children": [
-            "flex-layout.row#BRAILLE"
+            "flex-layout.row#AtendimentoPersonalizado"
         ]
     },
-    "flex-layout.row#BRAILLE": {
+    "flex-layout.row#AtendimentoPersonalizado": {
         "props": {
             "blockClass": [
                 "menu-content-area",
-                "menu-content-area-BRAILLE"
+                "menu-content-area-AtendimentoPersonalizado"
             ],
             "paddingTop": 6,
             "colGap": 2,
             "horizontalAlign":"center"
         },
         "children": [
-            "flex-layout.col#BRAILLE",
-            "flex-layout.col#IMG-BRAILLE"
+            "flex-layout.col#AtendimentoPersonalizado",
+            "flex-layout.col#IMG-AtendimentoPersonalizado"
         ]
     },
-    "flex-layout.col#BRAILLE": {
+    "flex-layout.col#AtendimentoPersonalizado": {
         "props": {
             "preventVerticalStretch": true,
             "width":"33%"
         },
         "children": [
-            "vtex.menu@2.x:menu#submenu-cat-BRAILLE"
+           // "vtex.menu@2.x:menu#submenu-cat-AtendimentoPersonalizado"
         ]
     },
 
-    "flex-layout.col#IMG-BRAILLE": {
+    "flex-layout.col#IMG-AtendimentoPersonalizado": {
         "children": [
-            "image#IMG-BRAILLE"
+            "image#IMG-AtendimentoPersonalizado"
         ],
         "props":{
             "width":"grow"
         }
     },
-    "image#IMG-BRAILLE": {
-        "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
-        }
-    },
-    // ----------------- COMBATE À INCÊNDIO ITEM -------------------
-    "menu-item#COMBATE-À-INCÊNDIO": {
-        "props": {
-            "id": "menu-item-category-all",
-            "type": "custom",
-            "experimentalOptimizeRendering": true,
-            "iconId": null,
-            "highlight": false,
-            "blockClass": [
-                "allCategoryBlock",
-                "highlightCategoryBlock",
-                "department-menu",
-                "removeBorderRight"
-            ],
-            "itemProps": {
-                "type": "internal",
-                "href": "/combate-a-incendio",
-                "noFollow": true,
-                "tagTitle": "COMBATE À INCÊNDIO",
-                "text": "COMBATE À INCÊNDIO"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#INCENDIO-submenu-block"
-        ]
-    },
-    "vtex.menu@2.x:submenu#INCENDIO-submenu-block": {
-        "props": {
-            "width": "100%",
-            "blockClass": "main-menu-row-desk"
-        },
-        "children": [
-            "flex-layout.row#INCENDIO"
-        ]
-    },
-    "flex-layout.row#INCENDIO": {
-        "props": {
-            "blockClass": [
-                "menu-content-area",
-                "menu-content-area-INCENDIO"
-            ],
-            "paddingTop": 6,
-            "colGap": 2,
-            "horizontalAlign":"center"
-        },
-        "children": [
-            "flex-layout.col#INCENDIO",
-            "flex-layout.col#INCENDIO2",
-            "flex-layout.col#IMG-INCENDIO"
-        ]
-    },
-    "flex-layout.col#INCENDIO": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width":"25%"
-        },
-        "children": [
-            "vtex.menu@2.x:menu#submenu-cat-INCENDIO"
-        ]
-    },
-    "flex-layout.col#INCENDIO2": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width":"25%"
-        },
-        "children": [
-            "vtex.menu@2.x:menu#submenu-cat-INCENDIO2"
-        ]
-    },
-
-    "flex-layout.col#IMG-INCENDIO": {
-     
-        "children": [
-            "image#IMG-INCENDIO"
-        ],
-        "props":{
-            "width":"grow"
-        }
-    },
-    "image#IMG-INCENDIO": {
+    "image#IMG-AtendimentoPersonalizado": {
         "props": {
             "src": "assets/banners/generico-banner.png",
             "maxHeight": 260
         }
     }
+   
 
 }

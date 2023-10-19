@@ -1,6 +1,9 @@
 .headerRowContainer--main-header {
   background-color: transparent;
-  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 83.125rem;
+  margin: auto;
 }
 
  .headerRowContentContainer--main-header {
@@ -9,37 +12,50 @@
   z-index: 20;
   max-width: none;
   transition: 0.3s all;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-header{
+.headerRowBackground--main-menu{
+  background-color: transparent !important;
+}
+
+.headerRowContentContainer--main-menu{
+  max-width: 83.125rem;
+}
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-header, :global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-menu{
   
-  background-color: #000 !important;
+  background-color: #fff !important;
   transition: 0.3s all;
 }
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-components-3-x-logoImage){
+  
+  filter: brightness(0)
+}
+
+
 
 .headerRowBackground--main-header{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.15);
   transition: 0.3s all;
 }
 
-.headerStickyRow--main-header {
+
+/*.headerStickyRow--main-header {
   top: 0 !important;
-}
+}*/
 
 :global(.vtex-store-header-2-x-headerStickyRow--main-menu) {
   height: 46px;
-  background-color: #f2f2f2;
+  background-color: rgba(0,0,0,0.15);
   position: sticky;
   top: 112px;
   z-index: 9;
 }
 
-.headerRowContainer--main-header {
-  justify-content: space-between;
-  align-items: center;
-  max-width: 86rem;
-  margin: auto;
-}
+
 
 :global(.vtex-menu-2-x-menuContainerNav--mainMenu) {
   width: 60%;
@@ -51,6 +67,9 @@
   align-items: stretch;
 }
 
+.headerRowContainer--main-menu{
+  justify-content: center;
+}
 :global(.vtex-reviews-and-ratings-3-x-loginLink) {
   padding-left: 0px;
 }

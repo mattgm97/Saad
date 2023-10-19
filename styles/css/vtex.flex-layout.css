@@ -4,11 +4,16 @@
 
 }
 
-.flexRow--topbar-wpp {
-    background-color: #0054A8;
-    margin-bottom:11px;
+.flexRowContent--topbar-wpp{
+    padding: 0!important;
 }
 
+.flexRow--topbar-wpp {
+    background-color: #F1E3B7;
+}
+.flexRow--topbar-wpp :global(.vtex-store-components-3-x-container){
+    max-width: 83.125rem;
+}
 .flexColChild--orcamento-e-social {
     width: 100%;
 }

@@ -2,15 +2,28 @@
   "header": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
+  "header#home": {
+    "blocks": ["header-layout.desktop#home", "header-layout.mobile"]
+  },
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
 
   
+  "header-layout.desktop#home": {
+    "children": [
+      "CSSWorkaround",
+      "responsive-layout.desktop#topbar",
+      "sticky-layout.stack-container#header"
+    ]
+  },
+
   "header-layout.desktop": {
     "children": [
       "CSSWorkaround",
-      "sticky-layout.stack-container#header"
+      "header-row#1-desktop",
+      "header-row#2-desktop"
     ]
   },
 
@@ -25,7 +38,6 @@
 
   "sticky-layout#links-menu":{
     "children":[
-      "responsive-layout.desktop#topbar",
       "header-row#1-desktop",
       "header-row#2-desktop"
       
@@ -40,7 +52,7 @@
   },
 
   "flex-layout.row#topbar-desktop-wppgroup": {
-    "children": ["flex-layout.col#topbar-wpp1", "flex-layout.col#topbar-wpp2", "flex-layout.col#topbar-wpp3"],
+    "children": ["flex-layout.col#topbar-wpp1", "flex-layout.col#topbar-wpp2"],
     "props":{
       "blockClass":"topbar-wpp",
       "preventVerticalStretch": true,
@@ -49,49 +61,61 @@
       "preserveLayoutOnMobile": true
     }
   },
+ 
   "flex-layout.col#topbar-wpp1": {
-    "children": ["image#wppgroup--icon"],
+    "children": ["slider-layout#topbar-slider"],
     "props":{
       "horizontalAlign": "center",
-      "width": "6%",
+      "width": "66%",
       "verticalAlign": "middle"
     }
   },
   "flex-layout.col#topbar-wpp2": {
-    "children": ["rich-text#wppgroup-text"],
-    "props":{
-      "horizontalAlign": "center",
-      "width": "78%",
-      "verticalAlign": "middle"
-    }
-  },
-  "flex-layout.col#topbar-wpp3": {
-    "children": ["rich-text#wppgroup-btn"],
+    "children": ["rich-text#nav-top-header"],
     "props":{
       "horizontalAlign": "center",
       "verticalAlign": "middle"
     }
   },
 
-  "image#wppgroup--icon": {
+  "slider-layout#topbar-slider": {
     "props": {
-      "src": "/arquivos/wpp-icon.png",
-      "blockClass": "wpp-group-img",
-      "maxWidth": "20px",
-      "maxHeight": "18px"
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-topbar",
+      "autoplay": 5000,
+      "stopOnHover": true,
+      "showPaginationDots": "never"
+    },
+    "children": ["rich-text#topbar1", "rich-text#topbar2", "rich-text#topbar3"]
+  },
+
+  "rich-text#topbar1": {
+    "props": {
+      "text": "Faça parte do clube SAAD para ter benefícios exclusivos"
     }
   },
-  "rich-text#wppgroup-text": {
+  "rich-text#topbar2": {
     "props": {
-      "text": "ENTRE NO NOSSO **GRUPO VIP DO WHATSAPP** PARA RECEBER **OFERTAS EXCLUSIVAS!** *OFERTAS VÁLIDAS APENAS NO GRUPO",
-      "blockClass":"wppgroup-text"
+      "text": "Faça parte do clube SAAD para ter benefícios exclusivos 2"
+    }
+  },
+  "rich-text#topbar3": {
+    "props": {
+      "text": "Faça parte do clube SAAD para ter benefícios exclusivos 3"
     }
   },
 
-  "rich-text#wppgroup-btn": {
+
+  "rich-text#nav-top-header": {
     "props": {
-      "text": "<a class='wppgrouplink' href='https://chat.whatsapp.com/LNoMytBAN9UGwRee8hr106' target='_blank'>ENTRAR NO GRUPO VIP</a>",
-      "blockClass":"wppgroup-btn"
+      "text": "<a class='above-header-text' href='/account#/orders'>Meus Pedidos</a> | <a class='above-header-text' href='#'>Atendimento Personalizado</a>",
+      "blockClass":"nav-top-header"
     }
   },
 

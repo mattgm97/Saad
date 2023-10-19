@@ -1,4 +1,6 @@
-.sliderLeftArrow{
+
+
+.sliderRightArrow, .sliderLeftArrow{
     height: 45px;
     width: 46px;
     box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 35%);
@@ -7,13 +9,18 @@
     padding: 10px;
 }
 
-.sliderRightArrow{
-    height: 45px;
-    width: 46px;
-    box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 35%);
-    border-radius: 100%;
-    background: #fff !important;
-    padding: 10px;
+
+.sliderRightArrow--carousel-topbar, .sliderLeftArrow--carousel-topbar {
+    height: 1.5rem;
+    width: 1.5rem;
+    box-shadow: none;
+    border-radius: 0%;
+    background: transparent !important;
+    padding: 4px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainCarousel){
+    margin-top: -7.7rem;
 }
 
 .slideChildrenContainer--slider-shelf--default, .slideChildrenContainer--cat-rectangle-slider{

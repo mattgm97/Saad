@@ -1,5 +1,14 @@
 {
   "CSSWorkaround":{
     "component": "CSSWorkaround"
+  },
+  "search-btn":{
+    "component":"SearchModalComponent",
+    "allowed":["search-bar"]
+  },
+  "WishlistButton":{
+    "component":"WishlistButton"
   }
+
+  
 }

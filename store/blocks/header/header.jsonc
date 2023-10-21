@@ -127,15 +127,20 @@
     }
   },*/
 
+  "search-btn":{
+    "blocks":[
+      "search-bar"
+    ]
+  },
 
   "header-row#1-desktop": {
     "children": [
       "header-spacer",
       "logo#desktop",
-      "search-bar",
       "header-spacer",
+      "search-btn",
       "login",
-      "rich-text#favories",
+      "WishlistButton",
       "minicart.v2"
     ],
     "props": {

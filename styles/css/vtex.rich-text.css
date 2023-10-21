@@ -135,6 +135,7 @@
     right: -39px;
     font-size: 0.75rem;
 text-transform: initial;
+cursor: pointer;
 }
 
 @media (max-width: 1300px) {

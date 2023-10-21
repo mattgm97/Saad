@@ -1,0 +1,34 @@
+.wishlistBTN{
+    color: black;
+    font-size: 0.75rem;
+    text-transform: initial;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.wishlistBTN a {
+    text-decoration: none;
+    color: black;
+}
+
+.wishlistBTN span{
+    text-transform: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vtex-styleguide-9-x-scrollBar{
+    padding: 0;
+}
+
+.search-container{
+    position: absolute;
+    top: 7em;
+    padding: 1em 2em;
+    width: 100%;
+    left: 0;
+    background-color: white;
+}
+

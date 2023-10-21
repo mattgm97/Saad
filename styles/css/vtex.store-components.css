@@ -294,7 +294,9 @@
     font-weight: 300;
 }
 
-
+:global(.vtex-login-2-x-profileIcon){
+    display: none;
+}
 
 
 @media (max-width: 1300px) {
@@ -388,3 +390,6 @@
     }
 
 }
+
+
+

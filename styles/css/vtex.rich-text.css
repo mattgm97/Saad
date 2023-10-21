@@ -127,6 +127,16 @@
     text-decoration: none;
 }
 
+.paragraph--icon-with-text::before{
+    content: "Favoritos";
+    color: #000;
+    position: relative;
+    top: 12px;
+    right: -39px;
+    font-size: 0.75rem;
+text-transform: initial;
+}
+
 @media (max-width: 1300px) {
     .paragraph--wppgroup-text{
       font-size: 13px;

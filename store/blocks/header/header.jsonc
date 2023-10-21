@@ -130,12 +130,12 @@
 
   "header-row#1-desktop": {
     "children": [
-      "logo#desktop",
       "header-spacer",
+      "logo#desktop",
       "search-bar",
       "header-spacer",
-
       "login",
+      "rich-text#favories",
       "minicart.v2"
     ],
     "props": {
@@ -143,6 +143,16 @@
       "blockClass": "main-header"
     }
   },
+
+
+  "rich-text#favories": {
+    "props": {
+      "text": "![Favoritos](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/ee500b2d-ff07-4ca3-8a37-ddb5d29a1028___375bb82121b8ad2f79cd82bf48ee9528.svg 'Favoritos')",
+      "blockClass": "icon-with-text"
+    }
+  },
+
+
 
   "logo#desktop": {
     "props": {
@@ -285,9 +295,10 @@
     "props": {
       //"optionsTitle": "Elija una de las opciones para confirmar su identidad",
       // "providerPasswordButtonLabel": "Ingresar con mail y contraseña",
-      "showIconProfile": false,
-      "iconLabel": "LOGIN OU CADASTRE-SE",
+      "showIconProfile": true,
+      "iconLabel": "",
       "labelClasses": "login__header",
+      
       "accountOptionLinks":[
         {
           "label": "Meus Dados",

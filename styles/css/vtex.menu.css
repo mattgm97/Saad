@@ -1,5 +1,10 @@
 .styledLinkContent--department-menu{
     font-size: 12px;
+    color: white
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .styledLinkContent--department-menu{
+color: black
 }
 .styledLinkContent--contacts-menu-footer {
     color: #808080;

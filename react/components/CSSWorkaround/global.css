@@ -13,6 +13,18 @@
     text-decoration: none;
 }
 
+.vtex-login-2-x-container .vtex-button{
+    background-color: transparent !important;
+}
+.vtex-login-2-x-container .vtex-button .vtex-button__label{
+    padding: 0;
+    margin:0;
+}
+
+
+.vtex-login-2-x-box{
+    right: -84px !important;
+}
 
 
 

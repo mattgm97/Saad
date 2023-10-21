@@ -1,5 +1,28 @@
+.label::after {
+  content: url('assets/icons/user.svg');
+
+}
 .label{
-color: black;
+  font-size: 0px;
+  margin-top: -6px;
+}
+
+
+
+.label::before {
+  content: "Login";
+  color: #000;
+  position: relative;
+  top: 12px;
+  right: -29px;
+  font-size: 0.75rem;
+text-transform: initial;
+
+}
+.vtex-login-2-x-container {
+  width: 4rem;
+  /* height: 9px; */
+  /* display: contents; */
 }
 
 :global(.vtex-login-2-x-accountOptionsSectionTitle){

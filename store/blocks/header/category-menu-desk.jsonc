@@ -15,10 +15,6 @@
     },
     
 
-
-
-
-
     // ----------------- New Arrivals ITEM -------------------
     "menu-item#NewArrivals": {
         "props": {
@@ -40,70 +36,10 @@
                 "tagTitle": "New Arrivals",
                 "text": "New Arrivals"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#NewArrivals-submenu-block"
-        ]
-    },
-    "vtex.menu@2.x:submenu#NewArrivals-submenu-block": {
-        "props": {
-            "width": "100%",
-            "blockClass": "main-menu-row-desk"
-        },
-        "children": [
-            "flex-layout.row#NewArrivals"
-        ]
-    },
-    "flex-layout.row#NewArrivals": {
-        "props": {
-            "blockClass": [
-                "menu-content-area",
-                "menu-content-area-NewArrivals"
-            ],
-            "paddingTop": 6,
-            "colGap": 2,
-            "horizontalAlign":"center"
-        },
-        "children": [
-            "flex-layout.col#NewArrivals",
-            "flex-layout.col#NewArrivals2",
-            "flex-layout.col#IMG-NewArrivals"
-        ]
-    },
-    "flex-layout.col#NewArrivals": {
-        "props": {
-            "preventVerticalStretch": true,
-            "blockClass":"menu-items-part",
-            "width":"25%"
-        },
-        "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-NewArrivals"
-        ]
-    },
-    "flex-layout.col#NewArrivals2": {
-        "props": {
-            "preventVerticalStretch": true,
-            "blockClass":"menu-items-part",
-            "width":"25%"
-        },
-        "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-NewArrivals2"
-        ]
-    },
-    "flex-layout.col#IMG-NewArrivals": {
-        "children": [
-            "image#IMG-NewArrivals"
-        ],
-        "props":{
-            "width":"grow"
         }
+        
     },
-    "image#IMG-NewArrivals": {
-        "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
-        }
-    },
+    
     // ----------------- Bolsas ITEM -------------------
     "menu-item#Bolsas": {
         "props": {
@@ -120,10 +56,10 @@
             ],
             "itemProps": {
                 "type": "internal",
-                "href": "/adesivos-de-seguranca",
+                "href": "/bolsas",
                 "noFollow": true,
-                "tagTitle": "ADESIVOS DE SEGURANÇA",
-                "text": "ADESIVOS DE SEGURANÇA"
+                "tagTitle": "Bolsas",
+                "text": "Bolsas"
             }
         },
         "blocks": [
@@ -375,60 +311,9 @@
                 "tagTitle": "Clube Saad",
                 "text": "Clube Saad"
             }
-        },
-        "blocks": [
-           // "vtex.menu@2.x:submenu#ClubeSaad-submenu-block"
-        ]
-    },
-    "vtex.menu@2.x:submenu#ClubeSaad-submenu-block": {
-        "props": {
-            "width": "100%",
-            "blockClass": "main-menu-row-desk"
-        },
-        "children": [
-            "flex-layout.row#ClubeSaad"
-        ]
-    },
-    "flex-layout.row#ClubeSaad": {
-        "props": {
-            "blockClass": [
-                "menu-content-area",
-                "menu-content-area-ClubeSaad"
-            ],
-            "paddingTop": 6,
-            "colGap": 2,
-            "horizontalAlign":"center"
-        },
-        "children": [
-            "flex-layout.col#ClubeSaad",
-            "flex-layout.col#IMG-ClubeSaad"
-        ]
-    },
-    "flex-layout.col#ClubeSaad": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width":"33%"
-        },
-        "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-ClubeSaad"
-        ]
-    },
- 
- 
-    "flex-layout.col#IMG-ClubeSaad": {
-        "children": [
-            "image#IMG-ClubeSaad"
-        ],
-        "props":{
-            "width":"grow"
         }
     },
-    "image#IMG-ClubeSaad": {
-        "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
-        }
-    },
+  
     // ----------------- Atendimento Personalizado ITEM -------------------
     "menu-item#AtendimentoPersonalizado": {
         "props": {
@@ -450,57 +335,6 @@
                 "tagTitle": "Atendimento Personalizado",
                 "text": "Atendimento Personalizado"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#AtendimentoPersonalizado-submenu-block"
-        ]
-    },
-    "vtex.menu@2.x:submenu#AtendimentoPersonalizado-submenu-block": {
-        "props": {
-            "width": "100%",
-            "blockClass": "main-menu-row-desk"
-        },
-        "children": [
-            "flex-layout.row#AtendimentoPersonalizado"
-        ]
-    },
-    "flex-layout.row#AtendimentoPersonalizado": {
-        "props": {
-            "blockClass": [
-                "menu-content-area",
-                "menu-content-area-AtendimentoPersonalizado"
-            ],
-            "paddingTop": 6,
-            "colGap": 2,
-            "horizontalAlign":"center"
-        },
-        "children": [
-            "flex-layout.col#AtendimentoPersonalizado",
-            "flex-layout.col#IMG-AtendimentoPersonalizado"
-        ]
-    },
-    "flex-layout.col#AtendimentoPersonalizado": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width":"33%"
-        },
-        "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-AtendimentoPersonalizado"
-        ]
-    },
-
-    "flex-layout.col#IMG-AtendimentoPersonalizado": {
-        "children": [
-            "image#IMG-AtendimentoPersonalizado"
-        ],
-        "props":{
-            "width":"grow"
-        }
-    },
-    "image#IMG-AtendimentoPersonalizado": {
-        "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
         }
     }
    

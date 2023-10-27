@@ -6,7 +6,12 @@
     "blocks": [
       "list-context.image-list#bannersprincipais",
       "flex-layout.row#sellingConditions",
-      //"__fold__",
+      "__fold__",
+      "rich-text#queridinhos",
+      "list-context.product-list#queridinhos",
+      "rich-text#middlesiteText",
+      "responsive-layout.desktop#middlesite",
+      "responsive-layout.mobile#middlesite",
       //"flex-layout.row#firstContent",
       "flex-layout.row#banners-home",
      
@@ -76,56 +81,157 @@
       }
     },
     "children": [
-      "info-card#sellerCondition1",
-      "info-card#sellerCondition2",
-      "info-card#sellerCondition3",
-      "info-card#sellerCondition4"
+      "rich-text#sellerCondition1",
+      "rich-text#sellerCondition2",
+      "rich-text#sellerCondition3",
+      "rich-text#sellerCondition4"
     ]
   },
-  "info-card#sellerCondition1": {
+
+
+  "rich-text#sellerCondition1": {
+    "title": "Apoio à produção nacional:",
     "props": {
-      "isFullModeStyle": false,
-      "headline": "Frete grátis acima de R$ 250,00 para o Sul e o Sudeste",
-      "textPosition": "right",
-      "callToActionMode": "none",
-      "textMode": "rich-text",
-      "blockClass": "sellerConditionCard",
-      "textAlignment": "left"
+      "text": "**Apoio à produção nacional:** \n \n Comprar uma bolsa de grife SAAD contribui para a economia brasileira, sustentando uma cadeia de produção 100% nacional.",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sellerConditionCard"
     }
   },
-  "info-card#sellerCondition2": {
+  "rich-text#sellerCondition2": {
+    "title": "Manufatura valorizada:",
     "props": {
-      "isFullModeStyle": false,
-      "headline": "5 anos de garantia.",
-      "textPosition": "right",
-      "callToActionMode": "none",
-      "textMode": "rich-text",
-      "blockClass": "sellerConditionCard",
-      "textAlignment": "left"
+      "text": "**Manufatura valorizada:** \n \n A compra de produtos nacionais ajuda a valorizar e apoiar a indústria de manufatura, um setor subestimado na economia.",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sellerConditionCard"
     }
   },
-  "info-card#sellerCondition3": {
+  "rich-text#sellerCondition3": {
+    "title": "Promoção da criatividade brasileira:",
     "props": {
-      "isFullModeStyle": false,
-      "headline": "Boleto faturado para compras acima de R$300,00",
-      "textPosition": "right",
-      "callToActionMode": "none",
-      "textMode": "rich-text",
-      "blockClass": "sellerConditionCard",
-      "textAlignment": "left"
+      "text": "**Promoção da criatividade brasileira:** \n \n A escolha apoia e incentiva a originalidade e criatividade da moda brasileira no cenário internacional.",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sellerConditionCard"
     }
   },
-  "info-card#sellerCondition4": {
+  "rich-text#sellerCondition4": {
+    "title": "Orgulho nacional: ",
     "props": {
-      "isFullModeStyle": false,
-      "headline": "Ganhe até 30% OFF para atacado com mais de 10 unidades iguais",
-      "textPosition": "right",
-      "callToActionMode": "none",
-      "textMode": "rich-text",
-      "blockClass": "sellerConditionCard",
-      "textAlignment": "left"
+      "text": "**Orgulho nacional:** \n \n Usar uma bolsa SAAD é uma forma de demonstrar orgulho e valorização da qualidade e talento produzidos no Brasil.",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sellerConditionCard"
     }
   },
+
+
+  "rich-text#middlesiteText": {
+    "title": "Produtos de confecção exclusiva",
+    "props": {
+      "text": "Produtos de confecção exclusiva",
+      "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+
+
+
+  "rich-text#queridinhos": {
+    "title": "Os mais queridinhos",
+    "props": {
+      "text": "Os mais queridinhos",
+      "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+
+  "list-context.product-list#queridinhos": {
+    "title": "Os mais queridinhos",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "150",
+      "maxItems": 12
+    }
+  },
+
+
+
+  "responsive-layout.desktop#middlesite":{
+    "children":["list-context.image-list#middlesite"]
+  },
+
+  "responsive-layout.mobile#middlesite":{
+    "children":["image#middlesite1","image#middlesite2","image#middlesite3"]
+  },
+
+
+  "list-context.image-list#middlesite": {
+    "title": "middlesite",
+    "children": ["slider-layout#middlesite"],
+    "props": {
+      "height": 840,
+      "images": [
+        {
+          "image": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/966d8f16-f44d-4bb5-9c9d-357b1b6b592b___88168db11163dac091d879bb831a8a28.png",
+          "mobileImage": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/966d8f16-f44d-4bb5-9c9d-357b1b6b592b___88168db11163dac091d879bb831a8a28.png"
+        },
+        {
+          "image": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9538a1d9-5b0d-4d91-9ebd-c2aa0610e941___beda2528ddbb5c1ac8b989d36ebc12e3.png",
+          "mobileImage": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9538a1d9-5b0d-4d91-9ebd-c2aa0610e941___beda2528ddbb5c1ac8b989d36ebc12e3.png"
+        },
+        {
+          "image": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/8764dd10-f3a2-4439-9054-373ff453f090___dc4ba0a34fdda0dbd9a6f952e4b7f269.png",
+          "mobileImage": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/8764dd10-f3a2-4439-9054-373ff453f090___dc4ba0a34fdda0dbd9a6f952e4b7f269.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#middlesite": {
+    "title": "Slider principal",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "middlesiteCarousel"
+    }
+  },
+
+
+  "image#middlesite1": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/966d8f16-f44d-4bb5-9c9d-357b1b6b592b___88168db11163dac091d879bb831a8a28.png",
+      "maxHeight": 840
+    }
+  },
+  "image#middlesite2": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9538a1d9-5b0d-4d91-9ebd-c2aa0610e941___beda2528ddbb5c1ac8b989d36ebc12e3.png",
+      "maxHeight": 840
+    }
+  },
+  "image#middlesite3": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/8764dd10-f3a2-4439-9054-373ff453f090___dc4ba0a34fdda0dbd9a6f952e4b7f269.png",
+      "maxHeight": 840
+    }
+  },
+ 
 
   "flex-layout.row#firstContent": {
     "children": ["flex-layout.col#firstContent"]

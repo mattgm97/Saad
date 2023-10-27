@@ -31,7 +31,7 @@
         "phone": 2
       },
       "infinite": true,
-      "showPaginationDots": "never"
+      "showPaginationDots": "always"
     }
   },
   "product-summary.shelf": {

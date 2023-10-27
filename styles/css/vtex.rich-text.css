@@ -1,29 +1,23 @@
-.paragraph--sectionRichTitle, .paragraph--sectionRichTitleCorporate {
-    color: #1E7BC4;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    display: flex;
-}
-.headingLevel1--sectionRichTitleSEO{
-    color: #1E7BC4;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    display: flex;
+.strong--sellerConditionCard {
+    font-size: 1rem;
 }
 
-.paragraph--sectionRichTitle::before{
-    content:url('/arquivos/line-title.png');
-    position:relative; 
-    left:-50px;
-    top: -7px;
+.paragraph--sellerConditionCard {
+    font-size: 0.875rem;
 }
 
-.paragraph--sectionRichTitle::after {
-    content:url('/arquivos/line-title.png');
-    position:relative;
-    right: -50px;
-    top: -7px;
+.wrapper--sellerConditionCard {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #E0E0E0;
+    margin: 0em 0.4em;
 }
+
+.paragraph--sectionRichTitle{
+    font-size: 2rem;
+    color:#2E1B0D
+}
+
 
 .link--orcamento-text, .strong--socialmedia-text {
     font-size: 11px;
@@ -99,77 +93,62 @@
     padding-left: 40px;
 }
 
-.image--vtex-icon{
+.image--vtex-icon {
     width: 80px;
     height: auto;
 }
 
-.paragraph--wppgroup-text, .paragraph--wppgroup-btn{
+.paragraph--wppgroup-text, .paragraph--wppgroup-btn {
     color: white;
     margin: 0;
     padding: 8px;
     font-size: 1.11rem;
 }
 
-.paragraph--wppgroup-text .strong--wppgroup-text{
+.paragraph--wppgroup-text .strong--wppgroup-text {
     color: #FEED17
 }
 
-.paragraph--wppgroup-btn{
+.paragraph--wppgroup-btn {
     background-color: #ed6f00;
     border-radius: 100px;
     padding: 8px 18px;
     text-align: center;
 }
 
-.link--wppgroup-btn .wppgrouplink{
+.link--wppgroup-btn .wppgrouplink {
     color: white;
     text-decoration: none;
 }
 
-.paragraph--icon-with-text::before{
+.paragraph--icon-with-text::before {
     content: "Favoritos";
     color: #000;
     position: relative;
     top: 12px;
     right: -39px;
     font-size: 0.75rem;
-text-transform: initial;
-cursor: pointer;
+    text-transform: initial;
+    cursor: pointer;
 }
 
 @media (max-width: 1300px) {
-    .paragraph--wppgroup-text{
-      font-size: 13px;
+    .paragraph--wppgroup-text {
+        font-size: 13px;
     }
 }
 
 @media (max-width: 760px) {
 
-    .paragraph--wppgroup-text{
+    .paragraph--wppgroup-text {
         font-size: 11px;
-      }
+    }
+
     .container--footer-sobre {
         justify-content: center;
         margin-top: 1.5em;
         text-align: center;
     }
 
-    .paragraph--sectionRichTitle::before{
-        content:url('/arquivos/line-title.png');
-        position:relative; 
-        left: -24px;
-        top: -7px;
-        width: 65px;
-        overflow: hidden;
-    }
     
-    .paragraph--sectionRichTitle::after{
-        content:url('/arquivos/line-title.png');
-        position:relative;
-        right: -24px;
-        top: -7px;
-        width: 65px;
-        overflow: hidden;
-    }
 }

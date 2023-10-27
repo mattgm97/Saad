@@ -135,6 +135,8 @@
 
   "header-row#1-desktop": {
     "children": [
+      "vtex.menu@2.x:menu#menuBTN",
+      "header-spacer",
       "header-spacer",
       "logo#desktop",
       "header-spacer",
@@ -149,6 +151,34 @@
     }
   },
 
+
+  "vtex.menu@2.x:menu#menuBTN": {
+    "children": [
+        "menu-item#menuBTN"
+    ],
+    "props": {
+        "blockClass": "menuBTN",
+        "experimentalOptimizeRendering": true
+    }
+},
+
+"menu-item#menuBTN": {
+  "props": {
+      "id": "menu-item-category-all",
+      "type": "custom",
+      "experimentalOptimizeRendering": true,
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Menu",
+          "text": "Menu"
+      }
+  }
+  
+},
 
   "rich-text#favories": {
     "props": {

@@ -63,7 +63,8 @@
     "vtex.sandbox": "0.x",
     "vtex.checkout-resources": "0.x",
     "vtex.order-manager": "0.x",
-    "vtex.condition-layout": "2.x"
+    "vtex.condition-layout": "2.x",
+    "vtex.product-highlights": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

@@ -1,23 +1,69 @@
 .productBrand{
     text-align: left;
-    color: #8D8D8D;
+    color: #2E1B0D;
+    text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     height: 34px;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 700;
     letter-spacing: 0.03em; 
 }
 
-.containerNormal :global(.vtex-button) {
+.containerNormal{
+  transition: 0.3s all;
+}
+
+:global(.vtex-product-summary-2-x-frameAround--summarySku){
+  border-radius: 100% !important;
+}
+:global(.vtex-product-summary-2-x-skuSelectorItem) :global(.vtex-product-summary-2-x-skuSelectorInternalBox) {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+.skuSelectorItem--purple .skuSelectorInternalBox {
+	background-image: url('https://samsungbr.vteximg.com.br/arquivos/purpura.jpg');
+}
+
+
+  .containerNormal :global(.vtex-button) {
     margin: 0 auto;
-    background-color: #fe5000!important;
-    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 30%);
+    background-color: #BBDF73!important;
     border: none;
-    border-radius: 40px;
+    margin-top: -2.9rem;
+  
   }
+
+  
+  .containerNormal :global(.vtex-button):hover {
+  
+    background-color: #510707!important;
+    
+  }
+
+  .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+    margin-top: 3em;
+    margin-left: 16rem;
+  }
+  
+.containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
+
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.30) !important;
+  padding: 10px;
+  visibility: visible!important;
+}
+
+  
+.containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) :global(.vtex-button__label) {
+padding: 0;
+}
+:global(.vtex-wish-list-1-x-outline){
+  filter: brightness(0);
+}
 
   .nameContainer{
       padding-right: 1em;

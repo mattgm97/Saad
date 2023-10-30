@@ -12,6 +12,10 @@
     font-size: 13px;
 }
 
+.skuSelectorSubcontainer--tamanho{
+    display: none;
+}
+
 .infoCardImageContainer--sellerConditionCard, .infoCardImageContainer--TelefoneCard {
     padding: 0;
     width: auto;
@@ -179,7 +183,6 @@
     color: #1E7BC4;
     font-weight: bold;
     margin-top: 1.5em;
-    text-transform: uppercase;
 
 }
 
@@ -286,14 +289,25 @@
 }
 
 :global(.vtex-product-summary-2-x-element--default-prod-shelf) :global(.vtex-button) {
+    text-transform: capitalize;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0.3s linear, opacity 0.3s linear;
+    transition: all 0.3s linear
+}
+
+:global(.vtex-product-summary-2-x-element--default-prod-shelf) :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
+    visibility: visible !important;
+    opacity: 1!important;
+}
+
+:global(.vtex-product-summary-2-x-container--default-prod-shelf) :global(.vtex-product-summary-2-x-clearLink--default-prod-shelf) :global(.vtex-product-summary-2-x-element--default-prod-shelf) :global(.vtex-button) :global(.vtex-button__label) {
+   padding: 0 !important;
 }
 
 :global(.vtex-product-summary-2-x-container--default-prod-shelf):hover :global(.vtex-product-summary-2-x-clearLink--default-prod-shelf) :global(.vtex-product-summary-2-x-element--default-prod-shelf) :global(.vtex-button) {
     visibility: visible;
     opacity: 1;
+    text-transform: capitalize;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-footer) {

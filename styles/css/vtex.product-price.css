@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 
-.sellingPriceValue::before,  .sellingPriceRange::before{
+/*.sellingPriceValue::before,  .sellingPriceRange::before{
     content: "Por: ";
     font-size: 12px;
     text-transform: uppercase;
@@ -18,15 +18,15 @@
     content: "De: ";
     font-size: 12px;
     text-transform: uppercase;
-  }
+  }*/
 
   .sellingPrice--selling-price-shelf, .sellingPriceRange--selling-price-shelf{
     text-transform: uppercase;
     padding-right: 0.5em;
-    text-align: right;
-    color: #0054A8;
-    font-weight: 700;
-    font-size: 28px;
+    text-align: left;
+    color: #2E1B0D;
+    font-weight: 400;
+    font-size: 1rem;
     margin-bottom: 0.5em;
   }
 

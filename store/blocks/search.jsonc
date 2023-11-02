@@ -82,8 +82,7 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result",
-      "flex-layout.row#promos-search",
-      "flex-layout.row#banners-home2"
+      "flex-layout.row#promos-search"
     ],
     "props": {
       "pagination": "show-more",
@@ -235,8 +234,7 @@
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
       "search-products-progress-bar",
-      "flex-layout.row#promos-search",
-      "flex-layout.row#banners-home2"
+      "flex-layout.row#promos-search"
     ],
     "props": {
       "pagination": "show-more",
@@ -315,8 +313,7 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#notfound",
       "flex-layout.row#notfoundsuggestionsTitle",
-      "flex-layout.row#notfoundsuggestions",
-      "flex-layout.row#banners-home2"
+      "flex-layout.row#notfoundsuggestions"
     ]
   },
   "flex-layout.row#notfound": {

@@ -20,7 +20,7 @@
       "textPosition": "LEFT",
       "textAlign": "LEFT",
       "blockClass": "footer-sobre",
-      "text": "INSTITUCIONAL"
+      "text": "Informações"
     }
   },
 
@@ -37,10 +37,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/quem-somos",
+            "href": "/nos",
             "noFollow": false,
-            "tagTitle": "Quem somos",
-            "text": "Quem somos"
+            "tagTitle": "Nós",
+            "text": "Nós"
           }
         },
         {
@@ -51,10 +51,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/contato",
+            "href": "/pq-saad",
             "noFollow": false,
-            "tagTitle": "Contato",
-            "text": "Contato"
+            "tagTitle": "Porque comprar uma saad?",
+            "text": "Porque comprar uma saad?"
           }
         },
         {
@@ -65,10 +65,24 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/orcamento",
+            "href": "/brandvalue",
             "noFollow": false,
-            "tagTitle": "Orçamento",
-            "text": "Orçamento"
+            "tagTitle": "Brand value",
+            "text": "Brand value"
+          }
+        },
+        {
+          "id": "footer-item-acc-3",
+          "blockClass": "footer-sobre__menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/manual",
+            "noFollow": false,
+            "tagTitle": "Manual da bolsa",
+            "text": "Manual da bolsa"
           }
         }
       ]

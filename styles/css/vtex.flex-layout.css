@@ -18,6 +18,10 @@
     width: 100%;
 }
 
+.flexRow--footer__copyright{
+    background-color: #F5F5F5;
+}
+
 .flexRowContent--header-links {
     height: 40px;
 }

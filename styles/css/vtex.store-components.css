@@ -4,6 +4,7 @@
     width: 68%;
 }
 
+
 .infoCardContainer--sellerConditionCard {
     justify-content: center;
 }
@@ -12,8 +13,18 @@
     font-size: 13px;
 }
 
-.skuSelectorSubcontainer--tamanho{
+.skuSelectorSubcontainer--tamanho, .infoCardCallActionContainer--info-card-last{
     display: none;
+}
+
+.infoCardContainer--info-card-last{
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    background-color: #F1E3B7;
+}
+
+.infoCardTextContainer--info-card-last{
+    margin: 2.5rem 7.5rem;
 }
 
 .infoCardImageContainer--sellerConditionCard, .infoCardImageContainer--TelefoneCard {
@@ -302,22 +313,30 @@
 
 :global(.vtex-product-summary-2-x-container--default-prod-shelf) :global(.vtex-product-summary-2-x-clearLink--default-prod-shelf) :global(.vtex-product-summary-2-x-element--default-prod-shelf) :global(.vtex-button) :global(.vtex-button__label) {
    padding: 0 !important;
+   border-radius: 0;
 }
 
 :global(.vtex-product-summary-2-x-container--default-prod-shelf):hover :global(.vtex-product-summary-2-x-clearLink--default-prod-shelf) :global(.vtex-product-summary-2-x-element--default-prod-shelf) :global(.vtex-button) {
     visibility: visible;
     opacity: 1;
     text-transform: capitalize;
+    border-radius: 0 !important;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-footer) {
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2E1B0D
+
 }
 
 :global(.vtex-login-2-x-profileIcon){
     display: none;
 }
 
+:global(.vtex-product-summary-2-x-imageNormal){
+    height: 530px !important;
+}
 
 @media (max-width: 1300px) {
     .container {

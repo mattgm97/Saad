@@ -21,6 +21,11 @@
     color:#2E1B0D
 }
 
+.paragraph--footer-sobre{
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #2E1B0D
+}
 
 .link--orcamento-text, .strong--socialmedia-text {
     font-size: 11px;

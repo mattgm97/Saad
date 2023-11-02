@@ -2,8 +2,7 @@
   "flex-layout.col#security-container":{
     "children": [
       "flex-layout.row#security-0",
-      "flex-layout.row#security-1",
-      "flex-layout.row#security-2"
+      "flex-layout.row#security-1"
     ],
     "props": {
       "blockClass": "security-container",
@@ -31,61 +30,29 @@
 
   "rich-text#security": {
     "props": {
-      "blockClass": "footer__title",
+      "blockClass": "footer-sobre",
       "font": "t-heading-5",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
-      "text": "SEGURANÇA E CERTIFICAÇÕES"
+      "text": "Selos de Segurança"
     } 
   },
   "rich-text#securityImage-0": {
     "props": {
-      "text": "[![Selo pci]( /arquivos/new-pci.png 'Acesse a PCI')](http://secure.vtex.com/?an=isinaliza)",
-      "blockClass": ["security__image","pci"]
-    }
-  },
-  "rich-text#securityImage-1": {
-    "props": {
-      "text": "[![Selo lets encrypt]( /arquivos/new-encrypt.png 'Acesse a lets encrypt')](https://letsencrypt.org/)",
-      "blockClass": ["security__image","lets-encrypt"]
+      "text": "[![Selo eureciclo]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/012b48af-b1f9-4baa-a95a-a8c45f523ccd___a5d1b22c21ec7246a5fa68c354035d91.svg 'eu reciclo')]()",
+      "blockClass": ["security__image","eureciclo"]
     }
   },
   "rich-text#securityImage-2": {
     "props": {
-      "text": " [![Selo Google]( /arquivos/new-safe-google.png 'Acesse a Google')]( https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fwww.isinaliza.com%2F)",
-      "blockClass": ["security__image","google","no-margin-r"]
+      "text": "[![Selo lets encrypt]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/3d54e03a-1eae-419b-b82f-968b8c20c36d___d4e6d0a890e83a796c5375a45662e3c7.svg 'Acesse a lets encrypt')](https://letsencrypt.org/)",
+      "blockClass": ["security__image","lets-encrypt"]
     }
   },
-
-
-
-  "flex-layout.row#security-2":{
-    "children": [
-     /* "sandbox#google",*/
-      "rich-text#googlereviews"
-    ],
+  "rich-text#securityImage-1": {
     "props": {
-      "preventHorizontalStretch": true,
-      "blockClass": "security__row"
-    }
-  },
-
-
-
-  "rich-text#googlereviews": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "[![Google avaliações](/arquivos/selo-google.png 'Google')](https://customerreviews.google.com/v/merchant?q=isinaliza.com&c=BR&v=17)"
-    }
-  },
-
-  "sandbox#google": {
-    "props": {
-      "width": "100%",
-      "height": "auto",
-      "initialContent": "<div class='review-widget_net' data-uuid='9938af75-4904-454d-a8ae-777d7171fd20' data-template='10' data-filter='' data-lang='pt' data-theme='light'><center><a href='https://www.review-widget.net/' target='_blank' rel='noopener'><img src='https://grwapi.net/assets/spinner/spin.svg' title='Google Review Widget' alt='Review Widget'></a></center></div><script async type='text/javascript' src='https://grwapi.net/widget.min.js'></script>",
-      "allowCookies": false
+      "text": " [![ebit]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/72cc6b34-7a37-4650-9368-fa5133cbc44e___741cc6d57ceeb243d575a4d0acd968ac.svg 'Acesse a ebit')]()",
+      "blockClass": ["security__image","ebit","no-margin-r"]
     }
   }
 }

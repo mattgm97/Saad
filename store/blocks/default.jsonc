@@ -34,14 +34,28 @@
       "showPaginationDots": "always"
     }
   },
+
+
+  "slider-layout#shelfUnique": {
+    "props": {
+      "blockClass": ["slider-shelf--default"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    }
+  },
   "product-summary.shelf": {
     "children": [
       
       "stack-layout#prodsum",
       "add-to-cart-button#shelf",
       "product-summary-name",
-      "product-summary-space",
-      /*"product-list-price#shelf",
+     /* "product-summary-space",
+      "product-list-price#shelf",
       "product-selling-price#shelf",*/
       "product-selling-price-range#shelf", 
       "product-price-savings", 

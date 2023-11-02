@@ -14,8 +14,9 @@
   "flex-layout.row#powered" : {
     "children": [
       "rich-text#poweredby",
-      "rich-text#poweredImage-0",
-      "rich-text#poweredImage-1"
+      "rich-text#poweredImage-1",
+      "rich-text#developedby",
+      "rich-text#poweredImage-0"
     ],
     "props": {
       "preventHorizontalStretch": true,
@@ -24,19 +25,26 @@
   },
   "rich-text#poweredby": {
     "props": {
-      "text": "**Powered By**",
+      "text": "Powered By",
+      "blockClass": ["powered__title"]
+    }
+  },
+
+  "rich-text#developedby": {
+    "props": {
+      "text": "Developed by",
       "blockClass": ["powered__title"]
     }
   },
   "rich-text#poweredImage-0": {
     "props": {
-      "text": "[![Logo ALMAH](/arquivos/almah-logo.svg 'Acesse a almah')](http://www.almahcomunicacao.com.br)",
+      "text": "[![Logo ALMAH](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/67d75c7e-587e-411f-898b-e002d65c6be0___ae9281bc7d3b41c59c3f7c5ac99c9a71.svg 'Acesse a almah')](http://www.almahcomunicacao.com.br)",
       "blockClass": ["powered__image","almah"]
     }
   },
   "rich-text#poweredImage-1": {
     "props": {
-      "text": "[![Logo ALMAH](/arquivos/VTEX_pink_RGB.png 'Acesse a VTEX')](https://vtex.com/br-pt/)",
+      "text": "[![Logo VTEX](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9b1e4dd0-25aa-4397-a4e5-4396e29050d6___b70ebaf916314557552ef2baef59a3d2.svg 'Acesse a VTEX')](https://vtex.com/br-pt/)",
       "blockClass": ["powered__image","vtex-icon"]
     }
   }

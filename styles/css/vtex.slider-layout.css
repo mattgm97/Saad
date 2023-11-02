@@ -8,6 +8,14 @@
     padding: 10px;
 }
 
+.sliderLeftArrow{
+    margin-left: 2.5em;
+}
+
+.sliderRightArrow{
+    margin-right: 2.5em;
+}
+
 
 .sliderRightArrow--carousel-topbar, .sliderLeftArrow--carousel-topbar {
     height: 1.5rem;

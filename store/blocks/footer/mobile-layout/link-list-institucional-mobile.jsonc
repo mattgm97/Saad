@@ -19,7 +19,7 @@
         "type": "internal",
         "noFollow": true,
         "tagTitle": "Institucional",
-        "text": "SUPORTE AO CLIENTE"
+        "text": "Atendimento ao consumidor"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#listLink-footer-accordion"]
@@ -50,7 +50,7 @@
         "type": "internal",
         "noFollow": true,
         "tagTitle": "Institucional",
-        "text": "PAGAMENTO"
+        "text": "Formas de Pagamento"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#listLink-footer-accordion-2"]

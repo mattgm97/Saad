@@ -32,30 +32,44 @@
       },
   "newsletter-form": {
     "children": [
+      "newsletter-input-name",
       "newsletter-input-email",
+      "newsletter-checkbox-confirmation",
       "newsletter-submit"
     ]
   },
   "rich-text#newsletter": {
     "props": {
-      "text": "DEIXE SEU EMAIL",
+      "text": "Receba todas as novidades!",
       "font": "t-heading-5",
       "textPosition": "LEFT",
       "textAlign": "LEFT",
       "blockClass": "footer-sobre"
     }
   },
-  "newsletter-input-email": {
+
+  "newsletter-input-name": {
     "props": {
-      "placeholderText": "Deixe seu E-mail",
-      "inputLabel": " ",
+      "placeholderText": "Nome",
+      "inputLabel": "Informe seu primeiro nome",
       "blockClass": "newsletterInput"
     }
   },
-
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "E-mail",
+      "inputLabel": "Informe seu e-mail",
+      "blockClass": "newsletterInput"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "Ao se cadastrar você irá concordar com a nossa política de privacidade"
+    }
+  },
   "newsletter-submit":{
       "props":{
-        "submitButtonLabel": "ENVIAR"
+        "submitButtonLabel": "Cadastrar"
       }
       
   }

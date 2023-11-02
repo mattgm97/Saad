@@ -12,14 +12,15 @@
       "rich-text#middlesiteText",
       "responsive-layout.desktop#middlesite",
       "responsive-layout.mobile#middlesite",
-      //"flex-layout.row#firstContent",
+      "rich-text#Lancamentos",
+      "list-context.product-list#Lancamentos",
       "flex-layout.row#banners-home",
-     
-     // "__fold__",
-     // "flex-layout.row#secondContent",
+      "rich-text#Emdestaque",
+      "list-context.product-list#Emdestaque",
+      "info-card#home2",
+      "rich-text#insta",
+      "sandbox#insta"
       
-     
-      "flex-layout.row#banners-home2"
     ]
   },
 
@@ -231,71 +232,81 @@
       "maxHeight": 840
     }
   },
- 
 
-  "flex-layout.row#firstContent": {
-    "children": ["flex-layout.col#firstContent"]
-  },
-
-  "flex-layout.col#firstContent": {
-    "children": [
-      "rich-text#textoSEO",
-      "rich-text#novidades",
-      "list-context.product-list#novidades",
-      "slider-layout#categories-circle-slider"
-    ]
-  },
-
-  "rich-text#textoSEO": {
+  
+  "rich-text#Lancamentos": {
+    "title": "Lançamentos",
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "# Sua loja de placas de sinalização profissional",
-      "blockClass": "sectionRichTitleSEO"
-    }
-  },
-  "rich-text#novidades": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "NOVIDADES",
+      "text": "Lançamentos",
       "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
       "blockClass": "sectionRichTitle"
     }
   },
-  "list-context.product-list#novidades": {
-    "title": "Novidades",
+
+  "list-context.product-list#Lancamentos": {
+    "title": "Lançamentos",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#shelf"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "collection": "151",
+      "collection": "150",
       "maxItems": 12
     }
   },
+
+  "rich-text#Emdestaque": {
+    "title": "Em destaque",
+    "props": {
+      "text": "Em destaque",
+      "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+
+  "list-context.product-list#Emdestaque": {
+    "title": "Em destaque",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "150",
+      "maxItems": 12
+    }
+  },
+ 
+
+ 
   "flex-layout.row#banners-home": {
     "children": [
       "flex-layout.col#banners-home1",
       "flex-layout.col#banners-home2"
     ],
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "between",
+      "colJustify":"between",
+      "colSizing":"auto",
+      "fullWidth": true,
       "marginTop": 5,
       "marginBottom": 7,
-      "preventHorizontalStretch": true,
-      "colGap": 7
+      "preventHorizontalStretch": false,
+      "colGap": 0
     }
   },
 
   "flex-layout.col#banners-home1": {
     "children": ["image#banners-home1"],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "width": "70%"
     }
   },
   "image#banners-home1": {
     "props": {
-      "src": "assets/banners/cavalete-sil.png",
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png",
       "link": {
         "properties": {
           "attributeNofollow": false,
@@ -305,125 +316,70 @@
       }
     }
   },
+
+
+  "list-context.product-list#bolsadecouro": {
+    "title": "Bolsas de couro",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelfUnique"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "150",
+      "maxItems": 12
+    }
+  },
+
+  "rich-text#bolsadecouro": {
+    "title": "Bolsas de couro",
+    "props": {
+      "text": "Bolsas de couro",
+      "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+
+
   "flex-layout.col#banners-home2": {
-    "children": ["image#banners-home2"],
-    "props": {
-      "horizontalAlign": "center"
-    }
-  },
-  "image#banners-home2": {
-    "props": {
-      "src": "assets/banners/transito-sil.png",
-      "link": {
-        "properties": {
-          "attributeNofollow": false,
-          "newtab": false,
-          "url": "#"
-        }
-      }
-    }
-  },
-
-  
-
-  "flex-layout.row#secondContent": {
-    "children": ["flex-layout.col#secondContent"]
-  },
-  "flex-layout.col#secondContent": {
-    "children": [
-      "rich-text#promocao",
-      "list-context.product-list#promocao",
-      "slider-layout#cat-rectangle",
-      "rich-text#maisVendidos",
-      "list-context.product-list#maisVendidos"
-    ]
-  },
-  "rich-text#promocao": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "PROMOÇÃO",
-      "font": "t-heading-4",
-      "blockClass": "sectionRichTitle"
-    }
-  },
-  "list-context.product-list#promocao": {
-    "title": "PROMOÇÃO",
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf"],
-    "props": {
-      "orderBy": "OrderByReleaseDateDESC",
-      "collection": "145",
-      "maxItems": 12
-    }
-  },
-  "rich-text#maisVendidos": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "MAIS VENDIDOS",
-      "font": "t-heading-4",
-      "blockClass": "sectionRichTitle"
-    }
-  },
-  "list-context.product-list#maisVendidos": {
-    "title": "MAIS VENDIDOS",
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#shelf"],
-    "props": {
-      "orderBy": "OrderByReleaseDateDESC",
-      "collection": "146",
-      "maxItems": 12
-    }
-  },
-  "flex-layout.row#banners-home2": {
-    "children": [
-      "flex-layout.col#banners-home3",
-      "flex-layout.col#banners-home4"
-    ],
+    "children": ["rich-text#bolsadecouro", "list-context.product-list#bolsadecouro"],
     "props": {
       "horizontalAlign": "center",
-      "marginTop": 5,
-      "marginBottom": 9,
-      "preventHorizontalStretch": true,
-      "colGap": 7
+      "width": "30%"
+    }
+  },
+  "info-card#home2": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/56f88e4f-ddde-4fe1-b129-d596df1876f3___91d6252d09ae23ed369cb2bd25d3023e.png",
+      "mobileImageUrl":"https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/70bf1819-3132-49f3-85e9-387eba8672fc___4e259f6ea39747edf53764fb940d8719.png",
+      "headline": "Heading content",
+      "subhead":"Lorem ipsum dolor sit amet consectetur. Adipiscing ultrices est turpis egestas duis fermentum bibendum. Elit vel diam bibendum tellus faucibus eu at. Vel ut egestas quam quis facilisi eget non arcu.",
+      "blockClass": "info-card-last",
+      "textAlignment": "left"
     }
   },
 
-  "flex-layout.col#banners-home3": {
-    "children": ["image#banners-home3"],
+  "rich-text#insta": {
+    "title": "Conheça nosso instagram",
     "props": {
-      "horizontalAlign": "center"
+      "text": "Conheça nosso instagram",
+      "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "sectionRichTitle"
     }
   },
-  "image#banners-home3": {
+  "sandbox#insta": {
     "props": {
-      "src": "assets/banners/adesivo-sil.png",
-      "link": {
-        "properties": {
-          "attributeNofollow": false,
-          "newtab": false,
-          "url": "#"
-        }
-      }
-    }
-  },
-  "flex-layout.col#banners-home4": {
-    "children": ["image#banners-home4"],
-    "props": {
-      "horizontalAlign": "center"
-    }
-  },
-  "image#banners-home4": {
-    "props": {
-      "src": "assets/banners/combate-sil.png",
-      "link": {
-        "properties": {
-          "attributeNofollow": false,
-          "newtab": false,
-          "url": "#"
-        }
-      }
+      "width": "100%",
+      "height": "350px",
+      "initialContent": "",
+      "allowCookies": false
     }
   }
+  
+
 }

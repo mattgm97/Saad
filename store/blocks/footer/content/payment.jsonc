@@ -22,11 +22,7 @@
       "rich-text#paymentImage-2",
       "rich-text#paymentImage-3",
       "rich-text#paymentImage-4",
-      "rich-text#paymentImage-5",
-      "rich-text#paymentImage-6",
-      "rich-text#paymentImage-7",
-      "rich-text#paymentImage-8",
-      "rich-text#paymentImage-9"
+      "rich-text#paymentImage-5"
     ],
     "props": {
       "preventHorizontalStretch": true,
@@ -40,13 +36,13 @@
       "textPosition": "LEFT",
       "textAlign": "LEFT",
       "blockClass": "footer-sobre",
-      "text": "PAGAMENTO"
+      "text": "Formas de Pagamento"
     } 
   },
 
   "rich-text#paymentImage-0": {
     "props": {
-      "text": "![Bandeira Visa](/arquivos/VISA.svg 'Bandeira Visa')",
+      "text": "![Bandeira Visa](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/dad41c60-d92d-49ec-b8a7-5d383af7fb39___604ecf6f4627b9a21cc570d08d76d713.svg 'Bandeira Visa')",
       "blockClass": ["payment__image","visa"]
      
     }
@@ -54,59 +50,35 @@
 
   "rich-text#paymentImage-1": {
     "props": {
-      "text": "![Bandeira Mastercard](/arquivos/MASTER.svg 'Bandeira Mastercard')",
+      "text": "![Bandeira Mastercard](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/2f80f507-ae99-40b2-b86c-bae56f1c6ee6___ca68fd446e2e5fa1806d56024e4283d0.svg 'Bandeira Mastercard')",
       "blockClass": ["payment__image","mastercard"]
     }
   },
   "rich-text#paymentImage-2": {
     "props": {
-      "text": "![Bandeira AMEX](/arquivos/AMEX.svg 'Bandeira AMEX')",
-      "blockClass": ["payment__image","amex"]
+      "text": "![Bandeira DINERS](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/20b924b1-791e-47ab-9493-f65b80143a58___16f5b602f4d1d1da783f6b7bec5e6783.svg 'Bandeira DINERS')",
+      "blockClass": ["payment__image","diners"]
     }
   },
 
   "rich-text#paymentImage-3": {
     "props": {
-      "text": "![Bandeira DINERS](/arquivos/DINERS.svg 'Bandeira DINERS')",
-      "blockClass": ["payment__image","diners"]
+      "text": "![Bandeira Discover](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/d71f057e-1063-40ec-a815-5baa47cebad7___d05f625a98af6df63c61b8fc27ab0475.svg 'Bandeira Discover')",
+      "blockClass": ["payment__image","discover"]
     }
   },
 
   "rich-text#paymentImage-4": {
     "props": {
-      "text": "![Bandeira HIPERCARD](/arquivos/HIPERCARD.svg 'Bandeira HIPERCARD')",
-      "blockClass": ["payment__image","hipercard"]
+      "text": "![Bandeira American Express](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/0f1ab4bd-bc0d-4fca-b06f-4c039c0c1837___e0f643c8e708b3b97f814cfbf94ab598.svg 'Bandeira American Express')",
+      "blockClass": ["payment__image","AmericanExpress"]
     }
   },
 
   "rich-text#paymentImage-5": {
     "props": {
-      "text": "![Bandeira Hiper](/arquivos/HIPER.svg 'Bandeira HIPER')",
-      "blockClass": ["payment__image","hiper"]
-    }
-  },
-  "rich-text#paymentImage-6": {
-    "props": {
-      "text": "![Bandeira ELO](/arquivos/ELO.svg 'Bandeira ELO')",
-      "blockClass": ["payment__image","elo"]
-    }
-  },
-  "rich-text#paymentImage-7": {
-    "props": {
-      "text": "![Bandeira Paypal](/arquivos/BANCO-DO-BRASIL.svg 'Bandeira Paypal')",
-      "blockClass": ["payment__image","Paypal"]
-    }
-  },
-  "rich-text#paymentImage-8": {
-    "props": {
-      "text": "![Bandeira PIX](/arquivos/PIX.svg 'Bandeira PIX')",
-      "blockClass": ["payment__image","PIX"]
-    }
-  },
-  "rich-text#paymentImage-9": {
-    "props": {
-      "text": "![Bandeira BOLETO](/arquivos/BOLETO.svg 'Bandeira BOLETO')",
-      "blockClass": ["payment__image","BOLETO"]
+      "text": "![Bandeira Pix](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/aec22003-d717-4895-8a0d-4ee6dbd79548___4c10da77bd2b4deef96ab1b0b2b897e0.svg 'Bandeira Pix')",
+      "blockClass": ["payment__image","pix"]
     }
   }
 }

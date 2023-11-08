@@ -330,6 +330,17 @@
 
 }
 
+:global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label){
+    color: #2E1B0D;
+    font-size: 0.875rem;
+}
+
+:global(.vtex-stack-layout-0-x-stackContainer--imageContainer){
+    background-color: #EDE2D04D;
+}
+
+
+
 :global(.vtex-login-2-x-profileIcon){
     display: none;
 }

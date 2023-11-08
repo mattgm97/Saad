@@ -34,8 +34,9 @@
     "children": [
       "newsletter-input-name",
       "newsletter-input-email",
-      "newsletter-checkbox-confirmation",
-      "newsletter-submit"
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+     
     ]
   },
   "rich-text#newsletter": {

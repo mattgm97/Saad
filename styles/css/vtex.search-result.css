@@ -18,8 +18,9 @@ margin-bottom: 2em;
     border:none
 }
 
-:global(.vtex-checkbox__inner-container) {
-    border-color: #ED6F00;
+:global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer) :global(.vtex-checkbox__inner-container) {
+    border-color: #f5f5f5;
+    background-color: white;
   }
   .filterTitleSpan{
       text-transform: uppercase;
@@ -56,11 +57,7 @@ margin-bottom: 2em;
 
   @media (min-width: 1125px) {
     :global(.vtex-search-result-3-x-filter__container){
-        border: 1px solid #c4c4c4;
-        box-sizing: border-box;
-        box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
-        border-radius: 5px;
-        padding: 1em;
-        margin-bottom: 1em;
+        padding: 6px 14px;
+        border-bottom: 1px solid #E0E0E0;
       }
   }

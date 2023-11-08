@@ -27,6 +27,7 @@
   },
   "store.search#department": {
     "blocks": [
+      "image#catimage",
       "search-result-layout",
       "__fold__",
       "flex-layout.row#seoText"
@@ -42,6 +43,7 @@
   },
   "store.search#category": {
     "blocks": [
+      "image#catimage",
       "search-result-layout",
       "__fold__",
       "flex-layout.row#seoText"
@@ -57,6 +59,7 @@
   },
   "store.search#subcategory": {
     "blocks": [
+      "image#catimage",
       "search-result-layout",
       "__fold__",
       "flex-layout.row#seoText"
@@ -77,12 +80,18 @@
       "search-not-found-layout"
     ]
   },
+
+  "image#catimage": {
+    "props": {
+        "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/61b2b731-5c92-4493-9e22-77a39c905a88___1c615a5714ee0ef9c000521dbd660ba6.png",
+        "maxHeight": 330
+    }
+},
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
-      "flex-layout.row#result",
-      "flex-layout.row#promos-search"
+      "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
@@ -97,28 +106,7 @@
       }
     }
   },
-  "flex-layout.row#promos-search": {
-    "children": [
-      "flex-layout.col#promos-search-content"
-    ]
-  },
-  "flex-layout.col#promos-search-content": {
-    "children": [
-      "rich-text#promos-search"
-    ]
-  },
-  "rich-text#promos-search": {
-    "props": {
-      "text": "PROMOÇÕES NA LOJA",
-      "font": "t-heading-2",
-      "textPosition": "LEFT",
-      "textAlign": "LEFT",
-      "blockClass": [
-        "sectorTitle",
-        "promo-search"
-      ]
-    }
-  },
+ 
   "flex-layout.row#searchbread": {
     "children": [
       "breadcrumb.search"
@@ -233,8 +221,7 @@
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
-      "search-products-progress-bar",
-      "flex-layout.row#promos-search"
+      "search-products-progress-bar"
     ],
     "props": {
       "pagination": "show-more",

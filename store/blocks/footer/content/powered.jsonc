@@ -13,9 +13,9 @@
 
   "flex-layout.row#powered" : {
     "children": [
-      "rich-text#poweredby",
+      /*"rich-text#poweredby",
       "rich-text#poweredImage-1",
-      "rich-text#developedby",
+      "rich-text#developedby",*/
       "rich-text#poweredImage-0"
     ],
     "props": {
@@ -38,8 +38,8 @@
   },
   "rich-text#poweredImage-0": {
     "props": {
-      "text": "[![Logo ALMAH](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/67d75c7e-587e-411f-898b-e002d65c6be0___ae9281bc7d3b41c59c3f7c5ac99c9a71.svg 'Acesse a almah')](http://www.almahcomunicacao.com.br)",
-      "blockClass": ["powered__image","almah"]
+      "text": "[![Logo ](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/321cb7c4-1e41-4dd7-8375-892fc0c99157___c6537e74bf6c764253af3fc0ce7051d9.png 'Acesse a almah')](http://www.almahcomunicacao.com.br)",
+      "blockClass": ["powered__image"]
     }
   },
   "rich-text#poweredImage-1": {

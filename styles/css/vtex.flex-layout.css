@@ -19,7 +19,7 @@
 }
 
 .flexRow--footer__copyright{
-    background-color: #F5F5F5;
+    background-color: #FFF;
 }
 
 .flexRowContent--header-links {
@@ -39,6 +39,7 @@
 
 .flexRow--footer__content {
     background-color: #F5F5F5;
+    padding: 2rem 0;
 }
 
 .flexRowContent--powered__row{
@@ -87,7 +88,11 @@
 }
 
 
-
+.flexColChild--copy-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 
@@ -99,7 +104,7 @@
         padding-right: 3.5em;
     }
     .flexRow--footer__copyright {
-        background-color: #F5F5F5;
+        background-color: #FFF;
     }
 
     .flexRowContent--powered__row {

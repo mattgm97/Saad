@@ -26,7 +26,13 @@
     font-size: 1.125rem;
     color: #2E1B0D
 }
+.paragraph--copyright__text{
+    font-size: 0.75rem;
+}
 
+:global(.vtex-rich-text-0-x-image--powered__image){
+    width: 74%;
+}
 .link--orcamento-text, .strong--socialmedia-text {
     font-size: 11px;
     color: white;

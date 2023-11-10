@@ -17,7 +17,10 @@
 }
 
 .headerRowBackground--main-menu{
-  background-color: transparent !important;
+  background-color: transparent;
+}
+.headerRowBackground--main-menu-normal{
+  background-color: white !important;
 }
 
 .headerRowContentContainer--main-menu{
@@ -40,6 +43,9 @@
 .headerRowBackground--main-header{
   background-color: rgba(0,0,0,0.15);
   transition: 0.3s all;
+}
+.headerRowBackground--main-header-normal{
+  background-color: white !important;
 }
 
 
@@ -121,16 +127,16 @@
 
 .headerStickyRow--main-header-mobile {
   padding: 0px 15px;
-  background-color: #000;
+  background-color: #FFFF;
 }
 
 .headerRowBackground--main-header-mobile {
-  background-color: #000;
+  background-color: #FFF;
 }
 
 @media (max-width: 760px) {
   .headerStickyRow--main-header-mobile {
-    border-top: solid 4px #000;
+    border-top: solid 4px #FFF;
     padding-bottom: 0.2em;
   }
 }

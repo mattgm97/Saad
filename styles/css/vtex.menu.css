@@ -6,6 +6,11 @@
 :global(.vtex-sticky-layout-0-x-wrapper--stuck) .styledLinkContent--department-menu{
 color: black
 }
+
+:global(.vtex-sticky-layout-0-x-wrapper) :global(.vtex-store-header-2-x-headerStickyRow--main-menu-normal) .styledLinkContent--department-menu{
+    color: black !important;
+}
+
 .styledLinkContent--contacts-menu-footer {
     color: #808080;
 }
@@ -18,7 +23,7 @@ color: black
 
 .accordionIcon--linkList-footer-toggle--isOpen {
     transform: translateY(-50%) rotate(180deg);
-    content: url(/arquivos/arrow-menu.svg);
+    content: url(https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9a922f15-bb10-4333-9762-be47df654f31___2501f7948241e18f1a09a34e271b3c26.svg);
     transition: 0.3s;
     width: 16px;
     margin-top: 10px;
@@ -26,7 +31,7 @@ color: black
 
 .accordionIcon--linkList-footer-toggle--isClosed {
     transform: translateY(-50%) rotate(0deg);
-    content: url(/arquivos/arrow-menu.svg);
+    content: url(https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9a922f15-bb10-4333-9762-be47df654f31___2501f7948241e18f1a09a34e271b3c26.svg);
     transition: 0.3s;
     width: 16px;
     margin-top: 10px;

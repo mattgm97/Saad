@@ -8,13 +8,7 @@
     padding: 10px;
 }
 
-.sliderLeftArrow{
-    margin-left: 2.5em;
-}
 
-.sliderRightArrow{
-    margin-right: 2.5em;
-}
 
 
 .sliderRightArrow--carousel-topbar, .sliderLeftArrow--carousel-topbar {
@@ -49,3 +43,15 @@
         margin: 0px 10px;
     }
 }
+@media screen and (min-width: 768px) {
+    .sliderLeftArrow{
+        margin-left: 2.5em;
+    }
+    
+    .sliderRightArrow{
+        margin-right: 2.5em;
+    }
+}
+
+
+

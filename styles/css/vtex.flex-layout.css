@@ -22,6 +22,7 @@
     background-color: #FFF;
 }
 
+
 .flexRowContent--header-links {
     height: 40px;
 }
@@ -94,6 +95,15 @@
     align-items: center;
 }
 
+.flexColChild--filterMobileCol{
+    background-color: #BBDF73;
+    border-radius: 2px;
+}
+
+.flexRowContent--orderByMobileRow :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 48% !important;
+
+}
 
 
 
@@ -143,6 +153,10 @@
 
 
 @media (min-width: 1125px) {
+
+    .flexRow--title-search--container, :global(.vtex-breadcrumb-1-x-container){
+        padding-left: 20%;
+    }
     :global(.vtex-flex-layout-0-x-flexCol--filterCol) {
       width: 330px;
     }

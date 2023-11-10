@@ -164,5 +164,9 @@
         text-align: center;
     }
 
+    .wrapper--carousel-text :global(.vtex-rich-text-0-x-paragraph){
+        text-align: center;
+    }
+
     
 }

@@ -22,8 +22,8 @@
   "header-layout.desktop": {
     "children": [
       "CSSWorkaround",
-      "header-row#1-desktop",
-      "header-row#2-desktop"
+      "responsive-layout.desktop#topbar",
+      "sticky-layout.stack-container#headerNormal"
     ]
   },
 
@@ -40,6 +40,24 @@
     "children":[
       "header-row#1-desktop",
       "header-row#2-desktop"
+      
+  ]
+  },
+
+
+  "sticky-layout.stack-container#headerNormal": {
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "sticky-layout#links-menuNormal"
+    ]
+  },
+
+  "sticky-layout#links-menuNormal":{
+    "children":[
+      "header-row#1-desktopNormal",
+      "header-row#2-desktopNormal"
       
   ]
   },
@@ -86,7 +104,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": "carousel-topbar",
       "autoplay": 5000,
       "stopOnHover": true,
@@ -97,17 +115,20 @@
 
   "rich-text#topbar1": {
     "props": {
-      "text": "Faça parte do clube SAAD para ter benefícios exclusivos"
+      "text": "Faça parte do clube SAAD para ter benefícios exclusivos",
+      "blockClass": "carousel-text"
     }
   },
   "rich-text#topbar2": {
     "props": {
-      "text": "Faça parte do clube SAAD para ter benefícios exclusivos 2"
+      "text": "Faça parte do clube SAAD para ter benefícios exclusivos 2",
+      "blockClass": "carousel-text"
     }
   },
   "rich-text#topbar3": {
     "props": {
-      "text": "Faça parte do clube SAAD para ter benefícios exclusivos 3"
+      "text": "Faça parte do clube SAAD para ter benefícios exclusivos 3",
+      "blockClass": "carousel-text"
     }
   },
 
@@ -148,6 +169,24 @@
     "props": {
       "sticky": true,
       "blockClass": "main-header"
+    }
+  },
+
+  "header-row#1-desktopNormal": {
+    "children": [
+      "vtex.menu@2.x:menu#menuBTN",
+      "header-spacer",
+      "header-spacer",
+      "logo#desktopNormal",
+      "header-spacer",
+      "search-btn",
+      "login",
+      "WishlistButton",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": ["main-header", "main-header-normal"]
     }
   },
 
@@ -197,6 +236,15 @@
       "width": "196"
     }
   },
+
+  "logo#desktopNormal": {
+    "props": {
+      //"title": "Logo",
+      "href": "/",
+      "url": "assets/icons/logoDark.svg",
+      "width": "196"
+    }
+  },
   /*     "minicart": {
           "blocks": ["product-summary"],
           "props": {
@@ -220,12 +268,20 @@
     }
   },
 
+  "header-row#2-desktopNormal": {
+    "children": ["vtex.menu@2.x:menu#category-menu-01"],
+    "props": {
+      /*"sticky": true,*/
+      "blockClass": ["main-menu", "main-menu-normal"]
+    }
+  },
+
 
 
   /* MOBILE */
   "header-layout.mobile": {
     // "children": ["header-row#1-mobile", "header-row#2mobile"]
-    "children": [ "flex-layout.row#topbar-desktop-wppgroup","header-row#1-mobile", "header-row#2mobile"]
+    "children": ["slider-layout#topbar-slider","header-row#1-mobile", "header-row#2mobile"]
   },
   "header-row#1-mobile": {
     "children": [

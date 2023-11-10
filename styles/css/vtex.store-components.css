@@ -330,6 +330,11 @@
 
 }
 
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-topbar){
+    background-color: #F1E3B7;
+    height: 52px;
+}
+
 :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label){
     color: #2E1B0D;
     font-size: 0.875rem;

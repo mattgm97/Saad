@@ -33,7 +33,7 @@ margin-bottom: 2em;
 }
 
 
-:global(.vtex-search-result-3-x-caretIcon){
+:global(.vtex-search-result-3-x-filterPopupArrowIcon) :global(.vtex-search-result-3-x-caretIcon){
     color:#BBDF73
 }
 

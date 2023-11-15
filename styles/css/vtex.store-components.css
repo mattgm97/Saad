@@ -137,8 +137,9 @@
 
 
 .productBrand {
-    font-size: 26px;
-    letter-spacing: 0.03em;
+    font-size: 28px;
+    color: #2E1B0D;
+    line-height: 130%;
 }
 
 .productNameContainer {
@@ -166,12 +167,15 @@
 }
 
 .price_sellingPriceContainer--pdp {
-    color: #1E7BC4;
-    text-align: center;
+    color: #BBDF73;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .sellingPriceValue {
-    font-size: 54px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 120%
 }
 
 .price_listPriceContainer--pdp {
@@ -194,7 +198,28 @@
     color: #1E7BC4;
     font-weight: bold;
     margin-top: 1.5em;
+    display: none;
 
+}
+
+:global(.vtex-product-availability-0-x-container){
+    margin: 1rem 0;
+    align-items: baseline;
+}
+:global(.vtex-product-availability-0-x-lowStockHighlight){
+    margin: 0 0.3rem;
+    color: #8A1B45;
+}
+:global(.vtex-product-availability-0-x-lowStockText), :global(.vtex-product-availability-0-x-lowStockText){
+    color: #8A1B45;
+}
+
+
+
+:global(.vtex-add-to-cart-button-0-x-buttonText--btn-buy-pdp){
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .productDescriptionTitle::after {
@@ -252,7 +277,6 @@
 }
 
 .skuSelectorName {
-    color: #1E7BC4;
     font-weight: 600;
 }
 
@@ -366,9 +390,7 @@
         padding-left: 12px;
     }
 
-    .productNameContainer {
-        width: 73%;
-    }
+   
 
 
 }

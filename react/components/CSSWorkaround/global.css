@@ -26,4 +26,12 @@
     right: -84px !important;
 }
 
+.vtex-product-availability-0-x-lowStockText:first-child::before {
+    content: url('https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/0c3b34ee-1d95-47cf-8a10-b5083928c7bb___3bce782bc093f8e259e60dfc4c05d263.svg');
+    margin-right: 8px;
+    position: relative;
+    top: 4px;
+  
+  }
+
 

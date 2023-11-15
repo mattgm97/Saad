@@ -105,6 +105,12 @@
 
 }
 
+.flexRowContent--product-second-row{
+    align-items: center;
+}
+.flexRowContent--product-second-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-wish-list-1-x-wishlistIconContainer){
+    text-align: right;
+}
 
 
 @media (max-width: 760px) {
@@ -156,6 +162,10 @@
 
     .flexRow--title-search--container, :global(.vtex-breadcrumb-1-x-container){
         padding-left: 20%;
+    }
+
+    .flexRowContent--product-first-row :global(.vtex-breadcrumb-1-x-container){
+        padding-left: 0 !important;
     }
     :global(.vtex-flex-layout-0-x-flexCol--filterCol) {
       width: 330px;

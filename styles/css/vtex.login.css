@@ -9,16 +9,7 @@
 
 
 
-.label::before {
-  content: "Login";
-  color: #000;
-  position: relative;
-  top: 13px;
-  right: -29px;
-  font-size: 0.75rem;
-text-transform: initial;
 
-}
 .vtex-login-2-x-container {
   width: 4rem;
   /* height: 9px; */
@@ -29,3 +20,20 @@ text-transform: initial;
     font-size: 20px;
   color: #515151;
   }
+
+  @media (min-width: 1200px) {
+    .label::before {
+      content: "Login";
+      color: #000;
+      position: relative;
+      top: 13px;
+      right: -29px;
+      font-size: 0.75rem;
+    text-transform: initial;
+    
+    }
+
+   
+
+
+}

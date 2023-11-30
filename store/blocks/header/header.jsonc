@@ -156,7 +156,8 @@
 
   "header-row#1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#menuBTN",
+     /* "vtex.menu@2.x:menu#menuBTN",*/
+     "header-spacer",
       "header-spacer",
       "header-spacer",
       "logo#desktop",
@@ -174,7 +175,8 @@
 
   "header-row#1-desktopNormal": {
     "children": [
-      "vtex.menu@2.x:menu#menuBTN",
+      /*"vtex.menu@2.x:menu#menuBTN",*/
+      "header-spacer",
       "header-spacer",
       "header-spacer",
       "logo#desktopNormal",
@@ -281,18 +283,17 @@
   /* MOBILE */
   "header-layout.mobile": {
     // "children": ["header-row#1-mobile", "header-row#2mobile"]
-    "children": ["slider-layout#topbar-slider","header-row#1-mobile", "header-row#2mobile"]
+    "children": ["slider-layout#topbar-slider","header-row#1-mobile"/*, "header-row#2mobile"*/]
   },
   "header-row#1-mobile": {
     "children": [
       "CSSWorkaround",
       "drawer#menu-mobile",
-      "header-spacer",
       "logo#mobile",
       "header-spacer",
-      /*  "drawer#search-bar",
-        /*"rich-text#icon-link-natal",
-        "image#icon-link-black-friday",*/
+      "search-btn",
+      "login",
+      "WishlistButton",
       "minicart.v2"
     ],
     "props": {
@@ -410,7 +411,7 @@
     "props": {
       // "title": "Logo",
       "href": "/",
-      "url": "assets/icons/logo.svg",
+      "url": "assets/icons/logoDark.svg",
       "width": "144"
     }
   },

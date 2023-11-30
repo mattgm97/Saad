@@ -4,9 +4,10 @@
       "blockClass": ["footer", "mobile"]
     },
     "children": [
+     
+      "flex-layout.row#footer-container-0-mobile",
       "vtex.menu@2.x:menu#linkList-container-mobile",
       "vtex.menu@2.x:menu#linkList-container-mobile-2",
-      "flex-layout.row#footer-container-0-mobile",
       "flex-layout.row#footer-container-1-mobile"
     ]
   },
@@ -15,11 +16,16 @@
       "blockClass": "footer__content"
     },
     "children": [
-     /* "flex-layout.col#footer-1-box-menu-1",
-      "flex-layout.col#footer-1-box-menu-2",*/
+      "flex-layout.col#footer-1-box-1",
+      "rich-text#social-footer",
+    
+      "flex-layout.col#footer-1-box-menu-1",
+      "flex-layout.col#footer-1-box-menu-2",
+      "rich-text#pagamentos-footer",
+      "flex-layout.row#payment-1",
       "rich-text#sobre-footer",
       "flex-layout.col#footer-1-box-menu-3",
-      "flex-layout.col#footer-1-box-1",
+     
       "flex-layout.col#footer-1-box-2",
       "flex-layout.col#footer-1-box-3"
     ]
@@ -58,6 +64,18 @@
     }
   },
 
+  "rich-text#pagamentos-footer":{
+    "props": {
+      "text": "Formas de Pagamento",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER",
+      "blockClass": "footer-sobre"
+    }
+  },
+
+
+
   "flex-layout.col#footer-1-box-menu-3":{
     "children": [
       "vtex.menu@2.x:menu#linkList-container-mobile-3"
@@ -95,7 +113,7 @@
 
   "rich-text#social-footer":{
     "props": {
-      "text": "REDES SOCIAIS \n [![Facebook]( /arquivos/facebook-dark.png 'Facebook')](https://www.facebook.com/isinaliza/) [![Instagram]( /arquivos/instagram-dark.png 'Instagram')](https://www.instagram.com/isinaliza/) [![Youtube]( /arquivos/youtube-dark.png 'Youtube')](https://www.youtube.com/channel/UCs2-MYW4YR-OuMjzJQP4lHA)",
+      "text": "[![Facebook]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/a6970995-7adf-45b4-bdc9-e7c6977c07ac___338abb9ff89064eac27e3665b58bdc3e.svg 'Facebook')](https://www.facebook.com/isinaliza/) [![Whatsapp]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/040711fd-4984-48fb-acae-81bf3aed1e6b___3b2ffab23ad5d94a99aaa6bbe6536375.svg 'Whatsapp')](https://www.instagram.com/isinaliza/) [![Instagram]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/cf0db950-4bfb-4dc1-8147-0d454e5f29d9___3d1569194a885c68d729487f585a21f0.svg 'Instagram')](https://www.youtube.com/channel/UCs2-MYW4YR-OuMjzJQP4lHA)",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",

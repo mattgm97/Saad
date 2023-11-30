@@ -30,7 +30,7 @@ const SearchModalComponent: StorefrontFunctionComponent = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <span>Busca</span>
+              <span className='textDescription'>Busca</span>
             </>
           )}
 
@@ -54,7 +54,7 @@ const SearchModalComponent: StorefrontFunctionComponent = () => {
                 />
               </svg>
 
-              <span>Fechar</span>
+              <span className='textDescription'>Fechar</span>
             </span>
           )}
         </span>

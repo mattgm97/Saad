@@ -26,6 +26,7 @@
     ],
     "props": {
       "preventHorizontalStretch": true,
+      "horizontalAlign":"center",
       "blockClass": "flags__list"
     }
   },

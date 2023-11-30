@@ -17,6 +17,12 @@
     display: none;
 }
 
+:global(.vtex-store-components-3-x-subscriberContainer){
+    margin-top: 2em;
+}
+:global(.vtex-store-components-3-x-installmentsPrice){
+    color: #777777;
+}
 .infoCardContainer--info-card-last{
     margin-top: 3.5rem;
     margin-bottom: 3.5rem;
@@ -182,6 +188,12 @@
     font-size: 17px;
     text-align: center;
     margin-left: -26%;
+    display: none;
+}
+
+:global(.vtex-shelf-1-x-dot--isActive), :global(.vtex-slider-layout-0-x-paginationDot--isActive){
+    width: 1.5rem;
+    border-radius: 32%;
 }
 
 
@@ -280,7 +292,7 @@
     font-weight: 600;
 }
 
-:global(.vtex-dropdown__container):hover {
+/*:global(.vtex-dropdown__container):hover {
     border-color: #ED6F00 !important;
 }
 
@@ -291,15 +303,15 @@
 :global(.vtex-styleguide-9-x-popup) {
     background-color: #FFC700 !important;
 }
-
+*/
 :global(.vtex-add-to-cart-button-0-x-tooltipLabelText) {
     color: #000;
 }
 
-:global(.vtex-dropdown__button) {
+/*:global(.vtex-dropdown__button) {
     background-color: #FDEEEB;
 
-}
+}*/
 
 .productDescriptionText {
     font-weight: 300;

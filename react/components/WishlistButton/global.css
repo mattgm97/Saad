@@ -32,3 +32,13 @@
     background-color: white;
 }
 
+@media (max-width: 1200px) {
+    .wishlistBTN span{
+        display: none;
+    }
+
+    .wishlistBTN{
+        margin-top: 0;
+        margin-left: 0;
+    }
+}

@@ -33,11 +33,11 @@
       "images": [
         {
           "image": "https://isinaliza.vteximg.com.br/arquivos/ids/239091/isn-indicativas-banner-desktop.png",
-          "mobileImage": "https://isinaliza.vteximg.com.br/arquivos/ids/239092/isn-indicativas-banner-mobile.png"
+          "mobileImage": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/ca943b5b-0da7-40bb-a78a-04233a432b70___d40df5ecbb08b9ed4b290eb506194f0d.png"
         },
         {
           "image": "https://isinaliza.vteximg.com.br/arquivos/ids/239095/isn-transito-refletivo-banner-desktop-2.png",
-          "mobileImage": "https://isinaliza.vteximg.com.br/arquivos/ids/239104/isn-transito-refletivo-banner-mobile-2.png"
+          "mobileImage": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/ca943b5b-0da7-40bb-a78a-04233a432b70___d40df5ecbb08b9ed4b290eb506194f0d.png"
         }
       ]
     }
@@ -71,7 +71,7 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 2,
-        "phone": 2
+        "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "never",

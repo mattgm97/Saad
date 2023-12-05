@@ -197,9 +197,6 @@
 }
 
 
-.shippingContainer :global(.vtex-button) {
-    border-radius: 100px;
-}
 
 :global(.vtex-store-components-3-x-shippingTableRadioBtn) {
     display: none;

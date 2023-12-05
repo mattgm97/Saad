@@ -49,15 +49,14 @@ color: black
 
 
 :global(.vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle) {
-    margin-bottom: 8px;
-    margin-top: 8px;
-    background-color: #F3F3F3
+
+    border-top: solid 2px #E0E0E0;
 }
 
 .styledLinkContent--linkList-footer-toggle {
-    margin-top: 1em;
+    margin-top: 0.8em;
     font-weight: bold;
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
 }
 
 .styledLinkContent--submenu--inst{

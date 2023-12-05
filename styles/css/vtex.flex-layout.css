@@ -153,6 +153,12 @@
     .flexRowContent--orcamentos-points :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
         width: 50% !important;
     }
+
+    .flexRowContent--security__row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
   
 }

@@ -411,6 +411,9 @@
 
 @media (max-width: 760px) {
 
+    :global(.vtex-menu-2-x-menuContainerNav--menu-footer){
+        padding-left: 0.7rem;
+    }
 
     :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
         width: 90vw;

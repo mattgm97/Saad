@@ -6,9 +6,13 @@
     "children": [
      
       "flex-layout.row#footer-container-0-mobile",
-      "vtex.menu@2.x:menu#linkList-container-mobile",
-      "vtex.menu@2.x:menu#linkList-container-mobile-2",
-      "flex-layout.row#footer-container-1-mobile"
+      
+      "rich-text#pagamentos-footer",
+      "flex-layout.row#payment-1",
+      "rich-text#selos-footer",
+      "flex-layout.row#security-1",
+      "flex-layout.row#footer-container-1-mobile",
+      "flex-layout.row#powered"
     ]
   },
   "flex-layout.row#footer-container-0-mobile": {
@@ -18,16 +22,11 @@
     "children": [
       "flex-layout.col#footer-1-box-1",
       "rich-text#social-footer",
-    
-      "flex-layout.col#footer-1-box-menu-1",
       "flex-layout.col#footer-1-box-menu-2",
-      "rich-text#pagamentos-footer",
-      "flex-layout.row#payment-1",
-      "rich-text#sobre-footer",
-      "flex-layout.col#footer-1-box-menu-3",
+      "flex-layout.col#footer-1-box-menu-1"
+      
      
-      "flex-layout.col#footer-1-box-2",
-      "flex-layout.col#footer-1-box-3"
+     
     ]
   },
 
@@ -54,9 +53,9 @@
     }
   },
 
-  "rich-text#sobre-footer":{
+  "rich-text#selos-footer":{
     "props": {
-      "text": "INSTITUCIONAL",
+      "text": "Selos de Segurança",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
@@ -76,16 +75,6 @@
 
 
 
-  "flex-layout.col#footer-1-box-menu-3":{
-    "children": [
-      "vtex.menu@2.x:menu#linkList-container-mobile-3"
-    ],
-    "props": {
-        "blockClass": ["footer__content-col","footer__content-col--mobile-0"],
-        "verticalAlign": "top",
-        "width": "100%"
-    }
-  },
 
   "flex-layout.col#footer-1-box-1":{
     "children": [
@@ -99,17 +88,7 @@
         "width": "100%"
     }
   },
-  "flex-layout.col#footer-1-box-2":{
-    "children": [
-      "rich-text#social-footer"
-    
-    ],
-    "props": {
-        "blockClass": ["footer__content-col","footer__content-col--mobile-2"],
-        "verticalAlign": "top",
-        "width": "100%"
-    }
-  },
+
 
   "rich-text#social-footer":{
     "props": {
@@ -120,16 +99,7 @@
       "blockClass": "footer-sobre"
     }
   },
-  "flex-layout.col#footer-1-box-3":{
-    "children": [
-      "flex-layout.row#powered"
-    ],
-    "props": {
-        "blockClass": ["footer__content-col","footer__content-col--mobile-3"],
-        "verticalAlign": "top",
-        "width": "100%"
-    }
-  },
+
 
   "flex-layout.row#footer-container-1-mobile": {
     "props": {

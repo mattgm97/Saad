@@ -154,6 +154,15 @@
 
 @media (max-width: 760px) {
 
+    .paragraph--copyright__text, .paragraph--powered__image{
+        text-align: center;
+    }
+
+    .paragraph--security__image{
+        margin: 0;
+        padding: 0;
+    }
+
     .paragraph--wppgroup-text {
         font-size: 11px;
     }

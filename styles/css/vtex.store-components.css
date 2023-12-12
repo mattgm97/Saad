@@ -152,6 +152,17 @@
     margin-bottom: 1em;
 }
 
+:global(.vtex-product-list-0-x-productVariationsItem){
+    font-size: 14px;
+font-weight: 700;
+color:#2E1B0D
+}
+
+:global(.vtex-checkout-summary-0-x-summaryTitle),:global(.vtex-checkout-summary-0-x-summaryContent) :global(.vtex-flex-layout-0-x-flexRow){
+    display: none;
+}
+
+
 .skuSelectorContainer {
     display: flex;
     flex-wrap: wrap;
@@ -170,6 +181,10 @@
     background-color: #EFEFEF;
     border-radius: 0px;
     border-color: #EFEFEF;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer){
+    color: #2E1B0D;
 }
 
 .price_sellingPriceContainer--pdp {

@@ -1,28 +1,36 @@
 /*MUDANÇAS DE CSS QUE A LOJA NAO DEIXA FAZER*/
 
 .vtex-product-list-0-x-inputContainer input {
+    color: #2E1B0D;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vtex-product-list-0-x-quantitySelectorIncrease {
+    color: #acd855;
+
+}
+
+.vtex-product-list-0-x-quantitySelectorDecrease {
     color: white;
 }
 
-.vtex-product-list-0-x-inputContainer span {
-    color: white;
-}
-
-.above-header-text{
+.above-header-text {
     color: black;
     text-decoration: none;
 }
 
-.vtex-login-2-x-container .vtex-button{
+.vtex-login-2-x-container .vtex-button {
     background-color: transparent !important;
 }
-.vtex-login-2-x-container .vtex-button .vtex-button__label{
+
+.vtex-login-2-x-container .vtex-button .vtex-button__label {
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 
-.vtex-login-2-x-box{
+.vtex-login-2-x-box {
     right: -84px !important;
 }
 
@@ -31,14 +39,21 @@
     margin-right: 8px;
     position: relative;
     top: 4px;
-  
-  }
+
+}
 
 
 
 
-  .vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle:last-of-type{
+.vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle:last-of-type {
     border-bottom: solid 2px #E0E0E0;
-  }
+}
 
-
+.vtex-product-list-0-x-price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2E1B0D;
+    margin-right: 10px;
+    width: 98px;
+}

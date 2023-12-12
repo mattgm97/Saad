@@ -65,7 +65,8 @@
     "vtex.order-manager": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.product-highlights": "2.x",
-    "vtex.product-availability": "0.x"
+    "vtex.product-availability": "0.x",
+    "vtex.store-video": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

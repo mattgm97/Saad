@@ -103,9 +103,6 @@
 }
 
 
-.container--InstitutionalText {
-    padding-left: 40px;
-}
 
 .image--vtex-icon {
     width: 80px;
@@ -144,6 +141,14 @@
     font-size: 0.75rem;
     text-transform: initial;
     cursor: pointer;
+}
+
+.paragraph--footer-checkout-normal{
+    color:  #2E1B0D;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
 }
 
 @media (max-width: 1300px) {

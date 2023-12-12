@@ -1,0 +1,422 @@
+{
+  "store.custom#institutional-texts": {
+    "blocks": [
+      "image#banners-inst0",
+      "flex-layout.row#instrow1",
+      "video#video-inst-1",
+      "flex-layout.row#instrow2",
+      "flex-layout.row#instrow3",
+      "video#video-inst-2",
+      "flex-layout.row#instrow4",
+      "flex-layout.row#instrow5",
+      "image#banners-inst6",
+      "flex-layout.row#instrow6",
+      "flex-layout.row#instrow7",
+      "flex-layout.row#instrow8"
+    ]
+  },
+
+  "image#banners-inst0": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/087473f3-d8ea-402c-9d11-5095037da6b8___71949c47a95e18fdf51d54815c323bcf.png"
+    }
+  },
+
+  "flex-layout.row#instrow1": {
+    "children": [
+      "flex-layout.col#instrow1-col1",
+      "flex-layout.col#instrow1-col2"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+
+  "flex-layout.col#instrow1-col1": {
+    "children": ["rich-text#text-title-1", "rich-text#text-content-1"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "rich-text#text-title-1": {
+    "title": "Titulo",
+    "props": {
+      "text": "title",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+  "rich-text#text-content-1": {
+    "props": {
+      "text": "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto ",
+      "blockClass": "InstitutionalText"
+    }
+  },
+
+  "flex-layout.col#instrow1-col2": {
+    "children": ["image#banners-inst1"],
+     "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "image#banners-inst1": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+  "video#video-inst-1": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=wygFqZXMIco",
+      "blockClass": "videoEl"
+    }
+  },
+  "flex-layout.row#instrow2": {
+    "children": [
+      "flex-layout.col#instrow2-col1",
+      "flex-layout.col#instrow2-col2"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+  "flex-layout.col#instrow2-col1": {
+    "children": ["image#banners-inst2"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+
+  "image#banners-inst2": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+
+  "flex-layout.col#instrow2-col2": {
+    "children": ["rich-text#text-title-2", "rich-text#text-content-2"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "rich-text#text-title-2": {
+    "title": "Titulo",
+    "props": {
+      "text": "title",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+  "rich-text#text-content-2": {
+    "props": {
+      "text": "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto ",
+      "blockClass": "InstitutionalText"
+    }
+  },
+
+  "flex-layout.row#instrow3": {
+    "children": [
+      "flex-layout.col#instrow3-col1",
+      "flex-layout.col#instrow3-col2"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+  "flex-layout.col#instrow3-col1": {
+    "children": ["rich-text#text-title-3", "rich-text#text-content-3"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "rich-text#text-title-3": {
+    "title": "Titulo",
+    "props": {
+      "text": "title",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+  "rich-text#text-content-3": {
+    "props": {
+      "text": "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto ",
+      "blockClass": "InstitutionalText"
+    }
+  },
+
+  "flex-layout.col#instrow3-col2": {
+    "children": ["image#banners-inst3"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "image#banners-inst3": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+
+  "video#video-inst-2": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=wygFqZXMIco",
+      "blockClass": "videoEl"
+    }
+  },
+  "flex-layout.row#instrow4": {
+    "children": [
+      "flex-layout.col#instrow4-col1",
+      "flex-layout.col#instrow4-col2"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+  "flex-layout.col#instrow4-col1": {
+    "children": ["image#banners-inst4"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "image#banners-inst4": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+  "flex-layout.col#instrow4-col2": {
+    "children": ["image#banners-inst5"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "image#banners-inst5": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+
+  "flex-layout.row#instrow5": {
+    "children": [
+      "flex-layout.col#instrow5-col1"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+  "flex-layout.col#instrow5-col1": {
+    "children": ["rich-text#text-title-4", "rich-text#text-content-4"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "rich-text#text-title-4": {
+    "title": "Titulo",
+    "props": {
+      "text": "title",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+  "rich-text#text-content-4": {
+    "props": {
+      "text": "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto ",
+      "blockClass": "InstitutionalText"
+    }
+  },
+
+  "image#banners-inst6": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/087473f3-d8ea-402c-9d11-5095037da6b8___71949c47a95e18fdf51d54815c323bcf.png"
+    }
+  },
+
+  "flex-layout.row#instrow6": {
+    "children": [
+      "flex-layout.col#instrow6-col1",
+      "flex-layout.col#instrow6-col2"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+  "flex-layout.col#instrow6-col1": {
+    "children": ["image#banners-inst7"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+
+  "image#banners-inst7": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+
+  "flex-layout.col#instrow6-col2": {
+    "children": ["rich-text#text-title-5", "rich-text#text-content-5"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "rich-text#text-title-5": {
+    "title": "Titulo",
+    "props": {
+      "text": "title",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+  "rich-text#text-content-5": {
+    "props": {
+      "text": "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto ",
+      "blockClass": "InstitutionalText"
+    }
+  },
+
+  "flex-layout.row#instrow7": {
+    "children": [
+      "flex-layout.col#instrow7-col1",
+      "flex-layout.col#instrow7-col2"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+
+  "flex-layout.col#instrow7-col1": {
+    "children": ["rich-text#text-title-6", "rich-text#text-content-6"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "rich-text#text-title-6": {
+    "title": "Titulo",
+    "props": {
+      "text": "title",
+      "font": "t-heading-4",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "sectionRichTitle"
+    }
+  },
+  "rich-text#text-content-6": {
+    "props": {
+      "text": "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto ",
+      "blockClass": "InstitutionalText"
+    }
+  },
+
+  "flex-layout.col#instrow7-col2": {
+    "children": ["image#banners-inst8"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "image#banners-inst8": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+
+
+    "flex-layout.row#instrow8": {
+    "children": [
+      "flex-layout.col#instrow8-col1",
+      "flex-layout.col#instrow8-col2"
+    ],
+    "props":{
+        "horizontalAlign":"center",
+        "marginBottom": 8,
+        "marginTop": 8
+    }
+  },
+
+  "flex-layout.col#instrow8-col1": {
+    "children": [ "image#banners-inst9"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+  },
+  "image#banners-inst9": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  },
+
+  "flex-layout.col#instrow8-col2": {
+    "children": ["image#banners-inst10"],
+    "props":{
+        "preventVerticalStretch": true,
+        "paddingLeft":4,
+        "paddingRight":4
+    }
+
+  },
+  "image#banners-inst10": {
+    "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/6c00327e-8521-48ae-a418-f3925bc2a5d3___5508d813a45c5631a44322fe4773df70.png"
+    }
+  }
+
+
+}

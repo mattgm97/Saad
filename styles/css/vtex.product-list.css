@@ -1,14 +1,15 @@
 .inputContainer {
     font-size: 11px;
-    border-color: #53A1EF !important;
+    border-color: #F5F5F5  !important;
     color: white !important;
-    padding-left: 6px;
-    background-color: #53A1EF !important;
+    width: 3.4rem !important;
+    background-color: #F5F5F5  !important;
 }
 
 .quantitySelectorButton {
-    background-color: #53A1EF !important;
-    border-color: #53A1EF !important;
+    background-color: #F5F5F5  !important;
+    border-color: #F5F5F5  !important;
+    padding: 0.15rem;
 }
 
 .productName {
@@ -16,8 +17,10 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    height: 50px;
-    color: #727272;
+    height: 40px;
+    color: #2E1B0D;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .productVariationsContainer{
@@ -28,6 +31,3 @@
 display: none;
 }
 
-.quantitySelectorButton{
-    color: white !important
-}

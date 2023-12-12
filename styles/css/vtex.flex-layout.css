@@ -4,21 +4,23 @@
 
 }
 
-.flexRowContent--topbar-wpp{
-    padding: 0!important;
+.flexRowContent--topbar-wpp {
+    padding: 0 !important;
 }
 
 .flexRow--topbar-wpp {
     background-color: #F1E3B7;
 }
-.flexRow--topbar-wpp :global(.vtex-store-components-3-x-container){
+
+.flexRow--topbar-wpp :global(.vtex-store-components-3-x-container) {
     max-width: 83.125rem;
 }
+
 .flexColChild--orcamento-e-social {
     width: 100%;
 }
 
-.flexRow--footer__copyright{
+.flexRow--footer__copyright {
     background-color: #FFF;
 }
 
@@ -32,7 +34,7 @@
     display: flex;
 }
 
-.flexRowContent--menu-content-area{
+.flexRowContent--menu-content-area {
     background-color: #0054A8;
     padding-right: 1em;
     padding-bottom: 1em;
@@ -43,82 +45,99 @@
     padding: 2rem 0;
 }
 
-.flexRowContent--powered__row{
+.flexRowContent--powered__row {
     align-items: center;
 }
 
-.flexRowContent--buy-area :global(.vtex-button){
+.flexRowContent--buy-area :global(.vtex-button) {
     border-radius: 100px;
     padding: 12px 8px;
-    background-color: #fe5000!important;
+    background-color: #fe5000 !important;
     box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 30%);
 
 }
 
-.flexRowContent--buy-area :global(.vtex-button):hover{
-    background-color: #ff7636!important;
+.flexRowContent--buy-area :global(.vtex-button):hover {
+    background-color: #ff7636 !important;
 
 }
 
-.flexRowContent--buy-area :global(.vtex-button) :global(.vtex-button__label){
+.flexRowContent--buy-area :global(.vtex-button) :global(.vtex-button__label) {
     padding-left: 5em;
     padding-right: 5em;
 }
 
 
-.flexColChild--Institutionaltitleblock1{
+.flexColChild--Institutionaltitleblock1 {
     width: 90%;
     margin-left: -10%;
 }
 
-.flexRowContent--progressive-discount :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--progressive-discount :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     padding-right: 0.3rem;
     padding-left: 0.3rem;
 }
 
 
-.flexRow--mega-menu-container{
+.flexRow--mega-menu-container {
     position: sticky;
     top: 160px;
     z-index: 9999;
 }
 
 
-.flexRow--progressive-discount{
+.flexRow--progressive-discount {
     margin-top: 10px;
 }
 
 
-.flexColChild--copy-container{
+.flexColChild--copy-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.flexColChild--filterMobileCol{
+.flexColChild--filterMobileCol {
     background-color: #BBDF73;
     border-radius: 2px;
 }
 
-.flexRowContent--orderByMobileRow :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--orderByMobileRow :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 48% !important;
 
 }
 
-.flexRowContent--product-second-row{
+.flexRowContent--product-second-row {
     align-items: center;
 }
-.flexRowContent--product-second-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-wish-list-1-x-wishlistIconContainer){
+
+.flexRowContent--product-second-row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     text-align: right;
+}
+
+.flexRow--item-in-cart {
+    border-radius: 4px;
+    border: 1px solid #CCC  ;
+    background: #FFF;
+    margin-top: 8px;
+    padding: 0.3rem;
+    padding-right: 1rem;
+}
+
+.flexRowContent--price-and-quant{
+    display: flex;
+    align-items: center;
 }
 
 
 @media (max-width: 760px) {
 
-    .flexRowContent--buy-area :global(.vtex-button) :global(.vtex-button__label){
+   
+    .flexRowContent--buy-area :global(.vtex-button) :global(.vtex-button__label) {
         padding-left: 3.5em;
         padding-right: 3.5em;
     }
+
     .flexRow--footer__copyright {
         background-color: #FFF;
     }
@@ -126,82 +145,81 @@
     .flexRowContent--powered__row {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
 
-    .flexRowContent--buy-area :global(.vtex-button){
+    .flexRowContent--buy-area :global(.vtex-button) {
         font-size: 12px;
         padding: 3px 0px;
     }
 
-    .flexRowContent--progressive-discount{
-        display: flex;
-    flex-wrap: wrap;
-    }
-
-    .flexRowContent--progressive-discount :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-        width: 32% !important;
-        margin-bottom: 1em;
-        
-    }
-
-    .flexRowContent--orcamentos-points{
+    .flexRowContent--progressive-discount {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .flexRowContent--orcamentos-points :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    .flexRowContent--progressive-discount :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        width: 32% !important;
+        margin-bottom: 1em;
+
+    }
+
+    .flexRowContent--orcamentos-points {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flexRowContent--orcamentos-points :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 50% !important;
     }
 
-    .flexRowContent--security__row{
+    .flexRowContent--security__row {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
-  
+
+
 }
 
 
 @media (min-width: 1125px) {
 
-    .flexRow--title-search--container, :global(.vtex-breadcrumb-1-x-container){
+    .flexRowContent--price-and-quant{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+
+    .flexRow--title-search--container, :global(.vtex-breadcrumb-1-x-container) {
         padding-left: 20%;
     }
 
-    .flexRowContent--product-first-row :global(.vtex-breadcrumb-1-x-container){
+    .flexRowContent--product-first-row :global(.vtex-breadcrumb-1-x-container) {
         padding-left: 0 !important;
     }
+
     :global(.vtex-flex-layout-0-x-flexCol--filterCol) {
-      width: 330px;
+        width: 330px;
     }
 
-    .flexColChild--orcamentoForm{
+    .flexColChild--orcamentoForm {
         box-shadow: 0px 4px 4px 2px rgb(0 0 0 / 25%);
         background-color: #fff;
         border-radius: 5px;
         padding: 2vh 2vw;
         margin-top: 10%;
     }
-    
-    .flexCol--orcamentoForm{
+
+    .flexCol--orcamentoForm {
         margin-left: -100%;
     }
-    
-  }
 
-  @media (min-width: 1300px) and (max-width: 1400px) {
-    .flexRowContent--orcamento-row{
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+    .flexRowContent--orcamento-row {
         padding-left: 1em;
     }
-    
-  }
 
-
-
-
-
-
-
- 
+}

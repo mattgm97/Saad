@@ -1,80 +1,86 @@
 .cartIcon {
-   display: none;
+  display: none;
 }
 
 .minicartIconContainer::after {
   content: url('assets/icons/bag.svg');
 
 }
-.minicartQuantityBadgeDefault{
-    top: -0.8em;
-    right: -0.6rem;
-    padding: 0.015rem;
-    background-color: #B11D2F;
+
+.minicartQuantityBadgeDefault {
+  top: -0.8em;
+  right: -0.6rem;
+  padding: 0.015rem;
+  background-color: #B11D2F;
 }
-  
 
-  
-  :global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
-    background-color: transparent !important;
+
+.minicartProductListContainer {
+  background-color: #F5F5F5;
+}
+
+
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
+  background-color: transparent !important;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.minicartCheckoutButton {
+  position: relative;
+  top: -10px;
+}
+
+.openIconContainer {
+  padding-top: 6px;
+}
+
+
+
+
+
+.closeIconContainer {
+  padding: 8px;
+}
+
+.minicartTitle {
+  font-weight: 400;
+  color: #2E1B0D;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.closeIconButton {
+  position: absolute;
+  right: 83%;
+  padding-bottom: 0;
+  padding-top: 0.8rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .openIconContainer {
+    padding-left: 0px;
   }
-  
-  .minicartCheckoutButton :global(.vtex-button__label) {
-    font-size: 12px;
+
+  .openIconContainer :global(.vtex-button__label) {
+    padding: 0px;
   }
-  
-  .minicartCheckoutButton {
+}
+
+@media screen and (min-width: 768px) {
+
+  :global(.vtex-minicart-2-x-minicartIconContainer)::before {
+    content: "Sacola";
+    color: #000;
     position: relative;
-    top: -10px;
-  }
-
-  .openIconContainer{
-      padding-top: 6px;
-  }
-  
-
-
-
-  
-  .closeIconContainer {
-    padding: 20px;
-  }
-  
-  .minicartTitle {
-    text-transform: uppercase;
-  }
-
-  .closeIconButton{
-    position: absolute;
-    left: 83%;
-    padding-bottom: 0;
-    padding-top: 1.4rem;
-  }
-
-  .minicartCheckoutButton :global(.vtex-button){
-      border-radius: 100px;
-  }
-  
-  @media screen and (max-width: 768px) {
-  
-    .openIconContainer {
-      padding-left: 0px;
-    }
-  
-    .openIconContainer :global(.vtex-button__label) {
-      padding: 0px;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-  
-    :global(.vtex-minicart-2-x-minicartIconContainer)::before{
-        content: "Sacola";
-        color: #000;
-        position: relative;
-        top: 12px;
-        right: -29px;
-        font-size: 0.75rem;
+    top: 12px;
+    right: -29px;
+    font-size: 0.75rem;
     text-transform: initial;
-    }
   }
+}

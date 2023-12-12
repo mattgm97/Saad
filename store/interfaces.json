@@ -8,6 +8,9 @@
   },
   "WishlistButton":{
     "component":"WishlistButton"
+  },
+  "FreteGratisCounter":{
+    "component":"FreteGratisCounter"
   }
 
   

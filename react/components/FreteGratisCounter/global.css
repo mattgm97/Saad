@@ -1,0 +1,59 @@
+/*MUDANÇAS DE CSS QUE A LOJA NAO DEIXA FAZER*/
+
+.vtex-product-list-0-x-inputContainer input {
+    color: #2E1B0D;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vtex-product-list-0-x-quantitySelectorIncrease {
+    color: #acd855;
+
+}
+
+.vtex-product-list-0-x-quantitySelectorDecrease {
+    color: white;
+}
+
+.above-header-text {
+    color: black;
+    text-decoration: none;
+}
+
+.vtex-login-2-x-container .vtex-button {
+    background-color: transparent !important;
+}
+
+.vtex-login-2-x-container .vtex-button .vtex-button__label {
+    padding: 0;
+    margin: 0;
+}
+
+
+.vtex-login-2-x-box {
+    right: -84px !important;
+}
+
+.vtex-product-availability-0-x-lowStockText:first-child::before {
+    content: url('https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/0c3b34ee-1d95-47cf-8a10-b5083928c7bb___3bce782bc093f8e259e60dfc4c05d263.svg');
+    margin-right: 8px;
+    position: relative;
+    top: 4px;
+
+}
+
+
+
+
+.vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle:last-of-type {
+    border-bottom: solid 2px #E0E0E0;
+}
+
+.vtex-product-list-0-x-price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2E1B0D;
+    margin-right: 10px;
+    width: 98px;
+}

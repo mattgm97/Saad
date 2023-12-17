@@ -42,7 +42,7 @@
       }
     },
     "flex-layout.col#minicart-footer": {
-      "children": ["minicart-summary","rich-text#entregas-checkout", "minicart-checkout-button"]
+      "children": ["minicart-summary","rich-text#entregas-checkout","FreteGratisCounter", "minicart-checkout-button"]
     },
     "minicart-product-list": {
       "blocks": ["product-list"]

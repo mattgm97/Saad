@@ -103,7 +103,8 @@
   "product-summary-image": {
     "props": {
       "showBadge": false,
-      "height": 614
+      "height": 1402,
+      "width": 960
     }
   },
 

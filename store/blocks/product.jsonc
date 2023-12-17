@@ -119,6 +119,7 @@
       /*"product-rating-summary",
       "condition-layout.product#personalizada-show-selector",*/
       "product-price#product-details",
+      "PaymentModals",
       "sku-selector",
       /* "product-installments#default",*/
       "add-to-cart-button#pdp",

@@ -408,6 +408,254 @@ color:#2E1B0D
     height: 530px !important;
 }
 
+
+:global(.vtex-store-components-3-x-skuSelectorItemImage){
+    height: 20px;
+    width: 20px;
+}
+
+:global(.vtex-product-summary-2-x-valueWrapper--summarySku){
+    visibility: hidden;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--preto) :global(.vtex-product-summary-2-x-frameAround--summarySku){
+    background-color: black;
+}
+:global(.vtex-product-summary-2-x-skuSelectorItem--azul) :global(.vtex-product-summary-2-x-frameAround--summarySku){
+    background-color: blue;
+}
+:global(.vtex-product-summary-2-x-skuSelectorItem--brownie) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #4E3629;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--oceano) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #253AA6;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--apricot) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #D1A769;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--camel) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #A7866A;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--oliva) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #434030;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--hibisco) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #940F0E;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--creme) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #EBE0C7;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--laguna) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #598ECF;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--canela) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #AC451C;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--alfazema) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #785377;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--acafrao) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #E59211;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--quartzo) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #DEA08E;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--mate) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #8E864D;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--gengibre) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #9D8D81;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--erva-doce) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #A08C60;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--dourado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #DED0A6;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--prata) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #DCE0DA;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--cobre) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #B57B6A;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--bronze) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #9B5C44;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--marine) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #00193B;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--capuccino) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #BBA287;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--chocolate) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #4C3530;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--cor-de-rosa) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #EDA59D;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--damasco) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #c95e30;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--lirio) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #Bacbd3;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--violeta) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #7d6a8f;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--ice) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #b1afba;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--pistache) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #b5bb67;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--vinho) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #801e22;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--camel) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #aa876f;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--marsala) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #395433;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--militar) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #59643b;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--sky) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #9BAAC6;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--violeta2) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #3A2B5C;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--rose) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #FAEEEE;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--ouro-light) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #DED0A6;
+}
+:global(.vtex-product-summary-2-x-skuSelectorItem--apricot) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #D1A769;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--zinco) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #787969;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--luna) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #ffffff;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--opala) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #EFEDEB;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--agata) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #713E13;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--citrino) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #EAC495;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--angelita) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #5A6D8D;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--granada) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #592742;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--hematita) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #493B2E;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--malaquita) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #393D1A;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--rubi) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #CD1807;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--fume) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #8C867A;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--agata-perolado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #AE4B22;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--dourado-perolado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #BA9261;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--jet-perolado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #57514B;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--fume-perolado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #8C867A;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--prata-metalizado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #D9D9D9;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--jet-metalizado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #8C867A;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--dourado-metalizado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #DED0A6;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--granada-metalizado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #94445C;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--peridoto-metalizado) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #B0B867;
+}
+
+:global(.vtex-product-summary-2-x-skuSelectorItem--avela) :global(.vtex-product-summary-2-x-frameAround--summarySku) {
+    background-color: #D6C6AF;
+}
+
+
 @media (max-width: 1300px) {
     .container {
         max-width: 1200px;

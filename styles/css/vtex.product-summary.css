@@ -21,8 +21,8 @@
   border-radius: 100% !important;
 }
 :global(.vtex-product-summary-2-x-skuSelectorItem) :global(.vtex-product-summary-2-x-skuSelectorInternalBox) {
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
 	border-radius: 100%;
 }
 .skuSelectorItem--purple .skuSelectorInternalBox {

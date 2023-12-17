@@ -104,7 +104,11 @@
     "props": {
       "showBadge": false,
       "height": 1402,
-      "width": 960
+      "width": 960,
+      "hoverImage":{
+        "criteria": "label",
+        "label": "label"
+      }
     }
   },
 

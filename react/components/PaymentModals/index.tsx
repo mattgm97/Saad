@@ -21,10 +21,31 @@ const PaymentModals: StorefrontFunctionComponent<ProductAvailableProps> = () => 
 const createContent = (tabstate:number)=> {
   if(tabstate === 2){
 
+    let value = cartaoInfo?.map(el=>(el.Value.toFixed(2).toString().replace(".", ",")))
+    return(
+      <div className="boleto">
+        <p><b>R${value}</b> no boleto bancário</p>
+        <p>
+        O boleto será gerado após a finalização de sua compra. Você pode gerar o boleto com todas as informações necessárias, como valor e data de vencimento. Em seguida, pague o boleto em uma agência bancária, lotérica ou pelo internet banking. Lembre-se de pagar antes da data de vencimento.
+        </p>
+      </div>
+    )
   }
 
   if(tabstate === 3){
-
+    let value = cartaoInfo?.map(el=>(el.Value.toFixed(2).toString().replace(".", ",")))
+    return(
+      <div className="pix">
+        <p><b>R${value}</b> no Pix</p>
+        <p> Desconto de 15% para pagamento à vista já aplicado neste valor.</p>
+        <p>
+        Após a finalização da compra, um QR code será exibido e você poderá pagar com o Pix do seu banco;
+        </p>
+        <p>
+        Não faça deposito ou transferência entre contas a não ser via Pix.
+        </p>
+      </div>
+    )
   }
 
 return(
@@ -95,13 +116,13 @@ return(
    
    <div className="content">
     <ul className='tablist'>
-      <li className={tabstate == 1? "active": ""} onClick={()=>{setTabstate(1)}}>
+      <li className={tabstate == 1? "active": ""} onClick={()=>{setTabstate(1);;setCartao("Visa")}}>
         Cartão de crédito
       </li>
-      <li className={tabstate == 2? "active": ""} onClick={()=>{setTabstate(2)}}>
+      <li className={tabstate == 2? "active": ""} onClick={()=>{setTabstate(2);setCartao("Boleto") }}>
         Boleto bancário
       </li>
-      <li className={tabstate == 3? "active": ""} onClick={()=>{setTabstate(3)}}>
+      <li className={tabstate == 3? "active": ""} onClick={()=>{setTabstate(3);setCartao("Pix")}}>
         Pix
       </li>
     </ul>

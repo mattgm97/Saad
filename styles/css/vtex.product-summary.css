@@ -27,7 +27,9 @@
 .skuSelectorItem--purple .skuSelectorInternalBox {
 	background-image: url('https://samsungbr.vteximg.com.br/arquivos/purpura.jpg');
 }
-
+.imageStackContainer{
+  background: #fff !important;
+}
 
   .containerNormal :global(.vtex-button) {
     margin: 0 auto;

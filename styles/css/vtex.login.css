@@ -1,14 +1,34 @@
-.label::after {
-  content: url('assets/icons/user.svg');
 
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-header-home, :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-login-2-x-label::after) {
+  content: url('assets/icons/newlogin.svg');
 }
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-menu-normal, :global(.vtex-login-2-x-label::after){
+  content: url('assets/icons/user.svg');
+}
+
+
+
+
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-header-home, :global(.vtex-login-2-x-label::before){
+  color: #fff;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-menu-normal, :global(.vtex-login-2-x-label::before){
+  content: "Login";
+  color: #000;
+  position: relative;
+  top: 13px;
+  right: -29px;
+  font-size: 0.75rem;
+  text-transform: initial;
+}
+
 .label{
   font-size: 0px;
   margin-top: -6px;
 }
-
-
-
 
 .vtex-login-2-x-container {
   width: 4rem;
@@ -20,20 +40,3 @@
     font-size: 20px;
   color: #515151;
   }
-
-  @media (min-width: 1200px) {
-    .label::before {
-      content: "Login";
-      color: #000;
-      position: relative;
-      top: 13px;
-      right: -29px;
-      font-size: 0.75rem;
-    text-transform: initial;
-    
-    }
-
-   
-
-
-}

@@ -169,7 +169,7 @@
     ],
     "props": {
       "sticky": true,
-      "blockClass": "main-header"
+      "blockClass": "main-header-home"
     }
   },
 
@@ -390,6 +390,7 @@
       "showIconProfile": true,
       "iconLabel": "",
       "labelClasses": "login__header",
+  
       
       "accountOptionLinks":[
         {

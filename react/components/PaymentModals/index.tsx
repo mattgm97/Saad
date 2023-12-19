@@ -45,7 +45,7 @@ const createContent = (tabstate:number)=> {
         Não faça deposito ou transferência entre contas a não ser via Pix.
         </p>
       </div>
-    )
+    ) 
   }
 
 return(

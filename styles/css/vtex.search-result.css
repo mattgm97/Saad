@@ -9,10 +9,10 @@
 }
 
 .galleryTitle--layout{
-color:#515151;
-font-size: 22px;
-text-transform: uppercase;
-margin-bottom: 2em;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    color:#2E1B0D;
 }
 .filter__container{
     border:none
@@ -42,8 +42,10 @@ margin-bottom: 2em;
     background-color: white;
   }*/
   .filterTitleSpan{
-      text-transform: uppercase;
-      color: #515151;
+    color: #2E1B0D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
   }
 
  
@@ -80,7 +82,7 @@ margin-bottom: 2em;
         border-bottom: 1px solid #E0E0E0;
       }
       :global(.vtex-search-result-3-x-totalProducts--layout){
-        width: 40%;
+        width: 54%;
       }
   }
 

@@ -14,7 +14,7 @@
 
 .containerNormal{
   transition: 0.3s all;
-  max-width: 360px !important;
+  max-width: 355px !important;
 }
 
 :global(.vtex-product-summary-2-x-frameAround--summarySku){
@@ -76,9 +76,31 @@ padding: 0;
     .containerNormal :global(.vtex-button) {
         display: none;
       }
-    
+      .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+        margin-top: 3em;
+        margin-left: 16rem;
+      }
 
 }
+
+@media (min-width: 1000px) and (max-width: 1400px){
+
+    .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+      margin-top: 3em;
+      margin-left: 8rem;
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1800px){
+
+  .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+    margin-top: 3em;
+    margin-left: 10rem;
+  }
+
+}
+
 
  
 

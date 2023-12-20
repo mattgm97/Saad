@@ -130,18 +130,30 @@
     ],
     "props": {
       "blockClass": ["filter-and-content"],
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "fullWidth": true
     }
   },
   "flex-layout.col#filter": {
     "children": [
+      "rich-text#filter",
       "filter-navigator.v3"
     ],
     "props": {
       "blockClass": "filterCol",
       "width": "30%",
-      "paddingLeft": 5
+      "paddingLeft": 5,
+      "preventVerticalStretch":true
+    }
+  },
+
+  "rich-text#filter": {
+    "props": {
+      "text": "Filtros",
+      "font": "t-heading-5",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "filtros"
     }
   },
   "flex-layout.col#content": {
@@ -282,7 +294,8 @@
   "filter-navigator.v3": {
     "props": {
       "initiallyCollapsed": true,
-      "navigationTypeOnMobile":"collapsible"
+      "navigationTypeOnMobile":"collapsible",
+      "scrollToTop":"smooth"
 
     }
   },
@@ -370,7 +383,8 @@
     ],
     "props": {
       "itemsPerRow": {
-        "desktop": 4,
+        "desktop": 3,
+        "tablet": 2,
         "mobile": 2
       }
     }

@@ -150,10 +150,25 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
 }
+.wrapper--filtros{
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+}
 
-@media (max-width: 1300px) {
+.paragraph--filtros{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    color: #292929;
+}
+
+@media (max-width: 1450px) {
     .paragraph--wppgroup-text {
         font-size: 13px;
+    }
+
+    .wrapper--sellerConditionCard {
+        min-height: 192px;
     }
 }
 

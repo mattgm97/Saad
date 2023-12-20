@@ -11,6 +11,7 @@ color: black
     color: black !important;
 }
 
+
 .styledLinkContent--contacts-menu-footer {
     color: #808080;
 }
@@ -37,7 +38,7 @@ color: black
     margin-top: 10px;
 }
 
-.menuContainerNav--footer-accordion {
+.--footer-accordion {
     border: solid white;
     border-width: 0px 0px;
 }
@@ -47,7 +48,9 @@ color: black
 }
 
 
-
+.-menuContainerNav--category-menu-mobile{
+    margin-top: 1em;
+}
 :global(.vtex-menu-2-x-menuItemInnerDiv--linkList-footer-toggle) {
 
     border-top: solid 2px #E0E0E0;
@@ -110,8 +113,13 @@ color: black
 
 @media (max-width: 760px) {
     .styledLinkContent--submenu {
-        font-size: 18px;
-        color: white
+        color: var(--Cor-de-Texto-Cinza-Escuro---400, #777);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 19.2px */
+        
     }
 
     .styledLinkContainer--submenu--inst {
@@ -153,6 +161,31 @@ color: black
         border: solid 3px #ED6F00;
         color: #ED6F00;
         margin-bottom: 0.3em;
+    }
+    .styledLinkContent--mob__toplevel1{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    align-items: center;
+    height: 50px;
+    margin-left: -23px;
+    }
+    .accordionIcon--mob__toplevel1{
+        font-size: 0;
+        margin-right: -33px;
+    }
+    .accordionIcon--mob__toplevel1::after{
+        content: url("assets/icons/setaMenuMobile.png");
+        height: 50px;
+        display: block;
+    }
+    .menuItem--mob__toplevel1{
+        border: 1px solid #F5F5F5;
+        border-left: 0;
+        border-right: 0;
     }
     
 }

@@ -32,7 +32,7 @@
             "href": "/acessorios",
             "noFollow": true,
             "tagTitle": "ACESSÓRIOS",
-            "text": "ACESSÓRIOS"
+            "text": "Acessórios"
         }
     },
     "blocks": [
@@ -65,7 +65,7 @@
             "href": "#",
             "noFollow": true,
             "tagTitle": "CALÇADOS",
-            "text": "CALÇADOS"
+            "text": "Calçados"
         }
     },
     "blocks": [
@@ -95,7 +95,7 @@
             "href": "#",
             "noFollow": true,
             "tagTitle": "CRIANÇAS",
-            "text": "CRIANÇAS"
+            "text": "Crianças"
         }
     },
     "blocks": [
@@ -126,7 +126,7 @@
             "href": "#",
             "noFollow": true,
             "tagTitle": "HOMENS",
-            "text": "HOMENS"
+            "text": "Homens"
         }
     },
     "blocks": [
@@ -158,7 +158,7 @@
             "href": "#",
             "noFollow": true,
             "tagTitle": "MARCAS",
-            "text": "MARCAS"
+            "text": "Marcas"
         }
     },
     "blocks": [
@@ -190,7 +190,7 @@
             "href": "#",
             "noFollow": true,
             "tagTitle": "MULHERES",
-            "text": "MULHERES"
+            "text": "Mulheres"
         }
     },
     "blocks": [
@@ -221,7 +221,7 @@
             "href": "#",
             "noFollow": true,
             "tagTitle": "ROUPAS",
-            "text": "ROUPAS"
+            "text": "Roupas"
         }
     },
     "blocks": [
@@ -253,7 +253,7 @@
             "href": "/pecas-unicas",
             "noFollow": true,
             "tagTitle": "PEÇAS ÚNICAS",
-            "text": "PEÇAS ÚNICAS"
+            "text": "Peças únicas"
         }
     }
 },
@@ -272,7 +272,7 @@
             "href": "/outlet",
             "noFollow": true,
             "tagTitle": "OUTLET",
-            "text": "OUTLET"
+            "text": "Outlet"
         }
     }
 }

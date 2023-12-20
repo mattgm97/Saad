@@ -484,7 +484,8 @@ color:#2E1B0D
     }
 
     :global(.vtex-login-2-x-label) {
-        color: white;
+        font-size: 12px;
+        color: #BBDF73;
         display: block;
     }
 

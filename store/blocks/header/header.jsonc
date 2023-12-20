@@ -283,7 +283,7 @@
   /* MOBILE */
   "header-layout.mobile": {
     // "children": ["header-row#1-mobile", "header-row#2mobile"]
-    "children": ["slider-layout#topbar-slider","header-row#1-mobile"/*, "header-row#2mobile"*/]
+    "children": ["slider-layout#topbar-slider","header-row#1-mobile"]
   },
   "header-row#1-mobile": {
     "children": [
@@ -292,7 +292,7 @@
       "logo#mobile",
       "header-spacer",
       "search-btn",
-      "login",
+      "login#loginmobile",
       "WishlistButton",
       "minicart.v2"
     ],
@@ -301,12 +301,7 @@
       "blockClass": "main-header-mobile"
     }
   },
-  "header-row#2mobile": {
-    "children": ["search-bar"],
-    "props": {
-      "blockClass": "main-header-mobile-search-box"
-    }
-  },
+   
   "drawer#search-bar": {
     "children": ["search-bar"],
     "blocks": ["drawer-trigger#search-bar"],
@@ -334,21 +329,60 @@
   },
   "drawer#menu-mobile": {
     "children": [
-      "login#mob"
+      "login#mob",
+      "flex-layout.row#top-header-mobile",
+      "flex-layout.row#drawer"
+     
     ],
     "props": {
       "blockClass": "menu-mobile"
     }
   },
+  
+  
+  "rich-text#favories-mobile": {
+    "props": {
+      "text": "<a class='favoritos-mob' href='/wishlist'>Favoritos</a>",
+      "blockClass": "icon-with-text-mobile"
+    }
+  },
+  "rich-text#meus-pedidos-mobile": {
+    "props": {
+      "text": "<a class='above-header-text' href='/account#/orders'>Meus Pedidos</a>",
+      "blockClass":"meus-pedidos-mobile"
+    }
+  },
 
-
-
+  "rich-text#meus-troca-devolu-mobile": {
+    "props": {
+      "text": "<a class='troca-devolu' href='/'>Troca e devolução</a>",
+      "blockClass":"troca-devolu-mobile"
+    }
+  },
+  "rich-text#meus-manual-bolsas-mobile": {
+    "props": {
+      "text": "<a class='troca-devolu' href='/'>Manual da Bolsa</a>",
+      "blockClass":"manual-bolsas-mobile"
+    }
+  },
   /*   "drawer": {
           "children": ["flex-layout.row#drawer"],
           "props": {
               "isFullWidth": true
           }
       }, */
+
+    "flex-layout.row#top-header-mobile": {
+      "children": [   
+        "rich-text#meus-pedidos-mobile",
+        "rich-text#favories-mobile",
+        "rich-text#meus-troca-devolu-mobile",
+        "rich-text#meus-manual-bolsas-mobile"
+      ],
+      "props": {
+        "blockClass": "top-header-mobile"
+      }
+    },
   "flex-layout.row#drawer": {
     "children": [
       "vtex.menu@2.x:menu#category-menu-01--mob"
@@ -392,6 +426,30 @@
       "labelClasses": "login__header",
   
       
+      "accountOptionLinks":[
+        {
+          "label": "Meus Dados",
+          "path":"/account"
+        },
+        {
+          "label": "Meus Pedidos",
+          "path":"/account#/orders"
+        },
+        {
+          "label": "Alterar senha",
+          "path":"/account#/authentication"
+        }
+      ]
+    }
+  },
+  "login#loginmobile": {
+    "props": {
+      //"optionsTitle": "Elija una de las opciones para confirmar su identidad",
+      // "providerPasswordButtonLabel": "Ingresar con mail y contraseña",
+      "showIconProfile": true,
+      "iconLabel": "",
+      "labelClasses": "login__header",
+      "blockClass": "loginmobile",
       "accountOptionLinks":[
         {
           "label": "Meus Dados",

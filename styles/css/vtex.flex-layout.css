@@ -88,6 +88,15 @@
     z-index: 9999;
 }
 
+.flexRowContent--top-header-mobile{
+display: grid;
+column-gap: 25px;
+grid-template-columns: auto auto;
+justify-content: center;
+}
+.flexRowContent--drawer__options{
+    justify-content: center;
+}
 
 .flexRow--progressive-discount {
     margin-top: 10px;

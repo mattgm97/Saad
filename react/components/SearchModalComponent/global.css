@@ -36,3 +36,9 @@
         display: none;
     }
 }
+@media (max-width:720px){
+    .search-container{
+        top: 3em;
+    }
+    
+}

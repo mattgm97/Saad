@@ -83,7 +83,64 @@
     border-radius: 2px;
     color: #ED6F00;
 }
+.container--icon-with-text-mobile::before{
+ content: url("assets/icons/favoritosmobile.svg");
+ width: 100%;
+ display: block;
+ text-align: center;
+ padding-top: 8px;
 
+}
+.container--meus-pedidos-mobile::before{
+    content: url("assets/icons/pedidosmobile.svg");
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+.container--troca-devolu-mobile::before{
+    content: url("assets/icons/trocamobile.svg");
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+.container--manual-bolsas-mobile::before{
+    content: url("assets/icons/manuelMob.svg");
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.container--manual-bolsas-mobile{
+    border-radius: var(--Number-2, 4px);
+    border: 1px solid var(--Cor-Neutra-Clara-Cinza-Medio, #E0E0E0);
+    display: block;
+    width: 130px !important;
+    margin-bottom: 5px;
+}
+.container--troca-devolu-mobile{
+    border-radius: var(--Number-2, 4px);
+    border: 1px solid var(--Cor-Neutra-Clara-Cinza-Medio, #E0E0E0);
+    display: block;
+    width: 130px !important;
+    margin-bottom: 5px;
+}
+.container--icon-with-text-mobile{
+    border-radius: var(--Number-2, 4px);
+    border: 1px solid var(--Cor-Neutra-Clara-Cinza-Medio, #E0E0E0);
+    display: block;
+    width: 130px !important;
+    margin-bottom: 5px;
+}
+.container--meus-pedidos-mobile{
+    border-radius: var(--Number-2, 4px);
+    border: 1px solid var(--Cor-Neutra-Clara-Cinza-Medio, #E0E0E0);
+    display: block;
+    width: 130px !important;
+    margin-bottom: 5px;
+}
 .paragraph--menu-institucional-dropdown {
     margin: 10px;
     font-size: 16px;
@@ -158,6 +215,46 @@ font-weight: 400;
 }
 
 @media (max-width: 760px) {
+    .paragraph--manual-bolsas-mobile{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 0;
+    }
+    .paragraph--troca-devolu-mobile{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 0;
+    }
+    .paragraph--icon-with-text-mobile{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 0;
+    }
+    .paragraph--meus-pedidos-mobile{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 0;
+    }
 
     .paragraph--copyright__text, .paragraph--powered__image{
         text-align: center;
@@ -180,6 +277,7 @@ font-weight: 400;
 
     .wrapper--carousel-text :global(.vtex-rich-text-0-x-paragraph){
         text-align: center;
+        font-size: 12px;
     }
 
     

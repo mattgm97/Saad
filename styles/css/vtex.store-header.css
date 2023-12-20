@@ -53,6 +53,7 @@
   top: 0 !important;
 }*/
 
+
 :global(.vtex-store-header-2-x-headerStickyRow--main-menu) {
   height: 46px;
   background-color: rgba(0,0,0,0.15);
@@ -138,6 +139,9 @@
   .headerStickyRow--main-header-home-mobile {
     border-top: solid 4px #FFF;
     padding-bottom: 0.2em;
+  }
+   :global(.vtex-store-components-3-x-logoImage){
+   width: 80%;
   }
 }
 

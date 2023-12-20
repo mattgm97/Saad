@@ -24,6 +24,30 @@
   font-size: 0.75rem;
   text-transform: initial;
 }
+@media (max-width: 760px) {
+  :global(.vtex-login-2-x-label::before){
+    display: none;
+  }
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) .headerRowBackground--main-menu-normal, :global(.vtex-login-2-x-label::after){
+    display: none;
+  }
+  .vtex-login-2-x-buttonLink {
+    border-bottom: 1px solid var(--Cor-Neutra-Clara-Cinza-Escuro, #CCC);
+        height: 33px;
+    margin-bottom: 15px;
+}
+:global(.vtex-store-header-2-x-headerStickyRow--main-menu), :global(.vtex-login-2-x-buttonLink::after) {
+  content: url('assets/icons/user.svg');
+}
+
+:global(.vtex-store-header-2-x-headerStickyRow--main-menu), :global(.vtex-login-2-x-label) {
+  font-size: 0;
+}
+  :global(.vtex-store-drawer-0-x-menuIcon--menu-mobile), :global(.vtex-login-2-x-buttonLink::after){
+    display: none;
+  }
+}
+
 
 .label{
   font-size: 0px;

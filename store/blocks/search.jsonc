@@ -130,7 +130,7 @@
     ],
     "props": {
       "blockClass": ["filter-and-content"],
-      "preventHorizontalStretch": false,
+      "preventHorizontalStretch": true,
       "fullWidth": true
     }
   },
@@ -383,7 +383,7 @@
     ],
     "props": {
       "itemsPerRow": {
-        "desktop": 3,
+        "desktop": 4,
         "tablet": 2,
         "mobile": 2
       }

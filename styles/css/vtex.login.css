@@ -43,9 +43,7 @@
 :global(.vtex-store-header-2-x-headerStickyRow--main-menu), :global(.vtex-login-2-x-label) {
   font-size: 0;
 }
-  :global(.vtex-store-drawer-0-x-menuIcon--menu-mobile), :global(.vtex-login-2-x-buttonLink::after){
-    display: none;
-  }
+
 }
 
 

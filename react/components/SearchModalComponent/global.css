@@ -38,7 +38,7 @@
 }
 @media (max-width:720px){
     .search-container{
-        top: 3em;
+        top: 3em !important;
     }
     
 }

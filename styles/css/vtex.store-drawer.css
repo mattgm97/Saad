@@ -25,3 +25,7 @@
 .openIconContainer--menu-mobile {
     padding-right: 16px;
 }
+
+:global(.vtex-store-header-2-x-headerStickyRow--main-header-mobile) :global(.vtex-store-drawer-0-x-openIconContainer--menu-mobile){
+    filter: brightness(0);
+  }

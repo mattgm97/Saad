@@ -35,10 +35,10 @@
 
 
 :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-components-3-x-logoImage),:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-drawer-0-x-openIconContainer--menu-mobile){
-  filter: brightness(0)
+  filter: brightness(0) !important
 }
 
-:global(.vtex-store-drawer-0-x-openIconContainer--menu-mobile){
+:global(.vtex-store-header-2-x-headerStickyRow--main-header-mobile-home) :global(.vtex-store-drawer-0-x-openIconContainer--menu-mobile){
   filter: none;
 }
 

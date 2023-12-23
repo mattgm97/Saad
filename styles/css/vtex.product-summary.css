@@ -71,13 +71,11 @@ padding: 0;
 
 
   @media (max-width: 1000px) {
-    .containerNormal :global(.vtex-button) {
-        display: none;
-      }
+    
 
       .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
         margin-top: 3em;
-        margin-left: 16rem;
+        margin-left: 7rem;
       }
       .imageStackContainer{
   background: #EDE2D04D !important;

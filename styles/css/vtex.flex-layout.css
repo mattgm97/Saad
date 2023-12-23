@@ -10,7 +10,20 @@
 
 .flexRow--topbar-wpp {
     background-color: #F1E3B7;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
+
+.flexRowContent--top-header-mobile{
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    }
+    .flexRowContent--drawer__options{
+        justify-content: center;
+    }
 
 .flexRow--topbar-wpp :global(.vtex-store-components-3-x-container) {
     max-width: 83.125rem;

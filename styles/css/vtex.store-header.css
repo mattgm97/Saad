@@ -6,6 +6,7 @@
   margin: auto;
 }
 
+
  .headerRowContentContainer--main-header {
   padding: 0;
   top: 0;
@@ -34,7 +35,6 @@
 
 
 :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-components-3-x-logoImage){
-  
   filter: brightness(0)
 }
 
@@ -49,9 +49,10 @@
 }
 
 
-/*.headerStickyRow--main-header {
+/*.headerStickyRow--main-header-home {
   top: 0 !important;
 }*/
+
 
 :global(.vtex-store-header-2-x-headerStickyRow--main-menu) {
   height: 46px;
@@ -125,7 +126,7 @@
   color: #000 !important;
 }
 
-.headerStickyRow--main-header-mobile {
+.headerStickyRow--main-header-home-mobile {
   padding: 0px 15px;
   background-color: #FFFF;
 }
@@ -135,8 +136,13 @@
 }
 
 @media (max-width: 760px) {
-  .headerStickyRow--main-header-mobile {
+  .headerStickyRow--main-header-home-mobile {
     border-top: solid 4px #FFF;
     padding-bottom: 0.2em;
   }
+   :global(.vtex-store-components-3-x-logoImage){
+   width: 80%;
+  }
 }
+
+

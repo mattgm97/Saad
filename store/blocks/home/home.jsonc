@@ -14,7 +14,8 @@
       "responsive-layout.mobile#middlesite",
       "rich-text#Lancamentos",
       "list-context.product-list#Lancamentos",
-      "flex-layout.row#banners-home",
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home",
       "rich-text#Emdestaque",
       "list-context.product-list#Emdestaque",
       "info-card#home2",
@@ -278,7 +279,22 @@
     }
   },
  
-
+  "responsive-layout.desktop#home": {
+    "children": ["flex-layout.row#banners-home"]
+  },
+ 
+  "responsive-layout.mobile#home": {
+    "children": ["flex-layout.row#banners-home-mob"]
+  },
+  "flex-layout.row#banners-home-mob": {
+    "children": [
+      "flex-layout.col#banners-home-mob"
+    ]
+ 
+  },
+  "flex-layout.col#banners-home-mob": {
+    "children": ["image#banners-home1", "rich-text#bolsadecouro", "list-context.product-list#bolsadecouro"]
+  },
  
   "flex-layout.row#banners-home": {
     "children": [
@@ -296,6 +312,8 @@
       "colGap": 0
     }
   },
+
+
 
   "flex-layout.col#banners-home1": {
     "children": ["image#banners-home1"],

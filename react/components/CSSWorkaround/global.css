@@ -57,3 +57,11 @@
     margin-right: 10px;
     width: 98px;
 }
+
+.troca-devolu, .above-header-text, .favoritos-mob{
+    text-decoration: none !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2E1B0D;
+}

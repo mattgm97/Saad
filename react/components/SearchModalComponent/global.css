@@ -30,4 +30,17 @@
     .searchCustom .textDescription{
         display: none;
     }
+    .search-container{
+        top: 3em !important;
+    }
+    
+}
+
+
+@media (max-width: 1000px) {
+    .searchCustom{
+      
+        margin-top: 0px;
+    }
+    
 }

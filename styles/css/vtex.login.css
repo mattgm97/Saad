@@ -1,10 +1,6 @@
-.label::after {
-  content: url('assets/icons/user.svg');
 
-}
 .label{
-  font-size: 0px;
-  margin-top: -6px;
+  font-size: 0px; 
 }
 
 
@@ -22,6 +18,10 @@
   }
 
   @media (min-width: 1200px) {
+    .label::after {
+      content: url('assets/icons/user.svg');
+    
+    }
     .label::before {
       content: "Login";
       color: #000;
@@ -34,6 +34,21 @@
     }
 
    
+
+
+}
+
+
+@media (max-width: 1199px) {
+  .label::before {
+    content: url('assets/icons/user.svg');
+  
+  }
+
+  
+
+
+ 
 
 
 }

@@ -24,7 +24,7 @@
 
 .slideChildrenContainer--slider-shelf--default, .slideChildrenContainer--cat-rectangle-slider{
     margin-top: 1em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 .slideChildrenContainer--cat-rectangle-slider{
@@ -39,6 +39,9 @@
 @media screen and (max-width: 768px) {
     .slide--slider-shelf--default{
         margin: 0px 10px;
+    }
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainCarousel){
+        margin-top: -4.2rem;
     }
 }
 @media screen and (min-width: 768px) {

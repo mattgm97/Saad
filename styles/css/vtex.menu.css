@@ -109,6 +109,10 @@ color: black
   }*/
 
 @media (max-width: 760px) {
+    .styledLinkContent--department-menu{
+        font-size: 16px;
+        color: #777777
+    }
     .styledLinkContent--submenu {
         font-size: 18px;
         color: white

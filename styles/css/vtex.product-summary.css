@@ -14,15 +14,13 @@
 
 .containerNormal{
   transition: 0.3s all;
-  max-width: 355px !important;
 }
 
 :global(.vtex-product-summary-2-x-frameAround--summarySku){
   border-radius: 100% !important;
 }
 :global(.vtex-product-summary-2-x-skuSelectorItem) :global(.vtex-product-summary-2-x-skuSelectorInternalBox) {
-	width: 20px;
-	height: 20px;
+
 	border-radius: 100%;
 }
 .skuSelectorItem--purple .skuSelectorInternalBox {
@@ -76,19 +74,24 @@ padding: 0;
     .containerNormal :global(.vtex-button) {
         display: none;
       }
+
       .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
         margin-top: 3em;
         margin-left: 16rem;
       }
+      .imageStackContainer{
+  background: #EDE2D04D !important;
+}
+    
 
 }
 
 @media (min-width: 1000px) and (max-width: 1400px){
 
-    .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
-      margin-top: 3em;
-      margin-left: 8rem;
-    }
+  .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+    margin-top: 3em;
+    margin-left: 8rem;
+  }
 
 
 
@@ -96,10 +99,10 @@ padding: 0;
 
 @media (min-width: 1400px) and (max-width: 1800px){
 
-  .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
-    margin-top: 3em;
-    margin-left: 11rem;
-  }
+.containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+  margin-top: 3em;
+  margin-left: 11rem;
+}
 
 }
 
@@ -107,17 +110,14 @@ padding: 0;
 
 @media (min-width: 1000px) and (max-width: 1450px){
 
-  .containerNormal{
-    transition: 0.3s all;
-    max-width: 232px !important;
-  }
-
-
-
+.containerNormal{
+  transition: 0.3s all;
+  max-width: 232px !important;
 }
 
 
 
+}
 
  
 

@@ -4,7 +4,7 @@
   },
 
   "header#home": {
-    "blocks": ["header-layout.desktop#home", "header-layout.mobile"]
+    "blocks": ["header-layout.desktop#home", "header-layout.mobile#home"]
   },
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
@@ -281,9 +281,52 @@
 
 
   /* MOBILE */
+
+
+  "header-layout.mobile#home": {
+    // "children": ["header-row#1-mobile", "header-row#2mobile"]
+    "children": ["slider-layout#topbar-slider","sticky-layout.stack-container#headerNormal-mob"]
+  },
+
+  "sticky-layout.stack-container#headerNormal-mob":{
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "sticky-layout#links-menu-mobile"
+    ]
+  },
+
+  "sticky-layout#links-menu-mobile":{
+    "children":[
+      "header-row#1-mobile-home"
+      
+  ]
+  },
+
   "header-layout.mobile": {
     // "children": ["header-row#1-mobile", "header-row#2mobile"]
     "children": ["slider-layout#topbar-slider","header-row#1-mobile"]
+  },
+
+  "header-row#1-mobile-home": {
+    "children": [
+      "CSSWorkaround",
+      "drawer#menu-mobile",
+      "logo#mobilehome",
+      "header-spacer",
+      "search-btn",
+      "header-spacer",
+      "login#loginmobile",
+      "header-spacer",
+      "WishlistButton",
+      "header-spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": ["main-header-mobile","main-header-mobile-home"]
+    }
   },
   "header-row#1-mobile": {
     "children": [
@@ -292,8 +335,11 @@
       "logo#mobile",
       "header-spacer",
       "search-btn",
+      "header-spacer",
       "login#loginmobile",
+      "header-spacer",
       "WishlistButton",
+      "header-spacer",
       "minicart.v2"
     ],
     "props": {
@@ -336,7 +382,7 @@
     "children": [
       "login#mob",
       "flex-layout.row#top-header-mobile",
-      "flex-layout.row#drawer"
+      "vtex.menu@2.x:menu#category-menu-01--mob"
     ],
     "props": {
       "blockClass": "menu-mobile"
@@ -403,8 +449,9 @@
     "props": {
       //"optionsTitle": "Elija una de las opciones para confirmar su identidad",
       // "providerPasswordButtonLabel": "Ingresar con mail y contraseña",
+      "blockClass":"loginInside",
       "showIconProfile": true,
-      "mirrorTooltipToRight": true,
+      "mirrorTooltipToRight": false,
       "iconLabel": "ENTRE OU CADASTRE-SE",
       "labelClasses": "login__header"
       /* "accountOptionLinks": [
@@ -475,6 +522,14 @@
       // "title": "Logo",
       "href": "/",
       "url": "assets/icons/logoDark.svg",
+      "width": "144"
+    }
+  },
+  "logo#mobilehome": {
+    "props": {
+      // "title": "Logo",
+      "href": "/",
+      "url": "assets/icons/logo.svg",
       "width": "144"
     }
   },

@@ -1,0 +1,158 @@
+{
+    "store.custom#clubesaad": {
+      "blocks": [
+        "image#clubemage",
+        "flex-layout.row#mainrow"
+      ]
+    },
+    "image#clubemage": {
+        "props": {
+            "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/a763309a-ac75-4b00-9256-bc12a9980e24___f1405fbe6a5b451db4c69bed424c5961.png",
+            "maxHeight": 242
+        }
+    },
+    "flex-layout.row#mainrow": {
+        "children": [
+          "flex-layout.col#mainrow-col1",
+          "flex-layout.col#mainrow-col2"
+        ],
+        "props":{
+            "horizontalAlign":"center",
+            "marginBottom": 8,
+            "marginTop": 8
+        }
+      },
+    
+      "flex-layout.col#mainrow-col1": {
+        "children": ["rich-text#text-title-clube", "rich-text#text-content-clube", "rich-text#text-content2-clube"],
+        "props":{
+            "preventVerticalStretch": true,
+            "paddingLeft":4,
+            "paddingRight":4
+        }
+      },
+      "rich-text#text-title-clube": {
+        "title": "Cadastre-se ",
+        "props": {
+          "text": "title",
+          "font": "t-heading-3",
+          "textPosition": "LEFT",
+          "textAlign": "LEFT",
+          "blockClass": "sectionRichTitleClube"
+        }
+      },
+      "rich-text#text-content-clube": {
+        "props": {
+          "text": "E tenha Acesso Exclusivo a Ofertas Incríveis em Bolsas Femininas e Muito Mais",
+          "blockClass": "InstitutionalText"
+        }
+      },
+      "rich-text#text-content2-clube": {
+        "props": {
+          "text": "Vantagens Clube Saad \n\n * Grupo VIP no whatsapp \n\n * 10% OFF no mês do seu aniversário \n\n* Presente exclusivo da SAAD na primeira compra\n\n* CASHBACK de 15% para resgatar em sua segunda compra\n\n* ENTREGA EXPRESSA: São Paulo capital e demais cidades e estados que sejam atendidos pelo serviço de Sedex10 e Sedex12 da empresa correios",
+          "blockClass": "InstitutionalText"
+        }
+      },
+    
+      "flex-layout.col#mainrow-col2": {
+        "children": ["form#clube"],
+         "props":{
+            "preventVerticalStretch": true,
+            "paddingLeft":4,
+            "paddingRight":4
+        }
+      },
+      "form#clube":{
+        "props": {
+            "entity": "CB",
+            "schema": "clubesaad"
+          },
+    "children": [
+        "flex-layout.row#-clube1",
+      "flex-layout.row#-clube2",
+      "form-submit"
+    ],
+    "blocks": ["form-success#clube"]
+
+      },
+
+      "flex-layout.row#-clube1":{
+        "children": [
+           "form-input.radiogroup#feminino",
+           "form-input.radiogroup#masculino",
+           "form-input.radiogroup#outro"
+          ],
+          "props":{
+              "horizontalAlign":"center"
+          }
+      },
+      "form-input.radiogroup#feminino":{
+        "props": {
+            "pointer": "#/properties/type",
+            "label": "Feminino"
+          }
+      },
+      "form-input.radiogroup#masculino":{
+        "props": {
+            "pointer": "#/properties/type",
+            "label": "Masculino"
+          }
+      },
+      "form-input.radiogroup#outro":{
+        "props": {
+            "pointer": "#/properties/type",
+            "label": "Outro"
+          }
+      },
+
+      "flex-layout.row#-clube2":{
+        "children": [
+            "flex-layout.col#clube2"
+          ],
+          "props":{
+              "horizontalAlign":"center"
+          }
+      },
+
+      "flex-layout.col#clube2":{
+        "children": ["form-input.text#nomeclube","form-input.text#emailclube","form-input.text#telefoneclube"],
+        "props":{
+           "preventVerticalStretch": true
+       }
+      },
+
+      "form-input.text#nomeclube": {
+        "props": {
+          "pointer": "#/properties/name",
+          "label": "Nome",
+          "placeholder":"Digite o seu nome"
+        }
+      },
+      "form-input.text#emailclube": {
+        "props": {
+          "pointer": "#/properties/mail",
+          "label": "E-mail",
+          "placeholder":"Digite seu e-mail"
+        }
+      },
+      "form-input.text#telefoneclube":{
+        "props": {
+            "pointer": "#/properties/phone",
+            "label": "Telefone",
+            "placeholder":"(00) 00000-0000"
+          }
+      },
+
+      "form-success#clube": {
+        "children": ["rich-text#successSubmitClube"]
+      },
+      "rich-text#successSubmitClube": {
+        "props": {
+          "text": "Inscrição concluida",
+          "blockClass": "InstitutionalText"
+        }
+      }
+  
+  
+  }
+  

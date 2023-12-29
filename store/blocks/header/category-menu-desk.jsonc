@@ -61,10 +61,7 @@
                 "tagTitle": "Bolsas",
                 "text": "Bolsas"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#Bolsas-submenu-block"
-        ]
+        }
     },
     "vtex.menu@2.x:submenu#Bolsas-submenu-block": {
         "props": {
@@ -155,10 +152,7 @@
                 "tagTitle": "Carteiras",
                 "text": "Carteiras"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#Carteiras-submenu-block"
-        ]
+        }
     },
     "vtex.menu@2.x:submenu#Carteiras-submenu-block": {
         "props": {
@@ -223,15 +217,12 @@
             ],
             "itemProps": {
                 "type": "internal",
-                "href": "/condominios",
+                "href": "/acessorios",
                 "noFollow": true,
                 "tagTitle": "Acessórios",
                 "text": "Acessórios"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#Acessorios-submenu-block"
-        ]
+        }
     },
     "vtex.menu@2.x:submenu#Acessorios-submenu-block": {
         "props": {

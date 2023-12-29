@@ -10,7 +10,7 @@
 
 .wishlistBTN a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .wishlistBTN span{
@@ -30,6 +30,15 @@
     width: 100%;
     left: 0;
     background-color: white;
+}
+
+
+.vtex-sticky-layout-0-x-wrapper--stuck .wishlistBTN{
+    filter: brightness(0) !important
+}
+
+.vtex-sticky-layout-0-x-wrapper--stuck .wishlistBTN a{
+    color:black
 }
 
 @media (max-width: 1200px) {

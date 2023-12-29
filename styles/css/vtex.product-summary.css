@@ -14,6 +14,7 @@
 
 .containerNormal{
   transition: 0.3s all;
+  position: relative;
 }
 
 :global(.vtex-product-summary-2-x-frameAround--summarySku){
@@ -43,9 +44,17 @@
     
   }
 
+
+  .containerNormal :global(.vtex-stack-layout-0-x-stackItem--imageContainer){
+    width: 100%;
+  }
+
   .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
     margin-top: 3em;
-    margin-left: 16rem;
+    position: absolute;
+    width: 100%;
+    padding: 0 1.3rem;
+    text-align: right;
   }
   
 .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
@@ -73,10 +82,10 @@ padding: 0;
   @media (max-width: 1000px) {
     
 
-      .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+     /* .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
         margin-top: 3em;
         margin-left: 7rem;
-      }
+      }*/
       .imageStackContainer{
   background: #EDE2D04D !important;
 }
@@ -86,10 +95,10 @@ padding: 0;
 
 @media (min-width: 1000px) and (max-width: 1400px){
 
-  .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+  /*.containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
     margin-top: 3em;
     margin-left: 8rem;
-  }
+  }*/
 
 
 
@@ -97,10 +106,10 @@ padding: 0;
 
 @media (min-width: 1400px) and (max-width: 1800px){
 
-.containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+/*.containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer){
   margin-top: 3em;
   margin-left: 11rem;
-}
+}*/
 
 }
 

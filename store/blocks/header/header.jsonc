@@ -104,7 +104,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "always",
+      "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel-topbar",
       "autoplay": 5000,
       "stopOnHover": true,

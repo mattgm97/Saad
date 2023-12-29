@@ -3,7 +3,13 @@
 }
 
 .minicartIconContainer::after {
-  content: url('assets/icons/bag.svg');
+  content: url('assets/icons/bag-white.svg');
+
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .minicartIconContainer::after {
+
+  filter: brightness(0)!important;
 
 }
 
@@ -76,11 +82,16 @@
 
   :global(.vtex-minicart-2-x-minicartIconContainer)::before {
     content: "Sacola";
-    color: #000;
+    color: #fff;
     position: relative;
     top: 12px;
     right: -29px;
     font-size: 0.75rem;
     text-transform: initial;
+  }
+
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-minicart-2-x-minicartIconContainer)::before {
+    color: #000;
+  
   }
 }

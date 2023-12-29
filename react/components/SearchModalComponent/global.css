@@ -1,8 +1,8 @@
 .searchCustom{
-    color: black;
+    color: white;
     font-size: 0.75rem;
     text-transform: initial;
-    margin-top: 6px;
+    margin-top: 4px;
     cursor: pointer;
 }
 .searchCustom span{
@@ -23,6 +23,15 @@
     width: 100%;
     left: 0;
     background-color: white;
+}
+
+.vtex-sticky-layout-0-x-wrapper--stuck .searchCustom{
+    filter: brightness(0) !important;
+    color: black
+}
+
+.vtex-sticky-layout-0-x-wrapper--stuck {
+
 }
 
 

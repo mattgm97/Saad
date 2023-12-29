@@ -34,7 +34,7 @@
       "rich-text#text-title-clube": {
         "title": "Cadastre-se ",
         "props": {
-          "text": "title",
+          "text": "Cadastre-se ",
           "font": "t-heading-3",
           "textPosition": "LEFT",
           "textAlign": "LEFT",

@@ -234,6 +234,12 @@ font-weight: 400;
 
 @media (max-width: 760px) {
 
+    .wrapper--sellerConditionCard {
+        min-height: 192px;
+        width: 80%;
+        margin: auto;
+    }
+
     .paragraph--copyright__text, .paragraph--powered__image{
         text-align: center;
     }
@@ -255,6 +261,7 @@ font-weight: 400;
 
     .wrapper--carousel-text :global(.vtex-rich-text-0-x-paragraph){
         text-align: center;
+        font-size: 14px;
     }
 
     .paragraph--manual-bolsas-mobile{

@@ -16,7 +16,7 @@
   color: #515151;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--stuck) .label::after {
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .label::after, :global(.vtex-store-header-2-x-headerStickyRow--main-header-normal) .label::after {
 
   filter: brightness(0) !important
 }
@@ -45,7 +45,7 @@
 
   }
 
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck) .label::before {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) .label::before, :global(.vtex-store-header-2-x-headerStickyRow--main-header-normal) .label::before {
 
    color: #000;
   }

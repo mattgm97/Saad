@@ -1,0 +1,121 @@
+*{
+    color: #515151;
+}
+.iagreefield{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radios{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.radios > div{
+    margin-right: 24px;
+}
+.radios > div > label{
+    margin-left: 8px;
+}
+.singleinput input, select{
+    width: 100%;
+    height: 42px;
+    border-radius: 2px;
+    border: 1px solid #EEE;
+    padding-left: 16px;
+}
+input[type="submit"]{
+    padding: 10px 16px;
+    border-radius: 2px;
+    background: #D0EF8E;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    width: 100%;
+    font-weight: 700;
+    color: #515151;
+}
+
+label{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+fieldset{
+    border: none;
+}
+.singleinput label{
+    display: block;
+}
+
+
+
+.container, .iagreefield {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input, .iagreefield input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    border-radius: 100%;
+    border: solid 1px #515151;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+  }
+
+  .checkmark.agree{
+    top: 22px;
+    left: 10px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark, .iagreefield:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark, .iagreefield input:checked ~ .checkmark {
+    background-color: #D0EF8E;
+    border: solid 1px #D0EF8E;
+  }
+
+
+  .iagreefield label {
+    margin-left: 16px;
+    display: block;
+  }
+  @media (max-width: 1000px) {
+    .container{
+        padding-left: 16px;
+
+    }
+    
+}
+
+
+ 

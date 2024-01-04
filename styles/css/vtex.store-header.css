@@ -34,7 +34,7 @@
 }
 
 
-:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-components-3-x-logoImage),:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-drawer-0-x-openIconContainer--menu-mobile){
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-components-3-x-logoImage){
   filter: brightness(0) !important
 }
 
@@ -144,9 +144,9 @@
     border-top: solid 4px #FFF;
     padding-bottom: 0.2em;
   }
-   :global(.vtex-store-components-3-x-logoImage){
+  /* :global(.vtex-store-components-3-x-logoImage){
    width: 80%;
-  }
+  }*/
 }
 
 

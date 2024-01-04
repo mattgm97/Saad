@@ -234,7 +234,7 @@
     "props": {
       //"title": "Logo",
       "href": "/",
-      "url": "assets/icons/logo.svg",
+      "url": "assets/icons/LOGO-SAAD-Branco.svg",
       "width": "196"
     }
   },
@@ -243,7 +243,7 @@
     "props": {
       //"title": "Logo",
       "href": "/",
-      "url": "assets/icons/logoDark.svg",
+      "url": "assets/icons/LOGO-SAAD-final.svg",
       "width": "196"
     }
   },
@@ -325,7 +325,7 @@
     ],
     "props": {
       "sticky": true,
-      "blockClass": ["main-header-mobile","main-header-mobile-home"]
+      "blockClass": ["main-header-mobile-home"]
     }
   },
   "header-row#1-mobile": {
@@ -521,7 +521,7 @@
     "props": {
       // "title": "Logo",
       "href": "/",
-      "url": "assets/icons/logoDark.svg",
+      "url": "assets/icons/LOGO-SAAD-final.svg",
       "width": "144"
     }
   },
@@ -529,7 +529,7 @@
     "props": {
       // "title": "Logo",
       "href": "/",
-      "url": "assets/icons/logo.svg",
+      "url": "assets/icons/LOGO-SAAD-Branco.svg",
       "width": "144"
     }
   },

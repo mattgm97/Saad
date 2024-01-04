@@ -25,14 +25,12 @@
     background-color: white;
 }
 
-.vtex-sticky-layout-0-x-wrapper--stuck .searchCustom{
+.vtex-sticky-layout-0-x-wrapper--stuck .searchCustom, .vtex-store-header-2-x-headerStickyRow--main-header-normal .searchCustom, .vtex-store-header-2-x-headerStickyRow--main-header-mobile  .searchCustom{
     filter: brightness(0) !important;
     color: black
 }
 
-.vtex-sticky-layout-0-x-wrapper--stuck {
 
-}
 
 
 @media (max-width: 1200px) {

@@ -3,11 +3,11 @@
 }
 
 .minicartIconContainer::after {
-  content: url('assets/icons/bag-white.svg');
+  content: url('assets/icons/lastbag.svg');
 
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--stuck) .minicartIconContainer::after {
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) .minicartIconContainer::after, :global(.vtex-store-header-2-x-headerStickyRow--main-header-normal) .minicartIconContainer::after, :global(.vtex-store-header-2-x-headerStickyRow--main-header-mobile) .minicartIconContainer::after {
 
   filter: brightness(0)!important;
 
@@ -90,7 +90,7 @@
     text-transform: initial;
   }
 
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-minicart-2-x-minicartIconContainer)::before {
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-minicart-2-x-minicartIconContainer)::before, :global(.vtex-store-header-2-x-headerStickyRow--main-header-normal) :global(.vtex-minicart-2-x-minicartIconContainer)::before{
     color: #000;
   
   }

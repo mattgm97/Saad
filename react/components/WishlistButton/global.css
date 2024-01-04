@@ -33,11 +33,11 @@
 }
 
 
-.vtex-sticky-layout-0-x-wrapper--stuck .wishlistBTN{
+.vtex-sticky-layout-0-x-wrapper--stuck .wishlistBTN, .vtex-store-header-2-x-headerStickyRow--main-header-normal .wishlistBTN, .vtex-store-header-2-x-headerStickyRow--main-header-mobile .wishlistBTN{
     filter: brightness(0) !important
 }
 
-.vtex-sticky-layout-0-x-wrapper--stuck .wishlistBTN a{
+.vtex-sticky-layout-0-x-wrapper--stuck .wishlistBTN a, .vtex-store-header-2-x-headerStickyRow--main-header-normal .wishlistBTN a{
     color:black
 }
 

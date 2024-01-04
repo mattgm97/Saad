@@ -55,7 +55,7 @@
       },
     
       "flex-layout.col#mainrow-col2": {
-        "children": ["form#clube"],
+        "children": ["ClubeSaadForm"],
          "props":{
             "preventVerticalStretch": true,
             "paddingLeft":4,

@@ -14,6 +14,9 @@
   },
   "PaymentModals":{
     "component":"PaymentModals"
+  },
+  "ClubeSaadForm":{
+    "component": "ClubeSaadForm"
   }
 
   

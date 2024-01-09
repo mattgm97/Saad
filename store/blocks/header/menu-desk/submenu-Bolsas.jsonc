@@ -1,8 +1,8 @@
 {
-    "vtex.menu@2.x:menu#submenu-cat-ADESIVOS-DE-SEGURANÇA":{
+    "vtex.menu@2.x:menu#submenu-cat-Bolsas":{
         "props":{
             "orientation": "vertical",
-            "blockClass":["row-menu-col", "row-menu-col-adesivos"],
+            "blockClass":["row-menu-col", "row-menu-col-Bolsas"],
             "items": [
               {
                 "type": "custom",
@@ -128,7 +128,7 @@
             ]
         }
     },
-    "vtex.menu@2.x:menu#submenu-cat-ADESIVOS-DE-SEGURANÇA2":{
+    "vtex.menu@2.x:menu#submenu-cat-Bolsas2":{
         "props":{
             "orientation": "vertical",
             "blockClass":["row-menu-col", "row-menu-col-adesivos"],
@@ -258,7 +258,7 @@
             ]
         }
     },
-    "vtex.menu@2.x:menu#submenu-cat-ADESIVOS-DE-SEGURANÇA3":{
+    "vtex.menu@2.x:menu#submenu-cat-Bolsas3":{
         "props":{
             "orientation": "vertical",
             "blockClass":["row-menu-col", "row-menu-col-adesivos"],
@@ -272,13 +272,48 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Uso Obrigatório",
-                    "href": "/adesivos-de-seguranca/uso-obrigatorio"
+                    "text": "Mini bolsas",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Mochilas",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Shopper",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Ver todos",
+                    "href": "/"
                 }
             }
-              
-            ]
-        }
+        ]
+    }
     }
 
 

@@ -84,21 +84,22 @@ color: black
 
 
   .submenu--main-menu-row-desk{
-     /* height: 258px;
-      overflow: hidden;*/
+     width: 100%;
+     display: block;
   }
 
   .styledLinkContent--row-menu-col{
-    white-space: break-spaces;
-    min-width: 120px;
-    font-size: .975rem;
-    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2E1B0D;
   }
 
 
 
   .submenuWrapper--main-menu-row-desk {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 10000;
     border: none;
   }

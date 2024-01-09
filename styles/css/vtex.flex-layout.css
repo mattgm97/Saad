@@ -48,9 +48,9 @@
 }
 
 .flexRowContent--menu-content-area {
-    background-color: #0054A8;
-    padding-right: 1em;
-    padding-bottom: 1em;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 200px;
 }
 
 .flexRow--footer__content {

@@ -61,7 +61,10 @@
                 "tagTitle": "Bolsas",
                 "text": "Bolsas"
             }
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#Bolsas-submenu-block"
+        ]
     },
     "vtex.menu@2.x:submenu#Bolsas-submenu-block": {
         "props": {
@@ -95,7 +98,7 @@
             "width":"20%"
         },
         "children": [
-            //"vtex.menu@2.x:menu#submenu-cat-Bolsas"
+            "vtex.menu@2.x:menu#submenu-cat-Bolsas"
         ]
     },
     "flex-layout.col#Bolsas2": {
@@ -104,7 +107,7 @@
             "width":"20%"
         },
         "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-Bolsas2"
+           "vtex.menu@2.x:menu#submenu-cat-Bolsas2"
         ]
     },
     "flex-layout.col#Bolsas3": {
@@ -113,7 +116,7 @@
             "width":"20%"
         },
         "children": [
-          //  "vtex.menu@2.x:menu#submenu-cat-Bolsas3"
+           "vtex.menu@2.x:menu#submenu-cat-Bolsas3"
         ]
     },
     
@@ -128,7 +131,8 @@
     "image#IMG-Bolsas": {
         "props": {
             "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
+            "maxHeight": 263,
+            "maxWidth": 360
         }
     },
     // ----------------- Carteiras ITEM -------------------
@@ -184,7 +188,7 @@
             "width":"33%"
         },
         "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-Carteiras"
+           "vtex.menu@2.x:menu#submenu-cat-Carteiras"
         ]
     },
     "flex-layout.col#IMG-Carteiras": {

@@ -17,6 +17,9 @@
   position: relative;
 }
 
+:global(.vtex-store-components-3-x-frameAround){
+  border-radius: 0;
+}
 :global(.vtex-product-summary-2-x-frameAround--summarySku){
   border-radius: 100% !important;
 }
@@ -60,7 +63,7 @@
 .containerNormal  :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
 
   border-radius: 100%;
-  background: rgba(255, 255, 255, 0.30) !important;
+  background: transparent !important;
   padding: 10px;
   visibility: visible!important;
 }
@@ -74,7 +77,7 @@ padding: 0;
 }
 
   .nameContainer{
-      padding-right: 1em;
+      justify-content: flex-start;
   }
 
 

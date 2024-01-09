@@ -166,7 +166,6 @@ color:#2E1B0D
 .skuSelectorContainer {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 1em;
 }
 
 .skuSelectorTextContainer {
@@ -217,10 +216,12 @@ color:#2E1B0D
 
 :global(.vtex-slider-layout-0-x-paginationDot--carousel-sellingConditions){
     position: relative;
-    top: 1.5rem;
+    top: -2.5rem;
 }
 
-
+:global(.vtex-store-components-3-x-valueWrapper){
+    height: 50px;
+}
 
 :global(.vtex-store-components-3-x-shippingTableRadioBtn) {
     display: none;
@@ -414,10 +415,25 @@ color:#2E1B0D
     display: none;
 }
 
-:global(.vtex-product-summary-2-x-imageNormal){
-    height: 442px !important;
+
+:global(.vtex-shelf-1-x-sliderContainer--related--shelf){
+    max-width: 95% !important; 
 }
 
+:global(.vtex-store-components-3-x-figure){
+    margin: 18px;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorInternalBox){
+    border: none;
+}
+
+
+:global(.vtex-store-components-3-x-skuSelectorItemImage){
+    height: 50px;
+    width: 34px;
+    background-color: #EDE2D04D;
+}
 
 :global(.vtex-product-summary-2-x-skuSelectorItemImage--summarySku){
     height: 20px;
@@ -674,11 +690,6 @@ color:#2E1B0D
 }
 
 
-@media (min-width: 1000px) and (max-width: 1450px) {
-    :global(.vtex-product-summary-2-x-imageNormal){
-        height: 340px!important;
-    }
-}
 
 
 @media (min-width: 1200px) {
@@ -694,6 +705,11 @@ color:#2E1B0D
     :global(.vtex-search-result-3-x-galleryItem--normal){
         flex-basis: 25% !important;
         max-width: 25% !important;
+        padding: 0 !important;
+    }
+
+    :global(.vtex-store-components-3-x-logoLink){
+        margin-left: -22%;
     }
 
    
@@ -707,6 +723,8 @@ color:#2E1B0D
 }
 
 @media (max-width: 760px) {
+
+   
 
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-topbar){
         height: 58px;

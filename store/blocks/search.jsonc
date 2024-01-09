@@ -1,7 +1,8 @@
 {
   "store.search": {
     "blocks": [
-      "image#catimage",
+      "responsive-layout.desktop#catimage",
+      "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
     "props": {
@@ -12,9 +13,18 @@
       }
     }
   },
+
+  "responsive-layout.desktop#catimage":{
+    "children":["image#catimagedesk"]
+  },
+
+  "responsive-layout.mobile#catimage":{
+    "children":["image#catimagemob"]
+  },
   "store.search#brand": {
     "blocks": [
-      "image#catimage",
+      "responsive-layout.desktop#catimage",
+      "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
     "props": {
@@ -29,7 +39,8 @@
   },
   "store.search#department": {
     "blocks": [
-      "image#catimage",
+      "responsive-layout.desktop#catimage",
+      "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
     ],
@@ -44,7 +55,8 @@
   },
   "store.search#category": {
     "blocks": [
-      "image#catimage",
+      "responsive-layout.desktop#catimage",
+      "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
     ],
@@ -59,7 +71,8 @@
   },
   "store.search#subcategory": {
     "blocks": [
-      "image#catimage",
+      "responsive-layout.desktop#catimage",
+      "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
     ],
@@ -77,14 +90,24 @@
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
-    ]
+    ],
+    "props":{
+      "blockClass":"testeaaa"
+    }
   },
 
-  "image#catimage": {
+  "image#catimagedesk": {
     "props": {
         "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/61b2b731-5c92-4493-9e22-77a39c905a88___1c615a5714ee0ef9c000521dbd660ba6.png",
         "maxHeight": 330
     }
+},
+
+"image#catimagemob": {
+  "props": {
+      "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/465fa2ff-0d4e-4756-93a9-efb856ce1587___18bb10f7c801fa2896b97f0c50b055a2.png",
+      "maxHeight": 262
+  }
 },
   "search-result-layout.desktop": {
     "children": [
@@ -162,11 +185,31 @@
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore",
-      "search-products-progress-bar"
+      "rich-text#SEOtitle",
+      "rich-text#SEOcontent"
+
     ],
     "props": {
       "width": "grow",
       "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#SEOcontent": {
+    "props": {
+      "text": "Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui Texto de SEO aqui",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "texto-seo"
+    }
+  },
+  "rich-text#SEOtitle": {
+    "props": {
+      "text": "Texto SEO categoria",
+      "font": "t-heading-3",
+      "textPosition": "LEFT",
+      "textAlign": "LEFT",
+      "blockClass": "texto-seo-title"
     }
   },
   "flex-layout.row#searchinfo": {
@@ -232,8 +275,7 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore",
-      "search-products-progress-bar"
+      "flex-layout.row#fetchmore"
     ],
     "props": {
       "pagination": "show-more",

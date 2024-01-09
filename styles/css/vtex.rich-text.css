@@ -222,6 +222,25 @@ font-weight: 400;
    }
 
 
+   .paragraph--texto-seo-title{
+    margin: 0;
+    font-size: 24px;
+font-style: normal;
+font-weight: 300;
+color: #2E1B0D;
+padding-left: 4rem;
+   }
+   .paragraph--texto-seo{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 48px;
+    padding-left: 4rem;
+   }
+  
+
+
 @media (max-width: 1450px) {
     .paragraph--wppgroup-text {
         font-size: 13px;
@@ -234,10 +253,15 @@ font-weight: 400;
 
 @media (max-width: 760px) {
 
+    .paragraph--sectionRichTitle{
+        font-size: 20px;
+    }
+
     .wrapper--sellerConditionCard {
         min-height: 192px;
         width: 80%;
         margin: auto;
+        margin-bottom: 4rem;
     }
 
     .paragraph--copyright__text, .paragraph--powered__image{

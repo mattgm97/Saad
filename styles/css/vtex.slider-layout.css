@@ -36,9 +36,22 @@
     height: auto !important;
 }
 
+
+:global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+    padding: 1rem;
+}
+
+:global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-imageNormal){
+    height: 496px !important;
+}
+
+
 @media screen and (max-width: 768px) {
     .slide--slider-shelf--default{
         margin: 0px 10px;
+    }
+    :global(.vtex-slider-layout-0-x-paginationDot--slider-shelf--default){
+        display: none;
     }
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainCarousel){
         margin-top: -3.8rem;
@@ -55,7 +68,65 @@
     .sliderRightArrow{
         margin-right: 2.5em;
     }
+    :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        max-width: 420px !important;
+    }
 }
+
+@media screen and (min-width: 1200px)  and (max-width: 1850px){
+  
+    :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        padding: 1rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px)  and (max-width: 1400px){
+  
+    :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        max-width: 420px !important;
+    }
+    
+    
+    :global(.vtex-product-summary-2-x-imageNormal){
+        height: 422px!important;
+    }
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        padding: 0.5rem;
+    }
+
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-imageNormal){
+        height: 286px !important;
+    }
+}
+
+
+
+@media screen and (min-width: 1401px)  and (max-width: 1800px){
+  
+    :global(.vtex-product-summary-2-x-imageNormal){
+        height: 480px!important;
+    }
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        padding: 0.5rem;
+    }
+
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-imageNormal){
+        height: 346px !important;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+  
+    :global(.vtex-product-summary-2-x-imageNormal){
+        height: 614px !important;
+    }
+    
+}
+
+
+
 
 
 

@@ -65,3 +65,7 @@
     font-weight: 400;
     color: #2E1B0D;
 }
+
+.vtex-flex-layout-0-x-flexRowContent--product-second-row > div{
+padding: 0;
+}

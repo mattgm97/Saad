@@ -6,3 +6,9 @@
     text-align: center;
     color:#2E1B0D
 }
+
+@media (max-width: 760px) {
+    .title--related--shelf{
+        font-size: 20px;
+    }  
+}

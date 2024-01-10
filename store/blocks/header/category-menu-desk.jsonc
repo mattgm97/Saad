@@ -156,7 +156,10 @@
                 "tagTitle": "Carteiras",
                 "text": "Carteiras"
             }
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#Carteiras-submenu-block"
+        ]
     },
     "vtex.menu@2.x:submenu#Carteiras-submenu-block": {
         "props": {
@@ -179,9 +182,11 @@
         },
         "children": [
             "flex-layout.col#Carteiras",
+            "flex-layout.col#Carteiras2",
             "flex-layout.col#IMG-Carteiras"
         ]
     },
+
     "flex-layout.col#Carteiras": {
         "props": {
             "preventVerticalStretch": true,
@@ -189,6 +194,15 @@
         },
         "children": [
            "vtex.menu@2.x:menu#submenu-cat-Carteiras"
+        ]
+    },
+    "flex-layout.col#Carteiras2": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width":"20%"
+        },
+        "children": [
+           "vtex.menu@2.x:menu#submenu-cat-Carteiras2"
         ]
     },
     "flex-layout.col#IMG-Carteiras": {
@@ -202,7 +216,8 @@
     "image#IMG-Carteiras": {
         "props": {
             "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
+            "maxHeight": 263,
+            "maxWidth": 360
         }
     },
     // ----------------- Acessórios ITEM -------------------

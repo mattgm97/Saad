@@ -18,6 +18,63 @@
             }
             ]
         }
+    },
+    "vtex.menu@2.x:menu#submenu-cat-Carteiras2":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":["row-menu-col", "row-menu-col-adesivos"],
+            "items": [
+             
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Mini bolsas",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Mochilas",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Shopper",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Ver todos",
+                    "href": "/"
+                }
+            }
+        ]
+    }
     }
 
 

@@ -27,6 +27,7 @@
 
 .flexRow--topbar-wpp :global(.vtex-store-components-3-x-container) {
     max-width: 83.125rem;
+    width: 100%;
 }
 
 .flexColChild--orcamento-e-social {

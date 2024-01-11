@@ -2530,9 +2530,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.4.601:
-  version "1.4.625"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.625.tgz#a9a1d18ee911f9074a9c42d9e84b1c79b29f4059"
-  integrity sha512-DENMhh3MFgaPDoXWrVIqSPInQoLImywfCwrSmVl3cf9QHzoZSiutHwGaB/Ql3VkqcQV30rzgdM+BjKqBAJxo5Q==
+  version "1.4.627"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.627.tgz#86e47c33138cf37e1a05b9f3c95ffff666763f5d"
+  integrity sha512-BPFdHKPzyGxYQpgiCoIGnkzlMlps3bRdnjeh3qd/Q2pSacL0YW81i4llqsTY/wNbN/Ztw++7HNfp8v4Rm8VDuA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -4660,7 +4660,7 @@ rsvp@^4.8.4:
 
 "saad.saad-theme@https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme":
   version "0.0.1"
-  resolved "https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme#12060043ce3744b546b87206d471bf06fb1f0df8"
+  resolved "https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme#a564869d7db501c58b103d91b129db55d34019f8"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.1"

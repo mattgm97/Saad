@@ -162,6 +162,31 @@ color:#2E1B0D
     display: none;
 }
 
+:global(.vtex-store-components-3-x-showMoreButton){
+    color:#2E1B0D;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-decoration-line: underline;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+:global(.vtex-store-components-3-x-pointerEventsAuto){
+    text-align: left;  
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--topbar-wpp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild){
+    width: 100%;
+}
+
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+    width: 93.5vw;
+  }
+
 
 .skuSelectorContainer {
     display: flex;

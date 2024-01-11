@@ -21,10 +21,29 @@
       /*"flex-layout.row#product-breadcrumb",*/
       "flex-layout.row#product-main",
       "flex-layout.row#product-buy-together",
-      "flex-layout.row#description"
+      "flex-layout.row#description",
+      "flex-layout.row#bolsamanual"
+     /* "condition-layout.category#manualbolsa"*/
+      
      /* "flex-layout.row#relatedshelf" para quando o app da vtex sair do alpha*/
     ]
   },
+
+  "condition-layout.category#manualbolsa": {
+     "props": {
+         "conditions": [
+           {
+             "subject": "categoryId",
+             "arguments": {
+               "ids": "1000024"
+             }
+           }
+           
+         ],
+         "matchType": "any",
+         "Then": "flex-layout.row#bolsamanual"
+       }
+      },
 
   "rich-text#avaliacoes-text": {
     "title": "Avaliações Texto",
@@ -253,6 +272,17 @@
 ]
   },
 
+  "flex-layout.row#bolsamanual": {
+    "children": ["flex-layout.col#bolsamanual"],
+    "props": {
+      "blockClass": ["product-description"],
+      "marginBottom":5
+    }
+  },
+  "flex-layout.col#bolsamanual": {
+    "children": [ "ManualBolsa" /*aqui vem reviews*/]
+  },
+
   "flex-layout.row#description": {
     "children": ["flex-layout.col#description"],
     "props": {
@@ -261,7 +291,7 @@
     }
   },
   "flex-layout.col#description": {
-    "children": ["product-description" /*aqui vem reviews*/]
+    "children": ["product-description"/*aqui vem reviews*/]
   },
   "flex-layout.row#relatedshelfPlaceholder":{
     "children":["flex-layout.col#shelfs"]

@@ -140,7 +140,7 @@
       "font": "t-heading-4",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
-      "blockClass": "sectionRichTitle"
+      "blockClass": ["sectionRichTitle", "exception"]
     }
   },
 

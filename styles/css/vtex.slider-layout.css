@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 768px) {
     .slide--slider-shelf--default{
-        margin: 0px 10px;
+        margin: 0px 4px;
     }
     :global(.vtex-slider-layout-0-x-paginationDot--slider-shelf--default){
         display: none;

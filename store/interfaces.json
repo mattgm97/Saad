@@ -17,7 +17,11 @@
   },
   "ClubeSaadForm":{
     "component": "ClubeSaadForm"
+  },
+  "ManualBolsa":{
+    "component": "ManualBolsa"
   }
+  
 
   
 }

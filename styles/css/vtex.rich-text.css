@@ -18,7 +18,14 @@
 }
 .paragraph--sectionRichTitle{
     font-size: 2rem;
-    color:#2E1B0D
+    color:#2E1B0D;
+    margin-bottom: 0;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--exception) .paragraph--sectionRichTitle{
+    font-size: 2rem;
+    color:#2E1B0D;
+    margin-bottom: revert;
 }
 
 .paragraph--footer-sobre{
@@ -254,7 +261,7 @@ padding-left: 4rem;
 @media (max-width: 760px) {
 
     .paragraph--sectionRichTitle{
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .wrapper--sellerConditionCard {

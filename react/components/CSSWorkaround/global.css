@@ -66,6 +66,10 @@
     color: #2E1B0D;
 }
 
+.above-header-text{
+    font-size: 14px;
+}
+
 .vtex-flex-layout-0-x-flexRowContent--product-second-row > div{
 padding: 0;
 }

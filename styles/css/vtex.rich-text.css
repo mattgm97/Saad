@@ -246,6 +246,9 @@ padding-left: 4rem;
     padding-left: 4rem;
    }
   
+   .paragraph--carousel-text{
+    font-size: 14px;
+   }
 
 
 @media (max-width: 1450px) {

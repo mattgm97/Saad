@@ -130,7 +130,7 @@
     },
     "image#IMG-Bolsas": {
         "props": {
-            "src": "assets/banners/generico-banner.png",
+            "src": "assets/banners/bannermenu.png",
             "maxHeight": 263,
             "maxWidth": 360
         }
@@ -215,7 +215,7 @@
     },
     "image#IMG-Carteiras": {
         "props": {
-            "src": "assets/banners/generico-banner.png",
+            "src": "assets/banners/bannermenu.png",
             "maxHeight": 263,
             "maxWidth": 360
         }
@@ -243,63 +243,7 @@
             }
         }
     },
-    "vtex.menu@2.x:submenu#Acessorios-submenu-block": {
-        "props": {
-            "width": "100%",
-            "blockClass": "main-menu-row-desk"
-        },
-        "children": [
-            "flex-layout.row#Acessorios"
-        ]
-    },
-    "flex-layout.row#Acessorios": {
-        "props": {
-            "blockClass": [
-                "menu-content-area",
-                "menu-content-area-Acessorios"
-            ],
-            "paddingTop": 6,
-            "colGap": 2,
-            "horizontalAlign":"center"
-        },
-        "children": [
-            "flex-layout.col#Acessorios",
-            "flex-layout.col#Acessorios2",
-            "flex-layout.col#IMG-Acessorios"
-        ]
-    },
-    "flex-layout.col#Acessorios": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width":"25%"
-        },
-        "children": [
-          //  "vtex.menu@2.x:menu#submenu-cat-Acessorios"
-        ]
-    },
-    "flex-layout.col#Acessorios2": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width":"25%"
-        },
-        "children": [
-          //  "vtex.menu@2.x:menu#submenu-cat-Acessorios2"
-        ]
-    },
-    "flex-layout.col#IMG-Acessorios": {
-        "children": [
-            "image#IMG-Acessorios"
-        ],
-        "props":{
-            "width":"grow"
-        }
-    },
-    "image#IMG-Acessorios": {
-        "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
-        }
-    },
+
     // ----------------- Clube Saad ITEM -------------------
     "menu-item#ClubeSaad": {
         "props": {

@@ -12,10 +12,71 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Placa Braille",
-                    "href": "/braille-tatil/placa-braille"
+                    "text": "Carteiras",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras de couro",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras diadora",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras grande",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras media",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras nylon",
+                    "href": "/"
                 }
             }
+
             ]
         }
     },
@@ -33,7 +94,7 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Mini bolsas",
+                    "text": "Carteiras pequena",
                     "href": "/"
                 }
             },
@@ -45,7 +106,7 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Mochilas",
+                    "text": "Carteiras saadissimas",
                     "href": "/"
                 }
             },
@@ -57,7 +118,7 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Shopper",
+                    "text": "Porta -cartões",
                     "href": "/"
                 }
             },

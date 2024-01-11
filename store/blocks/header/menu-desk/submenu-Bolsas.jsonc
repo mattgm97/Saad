@@ -12,8 +12,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Acidente Cortante",
-                    "href": "/adesivos-de-seguranca/acidente-cortante"
+                    "text": "Bolsas bangcoc",
+                    "href": "/"
                 }
             },
             {
@@ -24,8 +24,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Advertência",
-                    "href": "/adesivos-de-seguranca/advertencia"
+                    "text": "Bolsas de couro",
+                    "href": "/"
                 }
             },
             {
@@ -36,8 +36,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Aviso",
-                    "href": "/adesivos-de-seguranca/aviso"
+                    "text": "Bolsas de mão",
+                    "href": "/"
                 }
             },
             {
@@ -48,8 +48,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Choque Elétrico",
-                    "href": "/adesivos-de-seguranca/choque-eletrico"
+                    "text": "Bolsas de ombro",
+                    "href": "/"
                 }
             },
             {
@@ -60,8 +60,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Colisão",
-                    "href": "/adesivos-de-seguranca/colisao"
+                    "text": "Bolsas diadora",
+                    "href": "/"
                 }
             },
             {
@@ -72,58 +72,11 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Congelamento",
-                    "href": "/adesivos-de-seguranca/congelamento"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Corrosivo",
-                    "href": "/adesivos-de-seguranca/corrosivo"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Emergência",
-                    "href": "/adesivos-de-seguranca/emergencia"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Esmagamento",
-                    "href": "/adesivos-de-seguranca/esmagamento"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Explosivo",
-                    "href": "/adesivos-de-seguranca/explosivo"
+                    "text": "Bolsas Infinite",
+                    "href": "/"
                 }
             }
+           
               
             ]
         }
@@ -133,6 +86,54 @@
             "orientation": "vertical",
             "blockClass":["row-menu-col", "row-menu-col-adesivos"],
             "items": [
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Bolsas netsport",
+                        "href": "/"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Bolsas nylon",
+                        "href": "/"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Bolsas pequenas",
+                        "href": "/"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Bolsas saadissima",
+                        "href": "/"
+                    }
+                },
              
             {
                 "type": "custom",
@@ -142,8 +143,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "GHS",
-                    "href": "/adesivos-de-seguranca/ghs"
+                    "text": "Bolsas tote",
+                    "href": "/"
                 }
             },
             {
@@ -154,106 +155,11 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "NR 12 Equipamentos e Máquinas",
-                    "href": "/adesivos-de-seguranca/nr-12-equipamentos-e-maquinas"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Oxidante",
-                    "href": "/adesivos-de-seguranca/oxidante"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Perigo",
-                    "href": "/adesivos-de-seguranca/perigo"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Proibido",
-                    "href": "/adesivos-de-seguranca/proibido"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Químico",
-                    "href": "/adesivos-de-seguranca/quimico"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Radiação",
-                    "href": "/adesivos-de-seguranca/radiacao"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Risco Biológico",
-                    "href": "/adesivos-de-seguranca/risco-biologico"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Tensão Elétrica",
-                    "href": "/adesivos-de-seguranca/tensao-eletrica"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Tóxico",
-                    "href": "/adesivos-de-seguranca/toxico"
+                    "text": "Bolsas transversais",
+                    "href": "/"
                 }
             }
+           
               
             ]
         }
@@ -263,55 +169,54 @@
             "orientation": "vertical",
             "blockClass":["row-menu-col", "row-menu-col-adesivos"],
             "items": [
-             
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Mini bolsas",
-                    "href": "/"
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Mini bolsas",
+                        "href": "/"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Mochilas",
+                        "href": "/"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Shopper",
+                        "href": "/"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "id": "",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "noFollow": false,
+                        "blockClass": "sub-cat-item",
+                        "text": "Ver todos",
+                        "href": "/"
+                    }
                 }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Mochilas",
-                    "href": "/"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Shopper",
-                    "href": "/"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Ver todos",
-                    "href": "/"
-                }
-            }
         ]
     }
     }

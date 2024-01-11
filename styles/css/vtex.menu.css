@@ -90,7 +90,7 @@ color: black
 
   .styledLinkContent--row-menu-col{
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     color: #2E1B0D;
@@ -110,13 +110,32 @@ color: black
   }*/
 
 @media (max-width: 760px) {
-    .styledLinkContent--department-menu{
+    .styledLink--mob__toplevel1{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
         font-size: 16px;
-        color: #777777
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 22.4px */
+    }
+    .styledLinkContent--department-menu{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 22.4px */
+    }
+    .menuItemInnerDiv--mob__toplevel1{
+        margin-bottom: 1rem;
     }
     .styledLinkContent--submenu {
-        font-size: 18px;
-        color: white
+        color: var(--Cor-de-Texto-Cinza-Escuro---400, #777);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 22.4px */
     }
 
     .styledLinkContainer--submenu--inst {

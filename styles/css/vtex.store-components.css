@@ -749,6 +749,11 @@ color:#2E1B0D
 
 @media (max-width: 760px) {
 
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-main){
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     :global(.vtex-flex-layout-0-x-flexCol--stackclass){
         padding: 0;
         background-color: #EDE2D04D!important;

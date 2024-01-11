@@ -101,7 +101,8 @@
     "props": {
       "width": "55%",
       "rowGap": 0,
-      "paddingLeft": 4
+      "paddingLeft": 4,
+      "blockClass": "stackclass"
     }
   },
 

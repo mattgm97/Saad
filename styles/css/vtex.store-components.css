@@ -749,8 +749,11 @@ color:#2E1B0D
 
 @media (max-width: 760px) {
 
+    :global(.vtex-flex-layout-0-x-flexCol--stackclass){
+        padding: 0;
+        background-color: #EDE2D04D!important;
+    }
    
-
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-topbar){
         height: 58px;
     }

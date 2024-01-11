@@ -46,7 +46,13 @@
 }
 
 
+
 @media screen and (max-width: 768px) {
+
+    :global(.vtex-shelf-1-x-shelfContentContainer--related--shelf) :global(.vtex-slider-0-x-sliderFrame) :global(.vtex-shelf-1-x-slide--related--shelf) :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        padding: 0 4px
+        }
+        
     .slide--slider-shelf--default{
         margin: 0px 4px;
     }

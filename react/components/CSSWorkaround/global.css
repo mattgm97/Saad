@@ -76,4 +76,11 @@ padding: 0;
 }
 
 
-   
+
+
+
+@media (max-width: 760px) {
+    .vtex-sandbox-iframe{
+      height: 250px !important;
+    }
+   }

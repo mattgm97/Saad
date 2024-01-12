@@ -235,16 +235,22 @@ font-weight: 400;
 font-style: normal;
 font-weight: 300;
 color: #2E1B0D;
-padding-left: 4rem;
    }
+
    .paragraph--texto-seo{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     color: #777777;
     margin-bottom: 48px;
-    padding-left: 4rem;
    }
+
+   @media (min-width: 760px) {
+    .paragraph--texto-seo-title, .paragraph--texto-seo{
+    padding-left: 4rem;
+       }
+   }
+  
   
    .paragraph--carousel-text{
     font-size: 14px;

@@ -138,7 +138,7 @@
 
   "rich-text#nav-top-header": {
     "props": {
-      "text": "<a class='above-header-text' href='/account#/orders'>Meus Pedidos</a> | <a class='above-header-text' href='#'>Atendimento Personalizado</a>",
+      "text": "<a class='above-header-text' href='/account#/orders'>Meus Pedidos</a> | <a class='above-header-text' href='AtendimentoPersonalizado'>Atendimento Personalizado</a>",
       "blockClass":"nav-top-header"
     }
   },

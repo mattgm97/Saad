@@ -62,6 +62,16 @@
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainCarousel){
         margin-top: -3.8rem;
     }
+
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-imageNormal){
+        height: 255px !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        padding:0;
+    }
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-search-result-3-x-galleryItem--small){
+        padding: 0.3rem;
+    }
 }
 @media screen and (min-width: 768px) {
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainCarousel){

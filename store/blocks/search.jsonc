@@ -275,7 +275,9 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "rich-text#SEOtitle",
+      "rich-text#SEOcontent"
     ],
     "props": {
       "pagination": "show-more",

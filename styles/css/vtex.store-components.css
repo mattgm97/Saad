@@ -707,7 +707,22 @@ color:#2E1B0D
 }
 
 
+:global(.vtex-store-newsletter-1-x-nameInputContainer), :global(.vtex-store-newsletter-1-x-emailInputContainer){
+    text-align: right;
+}
 
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button) :global(.vtex-button__label){
+    font-size: 0;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button) :global(.vtex-button__label)::before{
+    content: "Ver mais produtos";
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: #2E1B0D;
+}
 
 @media (max-width: 1450px) {
     .container {

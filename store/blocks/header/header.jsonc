@@ -412,7 +412,7 @@
   },
   "rich-text#meus-manual-bolsas-mobile": {
     "props": {
-      "text": "<a class='troca-devolu' href='/'>Manual da Bolsa</a>",
+      "text": "<a class='troca-devolu' href='/manual-da-bolsa'>Manual da Bolsa</a>",
       "blockClass":"manual-bolsas-mobile"
     }
   },

@@ -375,6 +375,8 @@
   "flex-layout.col#notfoundsuggestionsTitle":{
     "children":[
       "rich-text#suggestionsTitle"
+
+
     ]
   },
 
@@ -400,6 +402,8 @@
     ]
   },
 
+
+
   "list-context.product-list#notfound":{
     "blocks": [
       "product-summary.shelf"
@@ -409,7 +413,7 @@
     ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "collection": "146",
+      "collection": "152",
       "maxItems": 12
     }
   },

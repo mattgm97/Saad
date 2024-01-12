@@ -21,7 +21,7 @@ color: black
     color: #3C3C3C;
 }
 
-.accordionIcon--linkList-footer-toggle--isOpen {
+.accordionIcon--linkList-footer-toggle--isClosed, .accordionIcon--mob__toplevel1--isClosed  {
     transform: translateY(-50%) rotate(180deg);
     content: url(https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9a922f15-bb10-4333-9762-be47df654f31___2501f7948241e18f1a09a34e271b3c26.svg);
     transition: 0.3s;
@@ -29,7 +29,7 @@ color: black
     margin-top: 10px;
 }
 
-.accordionIcon--linkList-footer-toggle--isClosed {
+.accordionIcon--linkList-footer-toggle--isOpen,  .accordionIcon--mob__toplevel1--isOpen{
     transform: translateY(-50%) rotate(0deg);
     content: url(https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9a922f15-bb10-4333-9762-be47df654f31___2501f7948241e18f1a09a34e271b3c26.svg);
     transition: 0.3s;
@@ -134,7 +134,7 @@ color: black
         font-family: Montserrat;
         font-size: 16px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 140%; /* 22.4px */
     }
 

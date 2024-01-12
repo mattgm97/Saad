@@ -539,13 +539,45 @@
 
   "autocomplete-result-list.v2": {
     "props": {
-      "productLayout": "VERTICAL",
-      "maxSuggestedProducts": 1
+      "productLayout": "HORIZONTAL",
+      "maxSuggestedProducts": 8
     },
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf#search"]
   },
 
-  
+
+  "product-summary.shelf#search": {
+    "title": "Sumário de produto - Busca",
+    "children": ["flex-layout.row#product-summary-search"],
+    "props": { "priceBehavior": "default", "trackListName": true }
+  },
+  "flex-layout.row#product-summary-search": {
+    "children": [
+      "product-summary-image#search",
+      "flex-layout.col#product-summary-search-details"
+    ],
+    "props": {
+      "blockClass": "product-summary-search",
+      "horizontalAlign": "left",
+      "colSizing": "auto",
+      "colGap": 2
+    }
+  },
+
+  "flex-layout.col#product-summary-search-details": {
+    "children": [
+      "product-summary-name",
+      "product-summary-space",
+      "product-selling-price-range#shelf"
+    ],
+    "props": {
+      "marginLeft": 4
+    }
+  },
+  "product-summary-image#search": {
+    "props": { "blockClass": "product-summary-search-image", "height": 400 }
+  },
+  "product-selling-price#search": {},
 
   "product-summary-image#shelf": {
     "props": {
@@ -570,7 +602,7 @@
 
   "product-summary-name#search": {
     "props": {
-      "blockClass": ["search"]
+      "blockClass": "search-name"
     }
   },
 

@@ -707,6 +707,8 @@ color:#2E1B0D
 }
 
 
+
+
 @media (max-width: 1450px) {
     .container {
         max-width: 1230px;
@@ -798,7 +800,7 @@ padding-left: 1rem;
     }
 
     :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
-        width: 90vw;
+        width: 85vw;
     }
 
     .productDescriptionTitle::after {

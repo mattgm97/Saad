@@ -84,7 +84,7 @@
   },
   "stack-layout": {
     "children": [
-      "flex-layout.row#product-image",
+     
       "product-specification-badges"
     ]
   },
@@ -98,7 +98,8 @@
   },
   "flex-layout.col#stack": {
     "children": [
-      "ProductImageCustom","stack-layout"/*, "share"*/],
+      "ProductImageCustom"/*,
+      "stack-layout", "share"*/],
     "props": {
       "width": "55%",
       "rowGap": 0,

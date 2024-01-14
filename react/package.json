@@ -7,6 +7,7 @@
     "apollo-client": "^2.6.8",
     "react": "^16.12.0",
     "react-apollo": "^3.1.5",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^16.12.0",
     "react-intl": "^3.12.0",
     "react-slick": "^0.29.0",
@@ -17,7 +18,7 @@
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.8",
     "@types/react": "^16.9.31",
-    "@types/react-slick": "^0.23.10",
+    "@types/react-slick": "^0.23.13",
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
@@ -76,5 +77,9 @@
     "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide",
     "vtex.tab-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.tab-layout@0.4.5/public/@types/vtex.tab-layout",
     "vtex.telemarketing": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.telemarketing@2.12.1/public/@types/vtex.telemarketing"
+  },
+  "resolutions": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
   }
 }

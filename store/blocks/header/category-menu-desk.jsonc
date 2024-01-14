@@ -18,7 +18,7 @@
     // ----------------- New Arrivals ITEM -------------------
     "menu-item#NewArrivals": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all1",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -43,9 +43,8 @@
     // ----------------- Bolsas ITEM -------------------
     "menu-item#Bolsas": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all2",
             "type": "custom",
-            "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
             "blockClass": [
@@ -138,7 +137,7 @@
     // ----------------- Carteiras ITEM -------------------
     "menu-item#Carteiras": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all3",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -223,7 +222,7 @@
     // ----------------- Acessórios ITEM -------------------
     "menu-item#Acessorios": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all4",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -247,7 +246,7 @@
     // ----------------- Clube Saad ITEM -------------------
     "menu-item#ClubeSaad": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all5",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -271,7 +270,7 @@
     // ----------------- Atendimento Personalizado ITEM -------------------
     "menu-item#AtendimentoPersonalizado": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all6",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,

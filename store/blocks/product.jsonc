@@ -1,5 +1,8 @@
 {
   "store.product": {
+    "parent": { 
+        "header": "header"
+      },
     "props": {
       "blockClass": ["pdp"]
     },

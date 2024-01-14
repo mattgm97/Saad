@@ -1,5 +1,8 @@
 {
   "store.search": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
       "responsive-layout.desktop#catimage",
       "responsive-layout.mobile#catimage",
@@ -38,6 +41,9 @@
     }
   },
   "store.search#department": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
       "responsive-layout.desktop#catimage",
       "responsive-layout.mobile#catimage",
@@ -54,6 +60,9 @@
     }
   },
   "store.search#category": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
       "responsive-layout.desktop#catimage",
       "responsive-layout.mobile#catimage",
@@ -70,6 +79,9 @@
     }
   },
   "store.search#subcategory": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
       "responsive-layout.desktop#catimage",
       "responsive-layout.mobile#catimage",

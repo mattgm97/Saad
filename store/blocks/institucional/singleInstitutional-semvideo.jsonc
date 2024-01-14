@@ -1,5 +1,8 @@
 {
   "store.custom#institutional-texts-novideo": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
       "image#banners-inst0",
       "flex-layout.row#instrow1",

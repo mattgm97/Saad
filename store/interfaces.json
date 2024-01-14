@@ -20,6 +20,9 @@
   },
   "ManualBolsa":{
     "component": "ManualBolsa"
+  },
+  "ProductImageCustom":{
+    "component": "ProductImageCustom"
   }
   
 

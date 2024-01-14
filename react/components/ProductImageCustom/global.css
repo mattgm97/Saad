@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    height: 900px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.grid-item {
+    margin: 1px;
+    text-align: center;
+    background-color: #EDE2D04D;
+}
+
+/* Set the number of columns for every 2 items to 2 */
+.grid-container> :nth-child(3n) {
+    grid-column: span 2;
+}
+
+
+.grid-container::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+.grid-container::-webkit-scrollbar-track {
+    border-radius: 10px !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.grid-container::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.grid-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.grid-container::-webkit-scrollbar-thumb:active {
+    background: rgba(0, 0, 0, 0.9) !important;
+}

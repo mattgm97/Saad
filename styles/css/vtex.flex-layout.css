@@ -54,6 +54,8 @@
     grid-template-columns: 200px 200px 200px 200px;
 }
 
+
+
 .flexRow--footer__content {
     background-color: #F5F5F5;
     padding: 2rem 0;
@@ -149,6 +151,10 @@
 
 
 @media (max-width: 760px) {
+
+    .flexCol--stackclass{
+        overflow: hidden;
+    }
     .flexCol--product-content-section{
         padding: 1rem;
     }

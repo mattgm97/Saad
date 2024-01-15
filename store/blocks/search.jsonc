@@ -118,7 +118,7 @@
 "image#catimagemob": {
   "props": {
       "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/465fa2ff-0d4e-4756-93a9-efb856ce1587___18bb10f7c801fa2896b97f0c50b055a2.png",
-      "maxHeight": 262
+      "maxHeight": 600
   }
 },
   "search-result-layout.desktop": {

@@ -724,6 +724,10 @@ color:#2E1B0D
     color: #2E1B0D;
 }
 
+:global(.vtex-store-components-3-x-imageElement){
+    max-height: fit-content !important;
+}
+
 @media (max-width: 1450px) {
     .container {
         max-width: 1230px;

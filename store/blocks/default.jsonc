@@ -58,8 +58,8 @@
       "product-list-price#shelf",
       "product-selling-price#shelf",*/
       "product-selling-price-range#shelf", 
-      "product-price-savings", 
-      "product-summary-sku-selector"
+      "product-price-savings"/*, 
+      "product-summary-sku-selector"*/
     ],
     "props":{
       "blockClass": "default-prod-shelf"

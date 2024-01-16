@@ -84,3 +84,8 @@ padding: 0;
       height: 250px !important;
     }
    }
+
+
+   .vtex-account_menu-link[href='#/wishlist']{
+display: none;
+   }

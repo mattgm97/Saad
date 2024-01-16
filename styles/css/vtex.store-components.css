@@ -449,7 +449,8 @@ color:#2E1B0D
     margin-right: -2rem;
 }
 :global(.vtex-wish-list-1-x-fill){
-    filter: brightness(0);
+    filter: brightness(0.5);
+    color: #510707;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-login-2-x-profile){

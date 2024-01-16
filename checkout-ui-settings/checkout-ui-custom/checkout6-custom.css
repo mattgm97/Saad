@@ -1,0 +1,149 @@
+/* /files/checkout5-custom.css */
+
+/* Displays the option to enter a foreign document */
+.document-box { display: block; }
+
+/* Displays the option to enter an international phone */
+.phone-box { display: block; }
+
+.orderform-template-holder #client-profile-data .step.client-profile-data .accordion-toggle>span{
+  font-weight: 300;
+    color: #2E1B0D;
+    font-size: 24px;
+}
+
+.orderform-template-holder .step .submit.btn.btn-success{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 24px;
+}
+
+.orderform-template-holder .step .input.text label, .vcustom--vtex-omnishipping-1-x-address label{
+  color: #2E1B0D;
+  font-weight: bold;
+}
+.orderform-template .cart-template.mini-cart h2{
+  font-weight: 300;
+  color: #2E1B0D;
+  font-size: 24px;
+}
+
+.orderform-template-holder #shipping-data .accordion-toggle>span{
+  display: inline-flex;
+}
+
+.hproduct.item a, .table.cart-items td.product-image img{
+  background-color: #EDE2D04D;
+}
+
+.input-xlarge, .input-small, .orderform-template-holder #client-profile-data .step.client-profile-data input[type=email]:not(.pac-target-input), .orderform-template .cart-template.mini-cart .summary-template-holder input[type=text], .orderform-template .cart-template.mini-cart .summary-template-holder button[type=submit], .orderform-template .cart-template.mini-cart .summary-template-holder p.coupon-fields span.info>span, .summary-template-holder .summary-coupon fieldset.coupon-fieldset input[type="text"] {
+  border-radius: 4px !important;
+}
+
+#orderform-minicart-to-cart{
+  color: #2E1B0D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.custom-cart-template-wrap h2{
+  margin-top: 2rem;
+}
+
+.orderform-template .cart-template.mini-cart #go-to-cart-button{
+  left: 63px;
+  width: 31%;
+}
+
+.summary-template-holder tr.Shipping{
+  display: flex !important;
+  justify-content: space-between;
+  border: none !important;
+}
+
+.orderform-template .cart-template.mini-cart .summary-totalizers tfoot tr td.monetary, .orderform-template .cart-template.mini-cart .summary-totalizers tfoot tr td{
+  color: #2E1B0D;
+  font-size: 16px;
+}
+
+
+.product-name{
+  color:  #777;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.orderform-template .cart-template.mini-cart #go-to-cart-button::before {
+  content: url('https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/ebd3c00e-4e17-48cd-81ec-a5914d759363___32a0e09167eb53bbb9ec08d3fa4cc7e3.svg');
+  position: inherit;
+    margin-left: -48px;
+    margin-top: 8px;
+}
+
+.orderform-template .cart-template.mini-cart .item .price, .orderform-template .cart-template.mini-cart .item span.shipping-date, .orderform-template .cart-template.mini-cart .summary-totalizers tbody td{
+  color: #777;
+}
+
+
+.table.cart-items td.product-name a, .table.cart-items td.product-name a:hover{
+  color: #2E1B0D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.brand-name{
+  font-size: 14px;
+  font-weight: 400;
+  color: #2E1B0D;
+}
+
+.table.cart-items tbody tr td.product-name .seller{
+  display: none;
+}
+
+.table.cart-items thead tr th{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #2E1B0D;
+}
+
+.new-product-price, .summary-template-holder tfoot tr td.monetary{
+  color: #2E1B0D;
+}
+
+.table.cart-items td.quantity .item-quantity-change-increment i:before{
+  color: #BBDF73;
+}
+
+.table.cart-items td.quantity .item-quantity-change.item-quantity-change-decrement i:before{
+  color: white;
+}
+
+td.quantity, .quantity input{
+  background-color: #f5f5f5;
+  border: none !important;
+}
+
+.quantity input{
+  font-weight: 700;
+  color: #2E1B0D;
+}
+
+.icon-plus-sign{
+  padding-right: 6px;
+}
+
+.icon-minus-sign{
+  padding-left: 6px;
+}
+
+.summary-template-holder .cart-links-bottom .btn-success{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}

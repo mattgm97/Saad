@@ -9,15 +9,18 @@
       "__fold__",
       "rich-text#queridinhos",
       "list-context.product-list#queridinhos",
+      "link#vermaisproduto",
       "rich-text#middlesiteText",
       "responsive-layout.desktop#middlesite",
       "responsive-layout.mobile#middlesite",
       "rich-text#Lancamentos",
       "list-context.product-list#Lancamentos",
+      "link#vermaisproduto",
       "responsive-layout.desktop#home",
       "responsive-layout.mobile#home",
       "rich-text#Emdestaque",
       "list-context.product-list#Emdestaque",
+      "link#vermaisproduto",
       "info-card#home2",
       "rich-text#insta",
       "sandbox#insta"
@@ -90,6 +93,20 @@
     ]
   },
 
+  "link#vermaisproduto": {
+    "title": "link ver todos",
+    "props": {
+      "href": "/",
+      "blockClass": "information-ruler"
+    },
+    "children": ["rich-text#information-ruler-6"]
+  },
+  "rich-text#information-ruler-6": {
+    "props": {
+      "text": "Ver mais produtos",
+      "blockClass": "vermaisproduto"
+    }
+  },
 
   "rich-text#sellerCondition1": {
     "title": "Apoio à produção nacional:",

@@ -1412,9 +1412,9 @@
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
 "@jridgewell/trace-mapping@^0.3.17", "@jridgewell/trace-mapping@^0.3.9":
-  version "0.3.20"
-  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.20.tgz#72e45707cf240fa6b081d0366f8265b0cd10197f"
-  integrity sha512-R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==
+  version "0.3.21"
+  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.21.tgz#5dc1df7b3dc4a6209e503a924e1ca56097a2bb15"
+  integrity sha512-SRfKmRe1KvYnxjEMtxEr+J4HIeMX5YBg/qhRHpxEIGjhX1rshcHlnFUE9K0GazhVKWM7B+nARSkV8LuvJdJ5/g==
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
@@ -1586,9 +1586,9 @@
     pretty-format "^26.0.0"
 
 "@types/node@*", "@types/node@>=6":
-  version "20.11.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.0.tgz#8e0b99e70c0c1ade1a86c4a282f7b7ef87c9552f"
-  integrity sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==
+  version "20.11.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.3.tgz#ac29fba7aeadc74046b02e50758156f4850f1296"
+  integrity sha512-nrlmbvGPNGaj84IJZXMPhQuCMEVTT/hXZMJJG/aIqVL9fKxqk814sGGtJA4GI6hpJSLQjpi6cn0Qx9eOf9SDVg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -1647,9 +1647,9 @@
     csstype "^3.0.2"
 
 "@types/react@^16.9.31":
-  version "16.14.55"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.55.tgz#a0107f36c885af9617cf39da3dc37e406c440e52"
-  integrity sha512-HO/QHDg23Dx4ukfufr5YSTWyhrbyThXE2OzXfNkcw7vJcusBY5l1i1TZpJuyAn9EsC6o91/6OsIvXY54xTV+XQ==
+  version "16.14.56"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.56.tgz#4cf37850a87edcb9f3526648338eff35d283c9ab"
+  integrity sha512-MxuHB7dvVm5yOxRr7hJoonLG0JY8YvqZtaQ9Quirp3Oe4FLFjAgxkxsKE6IspdHPpRVZKo2ZoDEravWO81EeYA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -2536,9 +2536,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.4.601:
-  version "1.4.628"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.628.tgz#97cefa4b2356d981875f19639885e4fc50ce6e82"
-  integrity sha512-2k7t5PHvLsufpP6Zwk0nof62yLOsCf032wZx7/q0mv8gwlXjhcxI3lz6f0jBr0GrnWKcm3burXzI3t5IrcdUxw==
+  version "1.4.631"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.631.tgz#db2de2e1ce90fc1785b5c3f49fde594413270e05"
+  integrity sha512-g73CJB/rMPjdxpiNJYmV1homV7mLVUNe/R0z/HhqMfpjkt58FpYmkTjbtuv3zymdbTTJ+VOEqe1c+lkTjSOhmQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -4673,7 +4673,7 @@ rsvp@^4.8.4:
 
 "saad.saad-theme@https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme":
   version "0.0.1"
-  resolved "https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme#a564869d7db501c58b103d91b129db55d34019f8"
+  resolved "https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme#cdea81967b0dab702bb97a8e2e72ceeec641d3fa"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.1"

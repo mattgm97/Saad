@@ -410,7 +410,7 @@
   "sandbox#insta": {
     "props": {
       "width": "100%",
-      "height": "270px",
+      "height": "220px",
       "initialContent": "<!-- LightWidget WIDGET --><script src=https://cdn.lightwidget.com/widgets/lightwidget.js></script><iframe src=https://cdn.lightwidget.com/widgets/17b9eb7e52cf5adaa0458a5b0d9f965d.html scrolling='no' allowtransparency='true' class='lightwidget-widget' style='width:100%;border:0;overflow:hidden;height:400px'></iframe>",
       "allowCookies": false
     }

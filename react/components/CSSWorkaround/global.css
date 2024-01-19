@@ -26,8 +26,8 @@
 }
 
 .vtex-login-2-x-container .vtex-button .vtex-button__label {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 

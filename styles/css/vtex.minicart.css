@@ -80,13 +80,17 @@
 
 @media screen and (min-width: 768px) {
 
+  :global(.vtex-minicart-2-x-minicartIconContainer){
+    margin-top: -7px;
+    margin-left: 1rem;
+  }
   :global(.vtex-minicart-2-x-minicartIconContainer)::before {
-    content: "Sacola";
+    content: "Carrinho";
     color: #fff;
-    position: relative;
-    top: 12px;
-    right: -29px;
-    font-size: 0.75rem;
+    position: absolute;
+    top: 33px;
+    right: -15px;
+    font-size: 0.70rem;
     text-transform: initial;
   }
 

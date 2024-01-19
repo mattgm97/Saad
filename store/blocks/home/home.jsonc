@@ -306,7 +306,10 @@
   "flex-layout.row#banners-home-mob": {
     "children": [
       "flex-layout.col#banners-home-mob"
-    ]
+    ],
+    "props":{
+      "marginTop": 7
+    }
  
   },
   "flex-layout.col#banners-home-mob": {

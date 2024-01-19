@@ -441,12 +441,16 @@ color:#2E1B0D
 }
 
 :global(.vtex-login-2-x-profile){
-    max-width: 118px;
+    max-width: 101px;
+    text-transform: capitalize;
+    font-size: 0.75rem;
     color: white;
     margin: 0;
     padding: 0;
     padding-left: 1rem;
     margin-right: -2rem;
+    position: relative;
+    top: 4px;
 }
 :global(.vtex-wish-list-1-x-fill){
     filter: brightness(0.5);
@@ -807,13 +811,14 @@ color:#2E1B0D
     
 
     :global(.vtex-store-drawer-0-x-childrenContainer--menu-mobile) :global(.vtex-login-2-x-label){
-        font-size: 16px;
+        font-size: 12px;
 font-style: normal;
 font-weight: 400;
 color: #777777;
 display: flex;
 align-items: center;
 padding-left: 1rem;
+padding-top: 5px;
     }
 
     :global(.vtex-store-drawer-0-x-childrenContainer--menu-mobile) :global(.vtex-login-2-x-buttonLink){
@@ -821,6 +826,7 @@ padding-left: 1rem;
         margin-bottom: 16px;
         padding-bottom: 16px;
         margin-top: -1rem;
+        margin-left: -2rem;
     }
 
     :global(.vtex-menu-2-x-menuContainerNav--category-menu-mobile){

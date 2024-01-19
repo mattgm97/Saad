@@ -22,10 +22,10 @@
 }
 
 @media (min-width: 1200px) {
-  .label::after {
+ /* .label::after {
     content: url('assets/icons/user-white.svg');
 
-  }
+  }*/
 
   .label {
     margin-top: -6px;
@@ -38,8 +38,8 @@
     content: "Login";
     color: #fff;
     position: relative;
-    top: 13px;
-    right: -29px;
+    top: 6px;
+    right: -10px;
     font-size: 0.75rem;
     text-transform: initial;
 
@@ -51,25 +51,79 @@
   }
 
 
+  :global(.vtex-login-2-x-container) :global(.vtex-button)::before{
+    content: url('assets/icons/user-white.svg');
+    margin-left: 2rem;
+    position: relative;
+    top: 0.4rem ;
+    
+  }
+
+  :global(.vtex-store-header-2-x-headerStickyRow--main-header-normal) :global(.vtex-login-2-x-container) :global(.vtex-button)::before, 
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-store-header-2-x-headerStickyRow--main-header) :global(.vtex-login-2-x-container) :global(.vtex-button)::before {
+
+    filter: brightness(0) !important
+  }
 
 
 }
 
 
+
+
 @media (max-width: 1199px) {
 
+:global(.vtex-store-drawer-0-x-childrenContainer--menu-mobile) :global(.vtex-login-2-x-container){
+  text-align: center;
+}
 
-  .label::before {
+  :global(.vtex-store-drawer-0-x-childrenContainer--menu-mobile) :global(.vtex-login-2-x-container) :global(.vtex-button)::before{
     content: url('assets/icons/user.svg');
-
+    margin-left: 1.5rem;
+    
   }
 
+  :global(.vtex-login-2-x-container) :global(.vtex-button)::before{
+    content: url('assets/icons/user.svg');
+    position: relative;
+    top: 4px;
+    
+  }
 
-  :global(.vtex-sticky-layout-0-x-wrapper) .label::before {
+  :global(.vtex-store-header-2-x-headerStickyRow--main-header-mobile-home)  :global(.vtex-login-2-x-container) :global(.vtex-button)::before{
     content: url('assets/icons/user-white.svg');
+    position: relative;
+    top: 4px;
+    
   }
 
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck) .label::before {
+  :global(.vtex-login-2-x-profile){
+    display: none;
+    font-size: 7px;
+    max-width: 54px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  :global(.vtex-store-header-2-x-headerStickyRow--main-header-mobile) :global(.vtex-login-2-x-profile){
+    color: #000;
+    
+  }
+
+
+  :global(.vtex-store-drawer-0-x-childrenContainer--menu-mobile) :global(.vtex-login-2-x-profile){
+    font-size: 11px !important;
+    max-width: 158px  !important;
+    position: absolute;
+    left: -2.5rem;
+    top: 2rem;
+    color: #000;
+    display: block;
+  } 
+
+ 
+
+ 
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck) .label::before, :global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-login-2-x-container) :global(.vtex-button)::before {
 
     filter: brightness(0) !important
   }

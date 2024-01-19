@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     color:white;
-    border-radius: 8px;
+    border-radius: 0.25rem;
     margin: 12px auto;
 }
 
@@ -18,3 +18,17 @@
 .howMuchUntilFree img{
     margin-right: 10px;
 }
+
+@media (max-width: 760px) {
+    .howMuchUntilFree{
+        width: 93%;
+    }
+}
+
+
+@media (max-width: 399px) {
+    .vtex-flex-layout-0-x-flexRowContent--price-and-quant{
+        display: block !important;
+    }
+}
+

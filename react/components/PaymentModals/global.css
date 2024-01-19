@@ -103,3 +103,18 @@ line-height: 140%;
 .acceptedPayments ul li span {
     margin-left: 10px;
 }
+
+
+@media (max-width: 700px) {
+    .tablist-content {
+       display: block;
+    }
+    .tablist-content > div{
+        width: 100%;
+    }
+
+    .acceptedPayments{
+        padding: 0;
+        margin: 0;
+    }
+}

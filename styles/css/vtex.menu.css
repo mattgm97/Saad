@@ -159,7 +159,10 @@ color: black
     }
 
     .styledLinkContent--linkList-footer-toggle {
-        font-size: 20px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        color: #2E1B0D;
     }
 
     .menuItem--menu-footer {

@@ -21,7 +21,6 @@
     },
     "children": [
       "flex-layout.col#footer-1-box-1",
-      "rich-text#social-footer",
       "flex-layout.col#footer-1-box-menu-2",
       "flex-layout.col#footer-1-box-menu-1"
       

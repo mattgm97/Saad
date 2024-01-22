@@ -1,0 +1,42 @@
+{
+    "vtex.menu@2.x:menu#submenu-cat-Acessorios-mob": {
+      "children": [
+        "menu-item#calcados-mob1",
+        "menu-item#calcados-mob2"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submenu"
+      }
+    },
+  
+    "menu-item#calcados-mob1": {
+      "props": {
+        "type": "custom",
+        "id": "",
+        "highlight": false,
+        "blockClass": "submenu",
+        "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Carteiras",
+          "href": "/"
+        }
+      }
+    },
+    "menu-item#calcados-mob2": {
+      "props": {
+        "type": "custom",
+        "id": "",
+        "highlight": false,
+        "blockClass": "submenu",
+        "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "text": "Carteiras de couro",
+          "href": "/"
+        }
+      }
+    }
+  }
+  

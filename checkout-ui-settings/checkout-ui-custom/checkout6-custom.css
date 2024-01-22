@@ -1,5 +1,18 @@
 /* /files/checkout5-custom.css */
-
+.top-interaction .row{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center;
+  height: 60px;
+}
+.top-interaction .row .div{
+  width: 800px;
+}
+.checkBar_box{
+  width: 500px;
+  justify-content: space-between;
+}
 /* Displays the option to enter a foreign document */
 .document-box { display: block; }
 

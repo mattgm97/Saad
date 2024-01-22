@@ -19,3 +19,50 @@ function removejscssfile(filename, filetype) {
 removejscssfile('checkout-custom.css', 'css') //remove all occurences "somestyle.css" on page
 
 // Anula o arquivo checkout-custom que foi estilizado pelo time do cliente - FIM
+
+
+function checkBreadcrumb() {
+  if (location.hash === '#/cart') {
+      $('.checkout-breadcrumb-cart').addClass('active-bg')
+      $('.checkout-breadcrumb-cart').next().addClass('active-text')
+      $('.checkout-breadcrumb-profile').removeClass('active-bg')
+      $('.checkout-breadcrumb-profile').next().removeClass('active-text')
+      $('.checkout-breadcrumb-shipping').removeClass('active-bg')
+      $('.checkout-breadcrumb-shipping').next().removeClass('active-text')
+      $('.checkout-breadcrumb-payment').removeClass('active-bg')
+      $('.checkout-breadcrumb-payment').next().removeClass('active-text')
+  }
+
+  if (location.hash === '#/email' || location.hash === '#/email') {
+      $('.checkout-breadcrumb-profile').addClass('active-bg')
+      $('.checkout-breadcrumb-profile').next().addClass('active-text')
+      $('.checkout-breadcrumb-cart').removeClass('active-bg')
+      $('.checkout-breadcrumb-cart').next().removeClass('active-text')
+      $('.checkout-breadcrumb-shipping').removeClass('active-bg')
+      $('.checkout-breadcrumb-shipping').next().removeClass('active-text')
+      $('.checkout-breadcrumb-payment').removeClass('active-bg')
+      $('.checkout-breadcrumb-payment').next().removeClass('active-text')
+  }
+
+  if (location.hash === '#/shipping') {
+      $('.checkout-breadcrumb-shipping').addClass('active-bg')
+      $('.checkout-breadcrumb-shipping').next().addClass('active-text')
+      $('.checkout-breadcrumb-cart').removeClass('active-bg')
+      $('.checkout-breadcrumb-cart').next().removeClass('active-text')
+      $('.checkout-breadcrumb-profile').removeClass('active-bg')
+      $('.checkout-breadcrumb-profile').next().removeClass('active-text')
+      $('.checkout-breadcrumb-payment').removeClass('active-bg')
+      $('.checkout-breadcrumb-payment').next().removeClass('active-text')
+  }
+
+  if (location.hash === '#/payment') {
+      $('.checkout-breadcrumb-payment').addClass('active-bg')
+      $('.checkout-breadcrumb-payment').next().addClass('active-text')
+      $('.checkout-breadcrumb-cart').removeClass('active-bg')
+      $('.checkout-breadcrumb-cart').next().removeClass('active-text')
+      $('.checkout-breadcrumb-profile').removeClass('active-bg')
+      $('.checkout-breadcrumb-profile').next().removeClass('active-text')
+      $('.checkout-breadcrumb-shipping').removeClass('active-bg')
+      $('.checkout-breadcrumb-shipping').next().removeClass('active-text')
+  }
+}

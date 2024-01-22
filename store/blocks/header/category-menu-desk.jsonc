@@ -240,6 +240,58 @@
                 "tagTitle": "Acessórios",
                 "text": "Acessórios"
             }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#Acessorios-submenu-block"
+        ]
+    },
+    "vtex.menu@2.x:submenu#Acessorios-submenu-block": {
+        "props": {
+            "width": "100%",
+            "blockClass": "main-menu-row-desk"
+        },
+        "children": [
+            "flex-layout.row#Acessorios"
+        ]
+    },
+    "flex-layout.row#Acessorios": {
+        "props": {
+            "blockClass": [
+                "menu-content-area",
+                "menu-content-area-Acessorios"
+            ],
+            "paddingTop": 6,
+            "colGap": 2,
+            "horizontalAlign":"center"
+        },
+        "children": [
+            "flex-layout.col#Acessorios",
+            "flex-layout.col#IMG-Acessorios"
+        ]
+    },
+
+    "flex-layout.col#Acessorios": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width":"33%"
+        },
+        "children": [
+           "vtex.menu@2.x:menu#submenu-cat-Carteiras"
+        ]
+    },
+    "flex-layout.col#IMG-Acessorios": {
+        "children": [
+            "image#IMG-Carteiras"
+        ],
+        "props":{
+            "width":"grow"
+        }
+    },
+    "image#IMG-Acessorios": {
+        "props": {
+            "src": "assets/banners/bannermenu.png",
+            "maxHeight": 263,
+            "maxWidth": 360
         }
     },
 

@@ -149,6 +149,10 @@
     padding-right: 6rem;
 }
 
+.flexColChild--col-with-list{
+    width: 100% !important;
+}
+
 
 @media (max-width: 760px) {
 

@@ -39,7 +39,7 @@
 
   "slider-layout#shelfUnique": {
     "props": {
-      "blockClass": ["slider-shelf--default"],
+      "blockClass": ["slider-shelf--default--unique"],
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 2,

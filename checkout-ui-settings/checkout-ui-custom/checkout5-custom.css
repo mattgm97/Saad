@@ -87,6 +87,7 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+    align-items: center;
   }
   .footer-menu.selos-segurança h1{
     color: var(--Cor-da-Marca-Primaria-Cor-Pura---500, #BBDF73);
@@ -108,6 +109,8 @@
   }
   .footer-menu.powered{
     display: flex;
+    width: 200px;
+    justify-content: space-around;
   }
   .selos-segurança-img{
     display: flex;
@@ -122,6 +125,9 @@
   }
   .footer-menu.powered li{
     list-style-type: none;
+  }
+  .footer-menu.powered img{
+    margin-top: 6px;
   }
 .footer-inner{
   max-width: 100%;
@@ -138,9 +144,6 @@
 p.tc.black.f5.copy-text{
   color: var(--Cor-de-Texto-Cinza-Escuro---400, #777);
 text-align: center;
-
-/* Tipografia/XXS-12px */
-font-family: Montserrat;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;

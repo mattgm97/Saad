@@ -765,6 +765,11 @@ color:#2E1B0D
 
 @media (min-width: 1200px) {
 
+    :global(.vtex-slider-layout-0-x-sliderTrackContainer--slider-shelf--default--unique){
+        width: 80%;
+        margin: auto;
+    }
+
     :global(.vtex-search-result-3-x-searchResultContainer){
         max-width: 98%;
     }

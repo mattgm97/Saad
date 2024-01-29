@@ -2361,16 +2361,16 @@ copy-descriptor@^0.1.0:
   integrity sha512-XgZ0pFcakEUlbwQEVNg3+QAis1FyTL3Qel9FYy8pSkQqoG3PNoT0bOCQtOXcOkur21r2Eq2kI+IE+gsmAEVlYw==
 
 core-js-compat@^3.31.0, core-js-compat@^3.33.1:
-  version "3.35.0"
-  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.35.0.tgz#c149a3d1ab51e743bc1da61e39cb51f461a41873"
-  integrity sha512-5blwFAddknKeNgsjBzilkdQ0+YK8L1PfqPYq40NOYMYFSS38qj+hpTcLLWwpIwA2A5bje/x5jmVn2tzUMg9IVw==
+  version "3.35.1"
+  resolved "https://registry.yarnpkg.com/core-js-compat/-/core-js-compat-3.35.1.tgz#215247d7edb9e830efa4218ff719beb2803555e2"
+  integrity sha512-sftHa5qUJY3rs9Zht1WEnmkvXputCyDBczPnr7QDgL8n3qrF3CMXY4VPSYtOLLiOUJcah2WNXREd48iOl6mQIw==
   dependencies:
     browserslist "^4.22.2"
 
 core-js-pure@^3.30.2:
-  version "3.35.0"
-  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.35.0.tgz#4660033304a050215ae82e476bd2513a419fbb34"
-  integrity sha512-f+eRYmkou59uh7BPcyJ8MC76DiGhspj1KMxVIcF24tzP8NA9HVa1uC7BTW2tgx7E1QVCzDzsgp7kArrzhlz8Ew==
+  version "3.35.1"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.35.1.tgz#f33ad7fdf9dddae260339a30e5f8363f5c49a3bc"
+  integrity sha512-zcIdi/CL3MWbBJYo5YCeVAAx+Sy9yJE9I3/u9LkFABwbeaPhTMRWraM8mYFp9jW5Z50hOy7FVzCc8dCrpZqtIQ==
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -2547,9 +2547,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.4.601:
-  version "1.4.640"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.640.tgz#76290a36fa4b5f1f4cadaf1fc582478ebb3ac246"
-  integrity sha512-z/6oZ/Muqk4BaE7P69bXhUhpJbUM9ZJeka43ZwxsDshKtePns4mhBlh8bU5+yrnOnz3fhG82XLzGUXazOmsWnA==
+  version "1.4.641"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.641.tgz#7439993ee3df558bbb78d5459c15cfbde5bf6d60"
+  integrity sha512-JetAF3M5Lr9hwzDe3oMmWFOydlclqt2loEljxc0AAP5NYM170sSW+F5/cn5ROBfjx5LdmzeeAgWnyAU9cjPhmA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -4684,7 +4684,7 @@ rsvp@^4.8.4:
 
 "saad.saad-theme@https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme":
   version "0.0.1"
-  resolved "https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme#cdea81967b0dab702bb97a8e2e72ceeec641d3fa"
+  resolved "https://dev--saad.myvtex.com/_v/private/typings/linked/v1/saad.saad-theme@0.0.1+build1697200412/public/@types/saad.saad-theme#a564869d7db501c58b103d91b129db55d34019f8"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.1"

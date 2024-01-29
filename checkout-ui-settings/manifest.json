@@ -1,7 +1,7 @@
 {
   "name": "checkout-ui-settings-saad",
   "vendor": "saad",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "title": "Checkout UI Settings",
   "description": "Declare custom settings to be used by checkout ui",
   "builders": {

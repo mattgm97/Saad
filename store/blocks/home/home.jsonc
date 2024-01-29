@@ -339,7 +339,8 @@
     "children": ["image#banners-home1"],
     "props": {
       "horizontalAlign": "center",
-      "width": "70%"
+      "width": "70%",
+      "blockClass":"col-with-img"
     }
   },
   "image#banners-home1": {
@@ -383,7 +384,8 @@
     "children": ["rich-text#bolsadecouro", "list-context.product-list#bolsadecouro"],
     "props": {
       "horizontalAlign": "center",
-      "width": "30%"
+      "width": "30%",
+      "blockClass":"col-with-list"
     }
   },
   "info-card#home2": {

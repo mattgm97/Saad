@@ -294,3 +294,7 @@ td.quantity, .quantity input{
   font-style: normal;
   font-weight: 700;
 }
+
+body{
+  padding-bottom: 0 !important;
+}

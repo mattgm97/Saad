@@ -253,3 +253,11 @@
     }
 
 }
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    :global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+        width: 300px;
+    }
+
+}  

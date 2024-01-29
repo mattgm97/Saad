@@ -15,8 +15,8 @@
 .header.desk{
   margin-bottom: 4em;
 }
-.breadcrumb-container h4::after:last-child{
-  display: none;
+#Pagamento::after{
+  display: none ;
 }
 .breadcrumb-container {
   display: flex !important;
@@ -114,11 +114,16 @@
   }
   .selos-segurança-img{
     display: flex;
+    justify-content: space-around;
   }
   .selos-segurança-img img{
     width: 34px;
     height: 38px;
   }
+  h4.active-text {
+    color: #2E180D !important;
+    font-weight: 700 !important;
+}
 
   .footer__pagamento li{
     list-style-type: none;
@@ -300,4 +305,86 @@ td.quantity, .quantity input{
 
 body{
   padding-bottom: 0 !important;
+}
+
+
+@media (max-width: 600px) {
+  .title.pb2::after{
+    content: url('https://saad.vteximg.com.br/arquivos/fi_chevron-down.png');
+    margin-left: 1em;
+  }
+  .footer-menu.selos-segurança h1::after{
+    content: url('https://saad.vteximg.com.br/arquivos/fi_chevron-down.png');
+    margin-left: 1em;
+  }
+  .footer__pagamento ul{
+    border-bottom: 1px solid var(--Cor-Neutra-Clara-Cinza-Medio, #E0E0E0);
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  .breadcrumb-container{
+    display: none !important;
+  }
+  .top-interaction .check-logo{
+    display: flex;
+    justify-content: center;
+  }
+  .header.desk {
+    margin-bottom: 2em;
+  }
+  .footer__pagamento{
+    display: block;
+  }
+  .footer__pagamento li {
+    list-style-type: none;
+    display: none;
+  }
+  .footer__pagamento ul.active li {
+    display: block;
+  }
+  .title.pb2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .footer-menu.selos-segurança h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  p.tc.black.f5.copy-text {
+    text-align: end;
+  }
+  .formas-pag img {
+    height: 25px;
+    max-width: 40px;
+  }
+  .selos-segurança-img {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-menu.powered {
+    display: flex;
+    /* display: block; */
+    width: 100%;
+    justify-content: center;
+    margin-left: 0em;
+    margin-top: 1em;
+  }
+  .footer-menu.powered li {
+    list-style-type: none;
+    display: flex;
+    padding-left: 1em;
+  }
+  .footer-inner {
+    max-width: 100%;
+    background: #fff;
+    height: auto;
+}
+.footer-menu.selos-segurança{
+  border-bottom: 1px solid var(--Cor-Neutra-Clara-Cinza-Medio, #E0E0E0);
+  margin: 0;
+  padding-bottom: 5px;
+}
 }

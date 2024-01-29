@@ -20,8 +20,21 @@ removejscssfile('checkout-custom.css', 'css') //remove all occurences "somestyle
 
 // Anula o arquivo checkout-custom que foi estilizado pelo time do cliente - FIM
 
+$(document).ready(function() {
+    console.log("chegou aqui")
+  $('.footer__pagamento ul').click(function() {
+    console.log("click")
+    $(this).toggleClass("active");
+  });
 
-function checkBreadcrumb() {
+
+
+}),
+
+
+
+$(document).ready(function() {
+  console.log("checkBreadcrumb")
   if (location.hash === '#/cart') {
       $('.checkout-breadcrumb-cart').addClass('active-bg')
       $('.checkout-breadcrumb-cart').next().addClass('active-text')
@@ -65,4 +78,6 @@ function checkBreadcrumb() {
       $('.checkout-breadcrumb-shipping').removeClass('active-bg')
       $('.checkout-breadcrumb-shipping').next().removeClass('active-text')
   }
-}
+})
+
+

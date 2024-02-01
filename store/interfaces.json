@@ -23,6 +23,9 @@
   },
   "ProductImageCustom":{
     "component": "ProductImageCustom"
+  },
+  "wpp-btn":{
+    "component": "WhatsappBTN"
   }
   
 

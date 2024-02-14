@@ -4,7 +4,7 @@
             "menu-item#NewArrivals",
             "menu-item#BolsasMob",
             "menu-item#CarteirasMob",
-            "menu-item#Acessorios",
+            "menu-item#AcessoriosMob",
             "menu-item#ClubeSaad",
             "menu-item#AtendimentoPersonalizado"
         ],
@@ -49,7 +49,37 @@
 
 
  // ----------------- CALÇADOS ITEM -------------------
- "menu-item#CarteirasMob": {
+ "menu-item#AcessoriosMob": {
+    "props": {
+        "id": "toplevel-1-mob",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "mob__toplevel1",
+
+        "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+        }
+    },
+    "blocks": [
+        "vtex.menu@2.x:submenu.accordion#Acessorios-submenu-block-mob"
+    ]
+},
+
+"vtex.menu@2.x:submenu.accordion#Acessorios-submenu-block-mob": {
+    "children": ["vtex.menu@2.x:menu#submenu-cat-Carteiras"],
+    "props": {
+        "blockClass": "allSubmenuBlock"
+        // "width": "230"
+    }
+},
+
+
+"menu-item#CarteirasMob": {
     "props": {
         "id": "toplevel-1-mob",
         "type": "custom",

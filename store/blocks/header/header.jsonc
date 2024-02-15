@@ -16,7 +16,8 @@
       "CSSWorkaround",
       "wpp-btn",
       "flex-layout.row#topbar-desktop-wppgroup",
-      "sticky-layout.stack-container#header"
+      "sticky-layout.stack-container#header",
+      "Headscript"
     ]
   },
 
@@ -25,7 +26,8 @@
       "CSSWorkaround",
       "wpp-btn",
       "flex-layout.row#topbar-desktop-wppgroup",
-      "sticky-layout.stack-container#headerNormal"
+      "sticky-layout.stack-container#headerNormal",
+      "Headscript"
     ]
   },
 
@@ -290,7 +292,7 @@
 
   "header-layout.mobile#home": {
     // "children": ["header-row#1-mobile", "header-row#2mobile"]
-    "children": ["slider-layout#topbar-slider","sticky-layout.stack-container#headerNormal-mob","wpp-btn"]
+    "children": ["slider-layout#topbar-slider","sticky-layout.stack-container#headerNormal-mob","wpp-btn","Headscript"]
   },
 
   "sticky-layout.stack-container#headerNormal-mob":{
@@ -311,7 +313,7 @@
 
   "header-layout.mobile": {
     // "children": ["header-row#1-mobile", "header-row#2mobile"]
-    "children": ["slider-layout#topbar-slider","header-row#1-mobile","wpp-btn"]
+    "children": ["slider-layout#topbar-slider","header-row#1-mobile","wpp-btn","Headscript"]
   },
 
   "header-row#1-mobile-home": {

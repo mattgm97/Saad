@@ -1,33 +1,33 @@
 {
-  "CSSWorkaround":{
+  "CSSWorkaround": {
     "component": "CSSWorkaround"
   },
-  "search-btn":{
-    "component":"SearchModalComponent",
-    "allowed":["search-bar"]
+  "search-btn": {
+    "component": "SearchModalComponent",
+    "allowed": ["search-bar"]
   },
-  "WishlistButton":{
-    "component":"WishlistButton"
+  "WishlistButton": {
+    "component": "WishlistButton"
   },
-  "FreteGratisCounter":{
-    "component":"FreteGratisCounter"
+  "FreteGratisCounter": {
+    "component": "FreteGratisCounter"
   },
-  "PaymentModals":{
-    "component":"PaymentModals"
+  "PaymentModals": {
+    "component": "PaymentModals"
   },
-  "ClubeSaadForm":{
+  "ClubeSaadForm": {
     "component": "ClubeSaadForm"
   },
-  "ManualBolsa":{
+  "ManualBolsa": {
     "component": "ManualBolsa"
   },
-  "ProductImageCustom":{
+  "ProductImageCustom": {
     "component": "ProductImageCustom"
   },
-  "wpp-btn":{
+  "wpp-btn": {
     "component": "WhatsappBTN"
+  },
+  "Headscript": {
+    "component": "Headscript"
   }
-  
-
-  
 }

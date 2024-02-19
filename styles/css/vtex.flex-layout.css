@@ -8,6 +8,15 @@
     padding: 0 !important;
 }
 
+:global(.vtex-store-components-3-x-imageElement--btnwppbutton) {
+    position: fixed;
+      top: 90%!important;
+      left: 96%;
+      right: 0!important;
+      z-index: 999;
+      width: 3em;
+  }
+
 .flexRow--topbar-wpp {
     background-color: #F1E3B7;
     height: 40px;
@@ -155,7 +164,9 @@
 
 
 @media (max-width: 760px) {
-
+    :global(.vtex-store-components-3-x-imageElement--btnwppbutton) {
+          left: 85%;
+      }
     .flexCol--stackclass{
         overflow: hidden;
     }

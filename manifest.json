@@ -10,7 +10,8 @@
     "react": "3.x"
   },
   "scripts": {
-    "postreleasy": "vtex publish --verbose"
+    "postreleasy": "vtex publish --verbose",
+    "vtex:deps": "vtex install --verbose vtexeurope.minicart-freeshipping-bar@2.x"
   },
   "dependencies": {
     "vtex.store": "2.x",

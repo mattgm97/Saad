@@ -9,15 +9,18 @@
       "__fold__",
       "rich-text#queridinhos",
       "list-context.product-list#queridinhos",
+      "link#vermaisproduto",
       "rich-text#middlesiteText",
       "responsive-layout.desktop#middlesite",
       "responsive-layout.mobile#middlesite",
       "rich-text#Lancamentos",
       "list-context.product-list#Lancamentos",
+      "link#vermaisproduto",
       "responsive-layout.desktop#home",
       "responsive-layout.mobile#home",
       "rich-text#Emdestaque",
       "list-context.product-list#Emdestaque",
+      "link#vermaisproduto",
       "info-card#home2",
       "rich-text#insta",
       "sandbox#insta"
@@ -90,6 +93,20 @@
     ]
   },
 
+  "link#vermaisproduto": {
+    "title": "link ver todos",
+    "props": {
+      "href": "/",
+      "blockClass": "information-ruler"
+    },
+    "children": ["rich-text#information-ruler-6"]
+  },
+  "rich-text#information-ruler-6": {
+    "props": {
+      "text": "Ver mais produtos",
+      "blockClass": "vermaisproduto"
+    }
+  },
 
   "rich-text#sellerCondition1": {
     "title": "Apoio à produção nacional:",
@@ -140,7 +157,7 @@
       "font": "t-heading-4",
       "textPosition": "CENTER",
       "textAlign": "CENTER",
-      "blockClass": "sectionRichTitle"
+      "blockClass": ["sectionRichTitle", "exception"]
     }
   },
 
@@ -289,7 +306,10 @@
   "flex-layout.row#banners-home-mob": {
     "children": [
       "flex-layout.col#banners-home-mob"
-    ]
+    ],
+    "props":{
+      "marginTop": 7
+    }
  
   },
   "flex-layout.col#banners-home-mob": {
@@ -319,7 +339,8 @@
     "children": ["image#banners-home1"],
     "props": {
       "horizontalAlign": "center",
-      "width": "70%"
+      "width": "70%",
+      "blockClass":"col-with-img"
     }
   },
   "image#banners-home1": {
@@ -363,7 +384,8 @@
     "children": ["rich-text#bolsadecouro", "list-context.product-list#bolsadecouro"],
     "props": {
       "horizontalAlign": "center",
-      "width": "30%"
+      "width": "30%",
+      "blockClass":"col-with-list"
     }
   },
   "info-card#home2": {
@@ -393,7 +415,7 @@
   "sandbox#insta": {
     "props": {
       "width": "100%",
-      "height": "270px",
+      "height": "220px",
       "initialContent": "<!-- LightWidget WIDGET --><script src=https://cdn.lightwidget.com/widgets/lightwidget.js></script><iframe src=https://cdn.lightwidget.com/widgets/17b9eb7e52cf5adaa0458a5b0d9f965d.html scrolling='no' allowtransparency='true' class='lightwidget-widget' style='width:100%;border:0;overflow:hidden;height:400px'></iframe>",
       "allowCookies": false
     }

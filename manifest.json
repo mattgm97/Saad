@@ -1,7 +1,7 @@
 {
   "vendor": "saad",
   "name": "saad-theme",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -66,10 +66,12 @@
     "vtex.condition-layout": "2.x",
     "vtex.product-highlights": "2.x",
     "vtex.product-availability": "0.x",
-    "vtex.store-video": "1.x"
+    "vtex.store-video": "1.x",
+    "vtex.store-link": "0.x"
   },
   "peerDependencies": {
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "vtexeurope.minicart-freeshipping-bar": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

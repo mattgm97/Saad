@@ -21,7 +21,7 @@ color: black
     color: #3C3C3C;
 }
 
-.accordionIcon--linkList-footer-toggle--isOpen {
+.accordionIcon--linkList-footer-toggle--isClosed, .accordionIcon--mob__toplevel1--isClosed  {
     transform: translateY(-50%) rotate(180deg);
     content: url(https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9a922f15-bb10-4333-9762-be47df654f31___2501f7948241e18f1a09a34e271b3c26.svg);
     transition: 0.3s;
@@ -29,7 +29,7 @@ color: black
     margin-top: 10px;
 }
 
-.accordionIcon--linkList-footer-toggle--isClosed {
+.accordionIcon--linkList-footer-toggle--isOpen,  .accordionIcon--mob__toplevel1--isOpen{
     transform: translateY(-50%) rotate(0deg);
     content: url(https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/9a922f15-bb10-4333-9762-be47df654f31___2501f7948241e18f1a09a34e271b3c26.svg);
     transition: 0.3s;
@@ -84,21 +84,21 @@ color: black
 
 
   .submenu--main-menu-row-desk{
-     /* height: 258px;
-      overflow: hidden;*/
+     width: 100%;
   }
 
   .styledLinkContent--row-menu-col{
-    white-space: break-spaces;
-    min-width: 120px;
-    font-size: .975rem;
-    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2E1B0D;
   }
 
 
 
   .submenuWrapper--main-menu-row-desk {
-    background-color: transparent;
+    background-color: #fff;
     z-index: 10000;
     border: none;
   }
@@ -109,13 +109,32 @@ color: black
   }*/
 
 @media (max-width: 760px) {
-    .styledLinkContent--department-menu{
+    .styledLink--mob__toplevel1{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
         font-size: 16px;
-        color: #777777
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 22.4px */
+    }
+    .styledLinkContent--department-menu{
+        color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 22.4px */
+    }
+    .menuItemInnerDiv--mob__toplevel1{
+        margin-bottom: 1rem;
     }
     .styledLinkContent--submenu {
-        font-size: 18px;
-        color: white
+        color: var(--Cor-de-Texto-Cinza-Escuro---400, #777);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
     }
 
     .styledLinkContainer--submenu--inst {
@@ -140,7 +159,10 @@ color: black
     }
 
     .styledLinkContent--linkList-footer-toggle {
-        font-size: 20px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        color: #2E1B0D;
     }
 
     .menuItem--menu-footer {

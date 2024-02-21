@@ -43,8 +43,8 @@
     }
 
     :global(.vtex-store-newsletter-1-x-nameInputContainer) :global(.vtex-input ) :global(.vtex-input__label), :global(.vtex-store-newsletter-1-x-emailInputContainer) :global(.vtex-input ) :global(.vtex-input__label) {
-        padding-left: 0.7rem;
-        width: 60%;
+        padding-right: 0.9rem;
+    width: 98%;
     }
 
     :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button){

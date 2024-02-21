@@ -18,7 +18,7 @@
     // ----------------- New Arrivals ITEM -------------------
     "menu-item#NewArrivals": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all1",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -43,9 +43,8 @@
     // ----------------- Bolsas ITEM -------------------
     "menu-item#Bolsas": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all2",
             "type": "custom",
-            "experimentalOptimizeRendering": true,
             "iconId": null,
             "highlight": false,
             "blockClass": [
@@ -61,7 +60,10 @@
                 "tagTitle": "Bolsas",
                 "text": "Bolsas"
             }
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#Bolsas-submenu-block"
+        ]
     },
     "vtex.menu@2.x:submenu#Bolsas-submenu-block": {
         "props": {
@@ -95,7 +97,7 @@
             "width":"20%"
         },
         "children": [
-            //"vtex.menu@2.x:menu#submenu-cat-Bolsas"
+            "vtex.menu@2.x:menu#submenu-cat-Bolsas"
         ]
     },
     "flex-layout.col#Bolsas2": {
@@ -104,7 +106,7 @@
             "width":"20%"
         },
         "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-Bolsas2"
+           "vtex.menu@2.x:menu#submenu-cat-Bolsas2"
         ]
     },
     "flex-layout.col#Bolsas3": {
@@ -113,7 +115,7 @@
             "width":"20%"
         },
         "children": [
-          //  "vtex.menu@2.x:menu#submenu-cat-Bolsas3"
+           "vtex.menu@2.x:menu#submenu-cat-Bolsas3"
         ]
     },
     
@@ -127,14 +129,15 @@
     },
     "image#IMG-Bolsas": {
         "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
+            "src": "assets/banners/bannermenu.png",
+            "maxHeight": 263,
+            "maxWidth": 360
         }
     },
     // ----------------- Carteiras ITEM -------------------
     "menu-item#Carteiras": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all3",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -152,7 +155,10 @@
                 "tagTitle": "Carteiras",
                 "text": "Carteiras"
             }
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#Carteiras-submenu-block"
+        ]
     },
     "vtex.menu@2.x:submenu#Carteiras-submenu-block": {
         "props": {
@@ -175,16 +181,27 @@
         },
         "children": [
             "flex-layout.col#Carteiras",
+            "flex-layout.col#Carteiras2",
             "flex-layout.col#IMG-Carteiras"
         ]
     },
+
     "flex-layout.col#Carteiras": {
         "props": {
             "preventVerticalStretch": true,
             "width":"33%"
         },
         "children": [
-           // "vtex.menu@2.x:menu#submenu-cat-Carteiras"
+           "vtex.menu@2.x:menu#submenu-cat-Carteiras"
+        ]
+    },
+    "flex-layout.col#Carteiras2": {
+        "props": {
+            "preventVerticalStretch": true,
+            "width":"20%"
+        },
+        "children": [
+           "vtex.menu@2.x:menu#submenu-cat-Carteiras2"
         ]
     },
     "flex-layout.col#IMG-Carteiras": {
@@ -197,14 +214,15 @@
     },
     "image#IMG-Carteiras": {
         "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
+            "src": "assets/banners/bannermenu.png",
+            "maxHeight": 263,
+            "maxWidth": 360
         }
     },
     // ----------------- Acessórios ITEM -------------------
     "menu-item#Acessorios": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all4",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -222,7 +240,10 @@
                 "tagTitle": "Acessórios",
                 "text": "Acessórios"
             }
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#Acessorios-submenu-block"
+        ]
     },
     "vtex.menu@2.x:submenu#Acessorios-submenu-block": {
         "props": {
@@ -245,31 +266,22 @@
         },
         "children": [
             "flex-layout.col#Acessorios",
-            "flex-layout.col#Acessorios2",
             "flex-layout.col#IMG-Acessorios"
         ]
     },
+
     "flex-layout.col#Acessorios": {
         "props": {
             "preventVerticalStretch": true,
-            "width":"25%"
+            "width":"33%"
         },
         "children": [
-          //  "vtex.menu@2.x:menu#submenu-cat-Acessorios"
-        ]
-    },
-    "flex-layout.col#Acessorios2": {
-        "props": {
-            "preventVerticalStretch": true,
-            "width":"25%"
-        },
-        "children": [
-          //  "vtex.menu@2.x:menu#submenu-cat-Acessorios2"
+           "vtex.menu@2.x:menu#submenu-cat-Carteiras"
         ]
     },
     "flex-layout.col#IMG-Acessorios": {
         "children": [
-            "image#IMG-Acessorios"
+            "image#IMG-Carteiras"
         ],
         "props":{
             "width":"grow"
@@ -277,14 +289,16 @@
     },
     "image#IMG-Acessorios": {
         "props": {
-            "src": "assets/banners/generico-banner.png",
-            "maxHeight": 260
+            "src": "assets/banners/bannermenu.png",
+            "maxHeight": 263,
+            "maxWidth": 360
         }
     },
+
     // ----------------- Clube Saad ITEM -------------------
     "menu-item#ClubeSaad": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all5",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,
@@ -308,7 +322,7 @@
     // ----------------- Atendimento Personalizado ITEM -------------------
     "menu-item#AtendimentoPersonalizado": {
         "props": {
-            "id": "menu-item-category-all",
+            "id": "menu-item-category-all6",
             "type": "custom",
             "experimentalOptimizeRendering": true,
             "iconId": null,

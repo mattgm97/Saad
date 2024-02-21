@@ -46,15 +46,31 @@
 }
 
 
+
 @media screen and (max-width: 768px) {
+
+    :global(.vtex-shelf-1-x-shelfContentContainer--related--shelf) :global(.vtex-slider-0-x-sliderFrame) :global(.vtex-shelf-1-x-slide--related--shelf) :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        padding: 0 4px
+        }
+        
     .slide--slider-shelf--default{
-        margin: 0px 10px;
+        margin: 0px 4px;
     }
     :global(.vtex-slider-layout-0-x-paginationDot--slider-shelf--default){
         display: none;
     }
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainCarousel){
         margin-top: -3.8rem;
+    }
+
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-imageNormal){
+        height: 255px !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-product-summary-2-x-container--default-prod-shelf){
+        padding:0;
+    }
+    :global(.vtex-search-result-3-x-container--layout--testeaaa) :global(.vtex-search-result-3-x-galleryItem--small){
+        padding: 0.3rem;
     }
 }
 @media screen and (min-width: 768px) {

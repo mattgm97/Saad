@@ -1,0 +1,276 @@
+{
+  "vtex.menu@2.x:menu#submenu-cat-acessorios-mob": {
+    "children": [
+      "menu-item#bolsas-mob1",
+      "menu-item#bolsas-mob2",
+      "menu-item#bolsas-mob3",
+      "menu-item#bolsas-mob4",
+      "menu-item#bolsas-mob5",
+      "menu-item#bolsas-mob6",
+      "menu-item#bolsas-mob7",
+      "menu-item#bolsas-mob8",
+      "menu-item#bolsas-mob9",
+      "menu-item#bolsas-mob10",
+      "menu-item#bolsas-mob11",
+      "menu-item#bolsas-mob12",
+      "menu-item#bolsas-mob13",
+      "menu-item#bolsas-mob14",
+      "menu-item#bolsas-mob15",
+      "menu-item#bolsas-mob16",
+      "menu-item#bolsas-mobALL"
+      // "menu-item#col1-all--mob"
+    ],
+    "props": {
+      "open": true,
+      "orientation": "vertical",
+      "blockClass": "submenu"
+    }
+  },
+
+  "menu-item#bolsas-mob1": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "highlight": false,
+       "blockClass": "submenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "blockClass": "submenu",
+        "text": "Bolsas bangcoc",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob2": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "highlight": false,
+      "blockClass": "submenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "blockClass": "sub-cat-item",
+        "text": "Bolsas de couro",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob3": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "highlight": false,
+      "blockClass": "submenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "blockClass": "sub-cat-item",
+        "text": "Bolsas de mão",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob4": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "highlight": false,
+      "blockClass": "submenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "blockClass": "sub-cat-item",
+        "text": "Bolsas de ombro",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob5": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "highlight": false,
+      "blockClass": "submenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "blockClass": "sub-cat-item",
+        "text": "Bolsas diadora",
+        "href": "/"
+      }
+    }
+  },
+
+  "menu-item#bolsas-mob6": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas Infinite",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob7": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas netsport",
+        "href": "/"
+      }
+    }
+  },
+
+  "menu-item#bolsas-mob8": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas nylon",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob9": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas pequenas",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob10": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas saadissima",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob11": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas tote",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob12": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas transversais",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob13": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Mini bolsas",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob14": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Bolsas transversais",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob15": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Mochilas",
+        "href": "/"
+      }
+    }
+  },
+  "menu-item#bolsas-mob16": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "blockClass": "submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Shopper",
+        "href": "/"
+      }
+    }
+  },
+  
+  "menu-item#bolsas-mobALL": {
+    "props": {
+      "type": "custom",
+      "id": "",
+      "highlight": false,
+      "blockClass": "submenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "text": "Ver todos",
+        "href": "/"
+      }
+    }
+  }
+}

@@ -1,7 +1,10 @@
 {
   "store.search": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
@@ -14,8 +17,24 @@
     }
   },
 
-  "responsive-layout.desktop#catimage":{
-    "children":["image#catimagedesk"]
+  //  "image#banner-category-desktop":{
+  //   "children":["image#catimagedesk"]
+  // },
+
+  "image#banner-category-desktop": {
+    "title": "VIP | Banner Categoria Desktop",
+    "props": {
+      "src": "",
+      "alt": "Banner",
+      "link": {
+        "url": "/",
+        "title": "Banner"
+      },
+      "blockClass": [
+        "category_banner",
+        "category_banner--desktop"
+      ]
+    }
   },
 
   "responsive-layout.mobile#catimage":{
@@ -23,7 +42,7 @@
   },
   "store.search#brand": {
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
@@ -38,8 +57,11 @@
     }
   },
   "store.search#department": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
@@ -54,8 +76,11 @@
     }
   },
   "store.search#category": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
@@ -70,8 +95,11 @@
     }
   },
   "store.search#subcategory": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
@@ -106,7 +134,7 @@
 "image#catimagemob": {
   "props": {
       "src": "https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/465fa2ff-0d4e-4756-93a9-efb856ce1587___18bb10f7c801fa2896b97f0c50b055a2.png",
-      "maxHeight": 262
+      "maxHeight": 600
   }
 },
   "search-result-layout.desktop": {
@@ -275,7 +303,9 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "rich-text#SEOtitle",
+      "rich-text#SEOcontent"
     ],
     "props": {
       "pagination": "show-more",
@@ -375,6 +405,8 @@
   "flex-layout.col#notfoundsuggestionsTitle":{
     "children":[
       "rich-text#suggestionsTitle"
+
+
     ]
   },
 
@@ -400,6 +432,8 @@
     ]
   },
 
+
+
   "list-context.product-list#notfound":{
     "blocks": [
       "product-summary.shelf"
@@ -409,7 +443,7 @@
     ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
-      "collection": "146",
+      "collection": "152",
       "maxItems": 12
     }
   },

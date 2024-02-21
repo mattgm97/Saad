@@ -16,9 +16,12 @@ const FreteGratisCounter: StorefrontFunctionComponent<ProductAvailableProps> = (
   const subst = '$1,$2'
 
   useEffect(() => {
-    if (orderForm.totalizers[0].value > 90000) {
-      setFreeShipping(true)
-    }
+    setTimeout(()=>{
+      if (orderForm.totalizers[0].value > 90000) {
+        setFreeShipping(true)
+      }
+    }, 5000)
+  
   }, [orderForm])
 
   let howMuchUntilFreeShipping: any = 90000 - orderForm.totalizers[0].value

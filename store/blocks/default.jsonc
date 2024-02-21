@@ -6,7 +6,8 @@
   "store.account": {
     "blocks": ["my-account"],
     "parent": {
-      "challenge": "challenge.profile"
+      "challenge": "challenge.profile",
+      "header": "header"
     }
   },
 
@@ -38,7 +39,7 @@
 
   "slider-layout#shelfUnique": {
     "props": {
-      "blockClass": ["slider-shelf--default"],
+      "blockClass": ["slider-shelf--default--unique"],
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 2,
@@ -58,8 +59,8 @@
       "product-list-price#shelf",
       "product-selling-price#shelf",*/
       "product-selling-price-range#shelf", 
-      "product-price-savings", 
-      "product-summary-sku-selector"
+      "product-price-savings"/*, 
+      "product-summary-sku-selector"*/
     ],
     "props":{
       "blockClass": "default-prod-shelf"
@@ -145,6 +146,12 @@
       "blockClass": "buy-button-shelf",
       "onClickBehavior":"go-to-product-page"
     }
+  },
+  "link#home1": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver mais produtos",
+      "blockClass":"more-prods"
+    }
   }
-
 }

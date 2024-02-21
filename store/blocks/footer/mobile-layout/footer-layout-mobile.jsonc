@@ -21,7 +21,6 @@
     },
     "children": [
       "flex-layout.col#footer-1-box-1",
-      "rich-text#social-footer",
       "flex-layout.col#footer-1-box-menu-2",
       "flex-layout.col#footer-1-box-menu-1"
       
@@ -92,7 +91,7 @@
 
   "rich-text#social-footer":{
     "props": {
-      "text": "[![Facebook]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/a6970995-7adf-45b4-bdc9-e7c6977c07ac___338abb9ff89064eac27e3665b58bdc3e.svg 'Facebook')](https://www.facebook.com/isinaliza/) [![Whatsapp]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/040711fd-4984-48fb-acae-81bf3aed1e6b___3b2ffab23ad5d94a99aaa6bbe6536375.svg 'Whatsapp')](https://www.instagram.com/isinaliza/) [![Instagram]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/cf0db950-4bfb-4dc1-8147-0d454e5f29d9___3d1569194a885c68d729487f585a21f0.svg 'Instagram')](https://www.youtube.com/channel/UCs2-MYW4YR-OuMjzJQP4lHA)",
+      "text": "[![Facebook]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/a6970995-7adf-45b4-bdc9-e7c6977c07ac___338abb9ff89064eac27e3665b58bdc3e.svg 'Facebook')](https://www.facebook.com/saadmoda/?locale=pt_BR) [![Whatsapp]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/040711fd-4984-48fb-acae-81bf3aed1e6b___3b2ffab23ad5d94a99aaa6bbe6536375.svg 'Whatsapp')](https://api.whatsapp.com/send?phone=5511957702046&text=Ol%C3%A1,Saad) [![Instagram]( https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/cf0db950-4bfb-4dc1-8147-0d454e5f29d9___3d1569194a885c68d729487f585a21f0.svg 'Instagram')](https://www.instagram.com/saadbolsaoficial?igsh=YmVwNGF2ajRvaTRq) [![Pinterest](https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/101cba62-130b-4daf-a02b-ef281085ad17___094a503104e1d8d301363059c47b28f8.svg 'Pinterest')](https://br.pinterest.com/saadbolsaoficial/)",
       "font": "t-heading-5",
       "textPosition": "CENTER",
       "textAlign": "CENTER",

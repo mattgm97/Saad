@@ -1,5 +1,8 @@
 {
     "store.custom#clubesaad": {
+      "parent": { 
+        "header": "header"
+      },
       "blocks": [
         "image#clubemage",
         "flex-layout.row#mainrow"

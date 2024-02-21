@@ -8,6 +8,15 @@
     padding: 0 !important;
 }
 
+:global(.vtex-store-components-3-x-imageElement--btnwppbutton) {
+    position: fixed;
+      top: 90%!important;
+      left: 96%;
+      right: 0!important;
+      z-index: 999;
+      width: 3em;
+  }
+
 .flexRow--topbar-wpp {
     background-color: #F1E3B7;
     height: 40px;
@@ -27,6 +36,7 @@
 
 .flexRow--topbar-wpp :global(.vtex-store-components-3-x-container) {
     max-width: 83.125rem;
+    width: 100%;
 }
 
 .flexColChild--orcamento-e-social {
@@ -48,10 +58,12 @@
 }
 
 .flexRowContent--menu-content-area {
-    background-color: #0054A8;
-    padding-right: 1em;
-    padding-bottom: 1em;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
 }
+
+
 
 .flexRow--footer__content {
     background-color: #F5F5F5;
@@ -146,8 +158,21 @@
     padding-right: 6rem;
 }
 
+.flexColChild--col-with-list{
+    width: 100% !important;
+}
+
 
 @media (max-width: 760px) {
+    :global(.vtexeurope-minicart-freeshipping-bar-1-x-text4)::before{
+        margin-top: 5px;
+    }
+    :global(.vtex-store-components-3-x-imageElement--btnwppbutton) {
+          left: 85%;
+      }
+    .flexCol--stackclass{
+        overflow: hidden;
+    }
     .flexCol--product-content-section{
         padding: 1rem;
     }
@@ -201,6 +226,32 @@
 
 }
 
+ :global(.vtexeurope-minicart-freeshipping-bar-1-x-freigthScaleContainer) {
+    background-color: #8A1B45;
+    width: 89%;
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 0.25rem;
+    margin: 12px auto;
+    height: 38px;
+}
+ :global(.vtexeurope-minicart-freeshipping-bar-1-x-sliderContainer){
+    display: none;
+ }
+:global(.vtexeurope-minicart-freeshipping-bar-1-x-text4)::before{
+    content: url("https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/936e78c9-6c71-4674-b900-aa22829dbbfe___fc2ac29509e91096b0009d03b9acc5b4.png");
+    margin-right: 10px;
+    margin-top: 2px;
+}
+:global(.vtexeurope-minicart-freeshipping-bar-1-x-text4){
+    font-weight: normal !important;
+}
+
+ 
 
 @media (min-width: 1125px) {
 
@@ -242,3 +293,11 @@
     }
 
 }
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+    width: 240px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}  

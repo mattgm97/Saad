@@ -1,0 +1,50 @@
+{
+    "vtex.menu@2.x:menu#submenu-cat-Acessorios":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":["row-menu-col","row-menu-col-braille"],
+            "items": [
+              {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras de couro",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras diadora",
+                    "href": "/"
+                }
+            }
+
+            ]
+        }
+    }
+
+
+    
+}

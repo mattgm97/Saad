@@ -27,7 +27,8 @@
   },
   "flex-layout.col#newsletter-proper":{
     "children":[
-      "newsletter-form"
+      "newsletter-form",
+      "rich-text#social-footer"
     ]
       },
   "newsletter-form": {

@@ -1,0 +1,42 @@
+.bolsabtn {
+    text-decoration: none;
+    text-decoration: none;
+    width: 200px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #2E1B0D;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 4px;
+    background:#F5F5F5;
+    margin-top: 1rem;
+
+}
+.bolsabtn span{
+    margin-left: 8px;
+}
+
+.content-manual{
+    padding: 1.5rem;
+}
+
+.modalTitle{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.modalTitle h2{
+    margin-left: 8px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.content-section{
+    margin-top: 0;
+}

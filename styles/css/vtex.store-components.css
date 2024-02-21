@@ -162,6 +162,31 @@ color:#2E1B0D
     display: none;
 }
 
+:global(.vtex-store-components-3-x-showMoreButton){
+    color:#2E1B0D;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-decoration-line: underline;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+:global(.vtex-store-components-3-x-pointerEventsAuto){
+    text-align: left;  
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--topbar-wpp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.vtex-flex-layout-0-x-flexCol) :global(.vtex-flex-layout-0-x-flexColChild){
+    width: 100%;
+}
+
+
+:global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+    width: 93.5vw;
+  }
+
 
 .skuSelectorContainer {
     display: flex;
@@ -413,6 +438,31 @@ color:#2E1B0D
 
 :global(.vtex-login-2-x-profileIcon){
     display: none;
+}
+
+:global(.vtex-login-2-x-profile){
+    max-width: 101px;
+    text-transform: capitalize;
+    font-size: 0.75rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    margin-right: -2rem;
+    position: relative;
+    top: 4px;
+}
+:global(.vtex-wish-list-1-x-fill){
+    filter: brightness(0.5);
+    color: #510707;
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) :global(.vtex-login-2-x-profile){
+    color: #000;
+}
+
+ :global(.vtex-store-header-2-x-headerStickyRow--main-header-normal) :global(.vtex-login-2-x-profile){
+    color: #000 !important;
 }
 
 
@@ -682,6 +732,27 @@ color:#2E1B0D
 }
 
 
+:global(.vtex-store-newsletter-1-x-nameInputContainer), :global(.vtex-store-newsletter-1-x-emailInputContainer){
+    text-align: right;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button) :global(.vtex-button__label){
+    font-size: 0;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) :global(.vtex-button) :global(.vtex-button__label)::before{
+    content: "Ver mais produtos";
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: #2E1B0D;
+}
+
+:global(.vtex-store-components-3-x-imageElement){
+    max-height: fit-content !important;
+}
+
 @media (max-width: 1450px) {
     .container {
         max-width: 1230px;
@@ -693,6 +764,11 @@ color:#2E1B0D
 
 
 @media (min-width: 1200px) {
+
+    :global(.vtex-slider-layout-0-x-sliderTrackContainer--slider-shelf--default--unique){
+        width: 80%;
+        margin: auto;
+    }
 
     :global(.vtex-search-result-3-x-searchResultContainer){
         max-width: 98%;
@@ -724,21 +800,33 @@ color:#2E1B0D
 
 @media (max-width: 760px) {
 
-   
+    .infoCardTextContainer--info-card-last{
+        margin: 2.5rem 1.5rem;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--product-main){
+        margin-top: 0;
+        padding-top: 0;
+    }
 
+    :global(.vtex-flex-layout-0-x-flexCol--stackclass){
+        padding: 0;
+        background-color: #EDE2D04D!important;
+    }
+   
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-topbar){
         height: 58px;
     }
     
 
     :global(.vtex-store-drawer-0-x-childrenContainer--menu-mobile) :global(.vtex-login-2-x-label){
-        font-size: 16px;
+        font-size: 12px;
 font-style: normal;
 font-weight: 400;
 color: #777777;
 display: flex;
 align-items: center;
 padding-left: 1rem;
+padding-top: 5px;
     }
 
     :global(.vtex-store-drawer-0-x-childrenContainer--menu-mobile) :global(.vtex-login-2-x-buttonLink){
@@ -746,6 +834,7 @@ padding-left: 1rem;
         margin-bottom: 16px;
         padding-bottom: 16px;
         margin-top: -1rem;
+        margin-left: -2rem;
     }
 
     :global(.vtex-menu-2-x-menuContainerNav--category-menu-mobile){
@@ -765,7 +854,7 @@ padding-left: 1rem;
     }
 
     :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
-        width: 90vw;
+        width: 85vw;
     }
 
     .productDescriptionTitle::after {

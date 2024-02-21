@@ -1,5 +1,8 @@
 {
   "store.custom#institutional-contact": {
+    "parent": { 
+      "header": "header"
+    },
     "blocks": [
       "responsive-layout.desktop#institutional-Content-desk-contact",
       "responsive-layout.mobile#institutional-Content-mob-contact"

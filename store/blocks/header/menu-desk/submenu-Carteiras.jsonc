@@ -1,8 +1,8 @@
 {
-    "vtex.menu@2.x:menu#submenu-cat-TRANSITO":{
+    "vtex.menu@2.x:menu#submenu-cat-Carteiras":{
         "props":{
             "orientation": "vertical",
-            "blockClass":["row-menu-col","row-menu-col-transito"],
+            "blockClass":["row-menu-col","row-menu-col-braille"],
             "items": [
               {
                 "type": "custom",
@@ -12,8 +12,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Advertência",
-                    "href": "/sinalizacao-de-transito/advertencia"
+                    "text": "Carteiras",
+                    "href": "/"
                 }
             },
             {
@@ -24,8 +24,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Regulamentação ",
-                    "href": "/sinalizacao-de-transito/regulamentacao "
+                    "text": "Carteiras de couro",
+                    "href": "/"
                 }
             },
             {
@@ -36,8 +36,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Limite de Velocidade ",
-                    "href": "/sinalizacao-de-transito/limite-de-velocidade"
+                    "text": "Carteiras diadora",
+                    "href": "/"
                 }
             },
             {
@@ -48,8 +48,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Estacionamento",
-                    "href": "/sinalizacao-de-transito/estacionamento"
+                    "text": "Carteiras grande",
+                    "href": "/"
                 }
             },
             {
@@ -60,8 +60,8 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Acessórios Fixação",
-                    "href": "/sinalizacao-de-transito/acessorios-fixacao"
+                    "text": "Carteiras media",
+                    "href": "/"
                 }
             },
             {
@@ -72,24 +72,72 @@
                     "type": "internal",
                     "noFollow": false,
                     "blockClass": "sub-cat-item",
-                    "text": "Indicativas",
-                    "href": "/sinalizacao-de-transito/indicativas"
-                }
-            },
-            {
-                "type": "custom",
-                "id": "",
-                "highlight": false,
-                "itemProps": {
-                    "type": "internal",
-                    "noFollow": false,
-                    "blockClass": "sub-cat-item",
-                    "text": "Placa de Obra",
-                    "href": "/sinalizacao-de-transito/placa-de-obra"
+                    "text": "Carteiras nylon",
+                    "href": "/"
                 }
             }
-              
+
             ]
         }
+    },
+    "vtex.menu@2.x:menu#submenu-cat-Carteiras2":{
+        "props":{
+            "orientation": "vertical",
+            "blockClass":["row-menu-col", "row-menu-col-adesivos"],
+            "items": [
+             
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras pequena",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Carteiras saadissimas",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Porta -cartões",
+                    "href": "/"
+                }
+            },
+            {
+                "type": "custom",
+                "id": "",
+                "highlight": false,
+                "itemProps": {
+                    "type": "internal",
+                    "noFollow": false,
+                    "blockClass": "sub-cat-item",
+                    "text": "Ver todos",
+                    "href": "/"
+                }
+            }
+        ]
     }
+    }
+
+
+    
 }

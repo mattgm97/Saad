@@ -18,7 +18,38 @@
 }
 .paragraph--sectionRichTitle{
     font-size: 2rem;
-    color:#2E1B0D
+    color:#2E1B0D;
+    margin-bottom: 0;
+}
+:global(.vtex-rich-text-0-x-container--vermaisproduto){
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+:global(.vtex-rich-text-0-x-wrapper--vermaisproduto){
+    border-radius: 2px;
+    border: 2px solid var(--Cor-Neutra-Clara-Cinza-Medio, #E0E0E0);
+    height: 48px;
+    padding: 12px 24px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--vermaisproduto) .paragraph--vermaisproduto{
+    color: var(--Cor-de-Texto-Escura---500, #2E1B0D);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--exception) .paragraph--sectionRichTitle{
+    font-size: 2rem;
+    color:#2E1B0D;
+    margin-bottom: revert;
 }
 
 .paragraph--footer-sobre{
@@ -38,11 +69,12 @@
     color: white;
     text-decoration: none;
 }
-
+:global(.vtex-store-link-0-x-link--information-ruler){
+    text-decoration: none !important;
+}
 .link--orcamento-text {
     font-weight: 200;
 }
-
 .paragraph--socialmedia-text {
     align-items: center;
     display: flex;
@@ -228,17 +260,26 @@ font-weight: 400;
 font-style: normal;
 font-weight: 300;
 color: #2E1B0D;
-padding-left: 4rem;
    }
+
    .paragraph--texto-seo{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     color: #777777;
     margin-bottom: 48px;
+   }
+
+   @media (min-width: 760px) {
+    .paragraph--texto-seo-title, .paragraph--texto-seo{
     padding-left: 4rem;
+       }
    }
   
+  
+   .paragraph--carousel-text{
+    font-size: 14px;
+   }
 
 
 @media (max-width: 1450px) {
@@ -254,7 +295,7 @@ padding-left: 4rem;
 @media (max-width: 760px) {
 
     .paragraph--sectionRichTitle{
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .wrapper--sellerConditionCard {

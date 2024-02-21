@@ -42,8 +42,30 @@
       }
     },
     "flex-layout.col#minicart-footer": {
-      "children": ["minicart-summary","rich-text#entregas-checkout","FreteGratisCounter", "minicart-checkout-button"]
+      "children": ["minicart-summary","rich-text#entregas-checkout","flex-layout.col#progressive-bar", "minicart-checkout-button"]
     },
+    "flex-layout.col#progressive-bar": {
+      "title": "Container Barras Progressivas",
+      "props": {
+        "blockClass": ["mz__progressive-bar"],
+        "paddingLeft": 0,
+        "paddingRight": 0
+      },
+      "children": [ "minicart-bar#freeshipping-bar"]
+    },
+    "minicart-bar#freeshipping-bar": {
+      "props": {
+        "blockClass": "al-cart"
+      }
+    },
+  
+    // "bonus-bar-progressing": {
+    //   "props": {
+    //     "toggleContent": true,
+    //     "minBonusValue": 100
+    //   }
+    // },
+
     "minicart-product-list": {
       "blocks": ["product-list"]
     },

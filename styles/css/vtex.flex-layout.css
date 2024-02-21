@@ -164,6 +164,9 @@
 
 
 @media (max-width: 760px) {
+    :global(.vtexeurope-minicart-freeshipping-bar-1-x-text4)::before{
+        margin-top: 5px;
+    }
     :global(.vtex-store-components-3-x-imageElement--btnwppbutton) {
           left: 85%;
       }
@@ -223,6 +226,32 @@
 
 }
 
+ :global(.vtexeurope-minicart-freeshipping-bar-1-x-freigthScaleContainer) {
+    background-color: #8A1B45;
+    width: 89%;
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 0.25rem;
+    margin: 12px auto;
+    height: 38px;
+}
+ :global(.vtexeurope-minicart-freeshipping-bar-1-x-sliderContainer){
+    display: none;
+ }
+:global(.vtexeurope-minicart-freeshipping-bar-1-x-text4)::before{
+    content: url("https://saad.vtexassets.com/assets/vtex.file-manager-graphql/images/936e78c9-6c71-4674-b900-aa22829dbbfe___fc2ac29509e91096b0009d03b9acc5b4.png");
+    margin-right: 10px;
+    margin-top: 2px;
+}
+:global(.vtexeurope-minicart-freeshipping-bar-1-x-text4){
+    font-weight: normal !important;
+}
+
+ 
 
 @media (min-width: 1125px) {
 
@@ -264,11 +293,11 @@
     }
 
 }
-
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+    width: 240px;
+}
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-    :global(.vtex-flex-layout-0-x-flexCol--filterCol) {
-        width: 300px;
-    }
+
 
 }  

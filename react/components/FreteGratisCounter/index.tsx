@@ -20,7 +20,7 @@ const FreteGratisCounter: StorefrontFunctionComponent<ProductAvailableProps> = (
       if (orderForm.totalizers[0].value > 90000) {
         setFreeShipping(true)
       }
-    }, 3000)
+    }, 5000)
   
   }, [orderForm])
 

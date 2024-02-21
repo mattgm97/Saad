@@ -4,7 +4,7 @@
       "header": "header"
     },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
@@ -17,8 +17,24 @@
     }
   },
 
-  "responsive-layout.desktop#catimage":{
-    "children":["image#catimagedesk"]
+  //  "image#banner-category-desktop":{
+  //   "children":["image#catimagedesk"]
+  // },
+
+  "image#banner-category-desktop": {
+    "title": "VIP | Banner Categoria Desktop",
+    "props": {
+      "src": "",
+      "alt": "Banner",
+      "link": {
+        "url": "/",
+        "title": "Banner"
+      },
+      "blockClass": [
+        "category_banner",
+        "category_banner--desktop"
+      ]
+    }
   },
 
   "responsive-layout.mobile#catimage":{
@@ -26,7 +42,7 @@
   },
   "store.search#brand": {
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
@@ -45,7 +61,7 @@
       "header": "header"
     },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
@@ -64,7 +80,7 @@
       "header": "header"
     },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
@@ -83,7 +99,7 @@
       "header": "header"
     },
     "blocks": [
-      "responsive-layout.desktop#catimage",
+       "image#banner-category-desktop",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"

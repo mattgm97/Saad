@@ -88,11 +88,12 @@ color: black
   }
 
   .styledLinkContent--row-menu-col{
+    color: var(--Cor-de-Texto-Cinza-Escuro---400, #777);
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    color: #2E1B0D;
+    line-height: 140%;
   }
 
 

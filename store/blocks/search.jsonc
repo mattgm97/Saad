@@ -4,7 +4,7 @@
       "header": "header"
     },
     "blocks": [
-       "image#banner-category-desktop",
+      "responsive-layout.desktop#banner-categoria",
       "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
@@ -36,13 +36,16 @@
       ]
     }
   },
+  "responsive-layout.desktop#banner-categoria":{
+    "children":["image#banner-category-desktop"]
+  },
 
   "responsive-layout.mobile#catimage":{
     "children":["image#catimagemob"]
   },
   "store.search#brand": {
     "blocks": [
-       "image#banner-category-desktop",
+      "responsive-layout.desktop#banner-categoria",
       "responsive-layout.mobile#catimage",
       "search-result-layout"
     ],
@@ -61,7 +64,7 @@
       "header": "header"
     },
     "blocks": [
-       "image#banner-category-desktop",
+      "responsive-layout.desktop#banner-categoria",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
@@ -80,7 +83,7 @@
       "header": "header"
     },
     "blocks": [
-       "image#banner-category-desktop",
+      "responsive-layout.desktop#banner-categoria",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"
@@ -99,7 +102,7 @@
       "header": "header"
     },
     "blocks": [
-       "image#banner-category-desktop",
+      "responsive-layout.desktop#banner-categoria",
       "responsive-layout.mobile#catimage",
       "search-result-layout",
       "__fold__"

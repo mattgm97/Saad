@@ -25,7 +25,6 @@
     "title": "VIP | Banner Categoria Desktop",
     "props": {
       "src": "",
-      "alt": "Banner",
       "link": {
         "url": "/",
         "title": "Banner"

@@ -225,7 +225,9 @@
 
 
 }
-
+:global(.vtex-store-components-3-x-productImage){
+    background: #EDE2D04D !important;
+}
  :global(.vtexeurope-minicart-freeshipping-bar-1-x-freigthScaleContainer) {
     background-color: #8A1B45;
     width: 89%;
